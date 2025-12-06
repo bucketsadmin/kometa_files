@@ -1,5 +1,5 @@
 external_templates:
-  repo: templates/movie_collections
+  repo: movies/templates/movie_collections
 
 collections:
   ### Smart collection

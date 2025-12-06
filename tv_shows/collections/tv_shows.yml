@@ -1,5 +1,5 @@
 external_templates:
-  repo: templates/tv_collections
+  repo: tv_shows/templates/tv_collections
 
 collections:
   #Special Collections
