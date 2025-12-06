@@ -1,0 +1,6 @@
+# overlays:
+#   physical:
+#     name: physical
+#     plex_search:
+#       collection.is:
+#         - "📀Physical Media"

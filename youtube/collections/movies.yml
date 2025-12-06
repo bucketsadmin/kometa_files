@@ -1,0 +1,23 @@
+external_templates:
+  file: /config/templates/youtube_collections.yml
+
+collections:
+#  "Digimon Abridged":
+#    summary: "Our Digimon Abridged"
+#    plex_search:
+#      all:
+#        title:
+#          - "Digimon Abridged"
+#    template:
+#      name: collection
+#      poster: coll-digimon-abridged
+#
+#  "A Crap Guide to D&D":
+#    summary: "Joseph makes a dumb Dungeons and Dragons guide for dumb people"
+#    plex_search:
+#      all:
+#        director.is:
+#          - "JoCat"
+#    template:
+#      name: collection
+#      poster: coll-dnd

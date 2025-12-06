@@ -1,0 +1,53 @@
+metadata:
+  The Hobbit:
+    match:
+      title: The Hobbit
+      edition_contains: M4
+    title: "The Hobbit: Extended Edition"
+    sort_title: hobbit extended edition
+    edition: M4 book edit
+    originally_available: 2023-09-26
+    genre: [Action, Adventure, Comedy, Fantasy]
+    content_rating: PG-13
+    summary: A fan edit that combines The Hobbit trilogy into one film that is as close as possible to J.R.R. Tolkien’s book while also matching better with The Lord of the Rings films. Sideplots and characters have been re-edited or removed, which also helps keep the audience more engaged in Bilbo’s adventure.
+#    collection: ["Fan Edits"]
+
+  The Sacred Timeline Cut PART 1:
+    originally_available: 2020-06-20
+    studio: Marvel
+    producer: Tim Leftwich
+    content_rating: PG-13
+    genre: [Action, Adventure, Comedy, Sci-Fi, Science Fiction]
+#    collection: ["Marvel: The Sacred Timeline Cut"]
+
+  The Sacred Timeline Cut PART 2:
+    originally_available: 2020-06-20
+    studio: Marvel
+    producer: Tim Leftwich
+    genre: [Action, Adventure, Comedy, Sci-Fi, Science Fiction]
+    content_rating: PG-13
+#    collection: ["Marvel: The Sacred Timeline Cut"]
+
+  The Sacred Timeline Cut PART 3:
+    originally_available: 2020-06-20
+    studio: Marvel
+    producer: Tim Leftwich
+    genre: [Action, Adventure, Comedy, Sci-Fi, Science Fiction]
+    content_rating: PG-13
+#    collection: ["Marvel: The Sacred Timeline Cut"]
+
+  The Sacred Timeline Cut PART 4:
+    originally_available: 2020-06-20
+    studio: Marvel
+    producer: Tim Leftwich
+    genre: [Action, Adventure, Comedy, Sci-Fi, Science Fiction]
+    content_rating: PG-13
+#    collection: ["Marvel: The Sacred Timeline Cut"]
+
+  The Sacred Timeline Cut PART 5:
+    originally_available: 2020-06-20
+    studio: Marvel
+    producer: Tim Leftwich
+    genre: [Action, Adventure, Comedy, Sci-Fi, Science Fiction]
+    content_rating: PG-13
+#    collection: ["Marvel: The Sacred Timeline Cut"]

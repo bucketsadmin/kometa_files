@@ -1,0 +1,363 @@
+external_templates:
+  file: /config/templates/movie_collections.yml
+
+collections:
+  ################# TMDB collections
+  "Airplane Collection":
+    template:
+      name: tmdb_collection
+      tmdb: 91663
+      poster: coll-airplane
+
+  "The Avengers Collection":
+    template:
+      name: tmdb_collection
+      tmdb: 86311
+      poster: coll-avengers
+
+  "Back to the Future Collection":
+    template:
+      name: tmdb_collection
+      tmdb: 264
+      poster: coll-back-to-the-future
+
+  "Batman: The Dark Knight Collection":
+    template:
+      name: tmdb_collection
+      tmdb: 263
+      poster: coll-batman-dark
+
+  "Batman: The Tim burton Collection":
+    template:
+      name: tmdb_collection
+      tmdb: 120794
+      poster: coll-batman-tim
+
+  "The Blues Brothers Collection":
+    template:
+      name: tmdb_collection
+      tmdb: 112636
+      poster: coll-blues
+
+  "Deadpool Collection":
+    template:
+      name: tmdb_collection
+      tmdb: 448150
+      poster: coll-deadpool
+
+  "Die Hard Collection":
+    template:
+      name: tmdb_collection
+      tmdb: 1570
+      poster: coll-die-hard
+
+  "Digimon Adventure tri. Collection":
+    template:
+      name: tmdb_collection
+      tmdb: 357402
+      poster: coll-digimon-tri
+
+  "Family Guy Trilogy Collection: Laugh It Up, Fuzzball!":
+    template:
+      name: tmdb_collection
+      tmdb: 701402
+      poster: coll-family-star
+
+  "Fantasia Collection":
+    template:
+      name: tmdb_collection
+      tmdb: 55427
+      poster: coll-fantasia
+
+  "Ghostbusters Collection":
+    template:
+      name: tmdb_collection
+      tmdb: 2980
+      poster: coll-ghostbusters
+
+  "The Gremlins Collection":
+    template:
+      name: tmdb_collection
+      tmdb: 89151
+      poster: coll-gremlins
+
+  "Harry Potter Collection":
+    summary: "When Harry Potter learns on his eleventh birthday that he is, in fact, a wizard, he is quickly swept up into the spellbinding world of Hogwarts School of Witchcraft and Wizardry alongside new best friends, Ron Weasley and Hermione Granger. He soon discovers, though, that there is a much darker side to the wizarding world than any of them could have imagined."
+    template:
+      name: tmdb_collection
+      tmdb: 1241
+      poster: coll-potter
+
+  "The Hobbit Collection":
+    template:
+      name: tmdb_collection
+      tmdb: 121938
+      poster: coll-hobbit
+
+  "Indiana Jones Collection":
+    template:
+      name: tmdb_collection
+      tmdb: 84
+      poster: coll-indiana-jones
+
+  "James Bond Collection":
+    template:
+      name: tmdb_collection
+      tmdb: 645
+      poster: coll-bond
+
+  "John Wick Collection":
+    template:
+      name: tmdb_collection
+      tmdb: 404609
+      poster: coll-wick
+
+  "Jurassic Park Collection":
+    template:
+      name: tmdb_collection
+      tmdb: 328
+      poster: coll-jurassic
+
+  "The Lord of the Rings Collection":
+    template:
+      name: tmdb_collection
+      tmdb: 119
+      poster: coll-lotr
+
+  "The Mummy Collection":
+    template:
+      name: tmdb_collection
+      tmdb: 1733
+      poster: coll-mummy
+
+  "National Lampoon's Vacation Collection":
+    template:
+      name: tmdb_collection
+      tmdb: 108693
+      poster: coll-vacation
+
+  "Pacific Rim Collection":
+    template:
+      name: tmdb_collection
+      tmdb: 363369
+      poster: coll-pacific
+
+  "Sonic Collection":
+    template:
+      name: tmdb_collection
+      tmdb: 720879
+      poster: coll-sonic
+
+  "The Amazing Spider-Man Collection":
+    sync_mode: sync
+    name_mapping: coll-spider-man-amazing
+    sort_title: Spider-Man_003
+    template:
+      name: tmdb_collection
+      tmdb: 125574
+      poster: coll-amazing-spider-man
+
+  "Spider-Man (MCU) Collection":
+    sort_title: Spider-Man_004
+    template:
+      name: tmdb_collection
+      tmdb: 531241
+      poster: coll-spider-man-mcu
+
+  "Spider-Man Collection":
+    sort_title: Spider-Man_002
+    template:
+      name: tmdb_collection
+      tmdb: 556
+      poster: coll-spider-man
+
+  "Spider-Man: Spider-Verse Collection":
+    sort_title: Spider-Man_005
+    template:
+      name: tmdb_collection
+      tmdb: 573436
+      poster: coll-spider-man-spiderverse
+
+  "Star Trek: The Original Series Collection":
+    template:
+      name: tmdb_collection
+      tmdb: 151
+      poster: coll-tos
+
+  "Star Trek: The Next Generation Collection":
+    template:
+      name: tmdb_collection
+      tmdb: 115570
+      poster: coll-tng
+
+  "Star Trek: Alternate Reality Collection":
+    template:
+      name: tmdb_collection
+      tmdb: 115575
+      poster: coll-tos-alt
+
+  "Super Troopers Collection":
+    template:
+      name: tmdb_collection
+      tmdb: 449462
+      poster: coll-troopers
+
+  "TRON Collection":
+    template:
+      name: tmdb_collection
+      tmdb: 63043
+      poster: coll-tron
+
+  ################# TMDB lists
+  "Black & White Movies":
+    summary: "Life used to be a bit more Black & White in my day."
+    tmdb_list:
+      - https://www.themoviedb.org/list/8539684-black-white
+    template:
+      name: Collection
+      poster: coll-default
+
+  "Disaster Movies":
+    summary: "\"In a world where the sky is falling, the ground is cracking, and common sense is on vacation... one unlikely hero must outrun fire, flood, meteors, and bad dialogue to save humanity—and his dog.\n\nFrom a well curated Plex Server, comes the ultimate thrill ride where science is loud, the stakes are global, and the only thing more unstable than the planet... is the plot.\"\n\nComing to a Plex server near you..."
+    tmdb_list:
+      - https://www.themoviedb.org/list/8539695-disaster-movies/
+    template:
+      name: Collection
+      poster: coll-disaster
+
+  ################# TMDB companies
+  "Pixar":
+    tmdb_company: 3
+    template:
+      name: Collection
+      poster: coll-pixar
+
+  ################# TMDB keywords
+  "Marvel Cinematic Universe":
+    tmdb_keyword: 180547
+    summary: "The Marvel Cinematic Universe (MCU) is vast, incredibly varied, and richly complex, with different worlds, different timelines, and countless characters."
+    template:
+      name: Collection
+      poster: coll-mcu
+
+  ################# Trakt lists
+  # Marvel Collections
+  "Marvel: The Infinity Saga":
+    collection_order: release
+    #summary:
+    trakt_list:
+      - https://trakt.tv/users/nikraddin/lists/the-infinity-saga
+    template:
+      name: Collection
+      poster: coll-mcu-infinity
+
+  "Marvel: Multiverse Saga":
+    #summary:
+    trakt_list:
+      - https://trakt.tv/users/aschillingchi/lists/marvel-multiverse-saga
+    template:
+      name: Collection
+      poster: coll-mcu-multi
+
+  "MCU Phase 1":
+    sort_title: Marvel_MCU Phase 1
+    summary: "Phase One of the Marvel Cinematic Universe (MCU) is a group of American superhero films produced by Marvel Studios based on characters that appear in publications by Marvel Comics. The MCU is the shared universe in which all of the films are set. The phase began in May 2008 with the release of Iron Man and concluded in May 2012 with the release of The Avengers. Kevin Feige produced every film in the phase, with Avi Arad also producing Iron Man and The Incredible Hulk, and Gale Anne Hurd also producing The Incredible Hulk."
+    trakt_list:
+      - https://trakt.tv/users/ale-spatti06/lists/mcu-s-phase-1
+    template:
+      name: Collection
+      poster: coll-phase-01
+
+  "MCU Phase 2":
+    sort_title: Marvel_MCU Phase 2
+    summary: "Phase Two of the Marvel Cinematic Universe (MCU) is a group of American superhero films produced by Marvel Studios based on characters that appear in publications by Marvel Comics. The phase began in 2013 with the release of Iron Man 3 and concluded in 2015 with the release of Ant-Man. It includes the crossover film Avengers: Age of Ultron, also released in 2015. Kevin Feige produced every film in the phase"
+    trakt_list:
+      - https://trakt.tv/users/ale-spatti06/lists/mcu-s-phase-2
+    template:
+      name: Collection
+      poster: coll-phase-02
+
+  "MCU Phase 3":
+    sort_title: Marvel_MCU Phase 3
+    summary: "Phase Three of the Marvel Cinematic Universe (MCU) is a group of American superhero films produced by Marvel Studios based on characters that appear in publications by Marvel Comics. The phase began in 2016 with the release of Captain America: Civil War and concluded in 2019 with the release of Spider-Man: Far From Home. It includes the crossover films Avengers: Infinity War, released in 2018, and its sequel Avengers: Endgame, released in 2019. Kevin Feige produced every film in the phase, alongside Amy Pascal for Spider-Man: Homecoming and Spider-Man: Far From Home, and Stephen Broussard for Ant-Man and the Wasp."
+    trakt_list:
+      - https://trakt.tv/users/ale-spatti06/lists/mcu-s-phase-3
+    template:
+      name: Collection
+      poster: coll-phase-03
+
+  "MCU Phase 4":
+    sort_title: Marvel_MCU Phase 4
+    summary: 'Phase Four of the Marvel Cinematic Universe (MCU) is a group of American superhero films and television series produced by Marvel Studios based on characters that appear in publications by Marvel Comics. Phase Four features all the Marvel Studios productions released from 2021 through 2022. It is the first phase in the franchise to include television series, alongside television specials marketed as "Marvel Studios Special Presentations", with Marvel Studios developing several event series for the streaming service Disney+ in addition to the feature films that it was already set to produce. Animation in the phase was produced by Marvel Studios Animation. Phase Four began with the series WandaVision, which premiered in January 2021, while the first theatrical film in this phase is Black Widow, which was released in July 2021 by Walt Disney Studios Motion Pictures. The phase concluded with the television special The Guardians of the Galaxy Holiday Special in November 2022. The release schedule of Phase Four was changed several times due to the COVID-19 pandemic. Kevin Feige produced every film and executive produced every series and special in this phase, alongside producers Jonathan Schwartz for Shang-Chi and the Legend of the Ten Rings, Nate Moore for Eternals and Black Panther: Wakanda Forever, Amy Pascal for Spider-Man: No Way Home, and Brad Winderbaum for Thor: Love and Thunder.'
+    trakt_list:
+      - https://trakt.tv/users/ale-spatti06/lists/mcu-s-phase-4
+    template:
+      name: Collection
+      poster: coll-phase-04
+
+  "MCU Phase 5":
+    sort_title: Marvel_MCU Phase 5
+    summary: 'Phase Five of the Marvel Cinematic Universe (MCU) is a group of American superhero films and television series produced by Marvel Studios based on characters that appear in publications by Marvel Comics. Phase Five features all of the Marvel Studios productions set to be released starting from 2023 to mid-2025, with Walt Disney Studios Motion Pictures distributing the films, while the series release on Disney+. Starting with Agatha All Along in late 2024, live-action series were released under Marvel Studios'' "Marvel Television" label, while animation in the phase was produced by Marvel Studios Animation. The first film in the phase is Ant-Man and the Wasp: Quantumania, which was released in February 2023, while the first series in the phase, Secret Invasion, premiered in June 2023. The release schedule of Phase Five was changed several times due to the 2023 Hollywood labor disputes. Kevin Feige produces every film and serves as executive producer of every series in this phase, alongside producers Stephen Broussard for Quantumania; Lauren Shuler Donner, Ryan Reynolds, and Shawn Levy for Deadpool & Wolverine; and Nate Moore for Captain America: Brave New World.'
+    trakt_list:
+      - https://trakt.tv/users/ale-spatti06/lists/mcu-s-phase-5
+    template:
+      name: Collection
+      poster: coll-phase-05
+
+  # Star Trek Collections
+  "Star Trek Collection":
+    summary: "Space: the final frontier. These are the voyages of the starship Enterprise. Its' continuing mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no one has gone before."
+    trakt_list:
+      - https://trakt.tv/users/dgw/lists/star-trek-canon
+    template:
+      name: Collection
+      poster: coll-trek
+
+  "Star Wars Collection":
+    summary: 'An epic space-opera theatrical film series, which depicts the adventures of various characters "a long time ago in a galaxy far, far away…."'
+    trakt_list:
+      - https://trakt.tv/users/fedprod/lists/star-wars-movies
+    template:
+      name: Collection
+      poster: coll-star-wars
+
+  ################# Custom Collections
+
+  #Special Collections
+  "🎄Christmas 🎄":
+    trakt_list: https://trakt.tv/users/k0meta/lists/christmas-extravaganza-non-tv-movie
+    summary: "Christmas time is here..."
+    sync_mode: append #(2!)
+    collection_order: custom
+    schedule: range(11/25-01/07)
+    delete_not_scheduled: true
+    sort_title: "__++Christmas"
+    template:
+      name: collection_no_schedule
+      poster: coll-christmas
+
+  "📀Physical Media":
+    summary: "Here you will find media that I have physical copies of in my home.\n\nA Collection for Movies that I have physical copies of. Whether Blu-Ray or DVD, these discs give me permanent access to always share these movies.\n\nSo view this collection as my way of \"sharing\" my physical copy with you, over the internet."
+    tmdb_list: https://www.themoviedb.org/list/8539683-physical-media
+    sort_title: "__+Physical Media"
+    smart_label:
+      sort_by: release.desc
+      all:
+        label: <<smart_label>>
+    template:
+      name: smart_no_schedule
+      poster: coll-default
+
+  ################# Studio Collections
+
+  "Walt Disney Animation":
+    template:
+      {
+        name: Studio,
+        studio: ["Walt Disney Animation Studios"],
+        poster: coll-disney-animation,
+      }
+    summary: "Walt Disney Animation"
+    visible_library: false
+    visible_home: false
+    visible_shared: false

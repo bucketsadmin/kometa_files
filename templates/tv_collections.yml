@@ -1,0 +1,39 @@
+templates:
+  # Collection Templates
+  # -----------------------------
+  show_collection:
+    default:
+      level: ""
+      sort_title_name: <<collection_name>>
+    sync_mode: sync
+    file_poster: /assets/collections/tv/<<poster>>
+    #    schedule:
+    #      - weekly(wednesday)
+    #      - weekly(saturday)
+    visible_library: true
+    visible_shared: true
+    visible_home: false
+    delete_not_scheduled: false
+
+  # Dynamic Collections Templates
+  # -----------------------------
+  Per_Decade:
+    default:
+      level: ""
+    builder_level: episode
+    collection_filtering: admin
+    smart_filter:
+      sort_by: episode_release.asc
+      all:
+        episode_air_date.after: 01/01/<<key_name>>
+        episode_air_date.before: 12/31/<<ending>>
+        title.not:
+          - "Yu-Gi-Oh!: The Abridged Series"
+          - "Red vs. Blue"
+    sort_title: 080_+<<level>>_<<starting>>
+    file_poster: /assets/collections/tv/coll-<<starting>>.png
+    visible_library: true
+    visible_shared: true
+    visible_home: false
+    #    schedule: weekly(sunday)
+    delete_not_scheduled: false

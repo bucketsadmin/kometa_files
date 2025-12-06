@@ -1,0 +1,74 @@
+external_templates:
+  file: /config/templates/movie_collections.yml
+
+collections:
+  ### Smart collection
+  ##### Acts like a Smart Collection in Plex, which is obvious now that I type it out
+  "Animation":
+    Summary: "A collection of animated movies"
+    smart_filter:
+      sort_by: title.desc
+      validate: false
+      all:
+        genre: Animation
+    template:
+      name: smart_collection
+      poster: coll-animation
+
+  "Recently Added":
+    Summary: "In a world where entertainment never sleeps, a special playlist emerges from the shadows..."
+    smart_filter:
+      sort_by: added.desc
+      validate: true
+      all:
+        added: 30
+    template:
+      name: smart_collection
+      poster: coll-recent
+
+dynamic_collections:
+  ## Use DC as suffix to avoid name conflicts with static collections
+  ## These get generated in the order they are listed here, so put the more intensive ones at the bottom
+
+  Best of Decade Movies DC: # mapping name does not matter just needs to be unique
+    type: custom
+    data:
+      twenties: 1920
+      thirties: 1930
+      forties: 1940
+      fifties: 1950
+      sixties: 1960
+      seventies: 1970
+      eighties: 1980
+      nineties: 1990
+      two_thousands: 2000
+      twenty_tens: 2010
+      twenty_twenties: 2020
+    template_variables:
+      starting:
+        twenties: 1920
+        thirties: 1930
+        forties: 1940
+        fifties: 1950
+        sixties: 1960
+        seventies: 1970
+        eighties: 1980
+        nineties: 1990
+        two_thousands: 2000
+        twenty_tens: 2010
+        twenty_twenties: 2020
+      ending:
+        twenties: 1929
+        thirties: 1939
+        forties: 1949
+        fifties: 1959
+        sixties: 1969
+        seventies: 1979
+        eighties: 1989
+        nineties: 1999
+        two_thousands: 2009
+        twenty_tens: 2019
+        twenty_twenties: 2029
+    title_format: 🗓️ The <<key_name>>s
+    template:
+      - Per_Decade

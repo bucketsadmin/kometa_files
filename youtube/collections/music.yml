@@ -1,0 +1,13 @@
+external_templates:
+  file: /config/templates/youtube_collections.yml
+
+collections:
+  " - DANKMUS - ":
+    summary: ""
+    plex_search:
+      all:
+        director.is:
+          - "Dankmus"
+    template:
+      name: collection
+      poster: coll-dnd

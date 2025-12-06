@@ -1,0 +1,33 @@
+metadata:
+  ##########################################################################################################
+  #### Movies
+  ##########################################################################################################
+  2924: # Backdraft (1991) Poster by CmdrRiker on MediUX. https://mediux.pro/sets/8400
+    url_poster: https://api.mediux.pro/assets/fd0a5765-7c1b-4a9d-9836-162341178d77
+
+  105: # Back to the Future (1985) Poster by RuviLev on MediUX. https://mediux.pro/sets/8381
+    url_poster: https://api.mediux.pro/assets/adb38dc9-9c4c-4f8c-9ca3-e17c96229e24
+
+  165: # Back to the Future Part II (1989) Poster by RuviLev on MediUX. https://mediux.pro/sets/8381
+    url_poster: https://api.mediux.pro/assets/2a8dd076-3256-4bda-9286-f1ef8b433b54
+
+  196: # Back to the Future Part III (1990) Poster by RuviLev on MediUX. https://mediux.pro/sets/8381
+    url_poster: https://api.mediux.pro/assets/be4f4aae-319e-4606-bb15-6ea0285a5321
+
+  617126: # The Fantastic 4: First Steps (2025) Poster by tallinex on MediUX. https://mediux.pro/sets/35407
+    url_background: https://api.mediux.pro/assets/c68bb5f9-8e7a-47ae-b2e6-f57910d54802
+
+  245891: # John Wick (2014) Poster by willtong93 on MediUX. https://mediux.pro/sets/24959
+    url_poster: https://api.mediux.pro/assets/7d7e3ca8-a252-47a9-b224-6e80895c5fa9
+
+  324552: # John Wick: Chapter 2 (2017) Poster by willtong93 on MediUX. https://mediux.pro/sets/24959
+    url_poster: https://api.mediux.pro/assets/cea46716-f168-4b18-a5aa-02e07e8a3252
+
+  458156: # John Wick: Chapter 3 - Parabellum (2019) Poster by willtong93 on MediUX. https://mediux.pro/sets/24959
+    url_poster: https://api.mediux.pro/assets/62215bc2-be7c-4d4d-a720-b98d26d3d439
+
+  603692: # John Wick: Chapter 4 (2023) Poster by willtong93 on MediUX. https://mediux.pro/sets/24959
+    url_poster: https://api.mediux.pro/assets/fd44e22f-a11a-4d86-9e2d-b1f991b33c7a
+
+  324849: # The Lego Batman Movie (2017) Poster by RuviLev on MediUX. https://mediux.pro/sets/12328
+    url_poster: https://api.mediux.pro/assets/c28a71be-9a34-46c8-8c9e-5958be90c7d8

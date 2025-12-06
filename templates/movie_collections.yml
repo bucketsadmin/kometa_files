@@ -1,0 +1,104 @@
+templates:
+  # Collection Templates
+  # -----------------------------
+  Collection:
+    default:
+      level: ""
+      sort_title_name: <<collection_name>>
+    sync_mode: sync
+    collection_order: release
+    name_mapping: <<poster>>
+    #    schedule:
+    #      - weekly(tuesday)
+    #      - weekly(friday)
+    visible_library: true
+    visible_shared: true
+    visible_home: false
+    delete_not_scheduled: false
+
+  tmdb_collection:
+    default:
+      level: ""
+      sort_title_name: <<collection_name>>
+    tmdb_collection: <<tmdb>>
+    tmdb_collection_details: <<tmdb>>
+    tmdb_background: <<tmdb>>
+    sync_mode: sync
+    collection_order: release
+    name_mapping: <<poster>>
+    #    schedule:
+    #      - weekly(tuesday)
+    #      - weekly(friday)
+    visible_library: true
+    visible_shared: true
+    visible_home: false
+    delete_not_scheduled: false
+
+  smart_collection:
+    default:
+      level: ""
+      sort_title_name: <<collection_name>>
+    sync_mode: sync
+    name_mapping: <<poster>>
+    schedule:
+      - weekly(tuesday)
+      - weekly(friday)
+    visible_library: true
+    visible_shared: true
+    visible_home: false
+
+  smart_no_schedule:
+    default:
+      level: ""
+      sort_title_name: <<collection_name>>
+    sync_mode: sync
+    name_mapping: <<poster>>
+    visible_library: true
+    visible_shared: true
+    visible_home: false
+
+  collection_no_schedule:
+    default:
+      level: ""
+      sort_title_name: <<collection_name>>
+    sync_mode: sync
+    collection_order: release
+    name_mapping: <<poster>>
+    visible_library: true
+    visible_shared: true
+    visible_home: false
+    delete_not_scheduled: false
+
+  Studio:
+    default:
+      level: ""
+      sort_title_name: <<collection_name>>
+    optional:
+      - poster
+    sort_title: 100_+<<level>>_<<sort_title_name>>
+    smart_filter:
+      sort_by: release.desc
+      validate: false
+      any:
+        studio: <<studio>>
+    name_mapping: <<poster>>
+  #    schedule:
+  #      - weekly(wednesday)
+
+  # Dynamic Collections Templates
+  # -----------------------------
+  Per_Decade:
+    default:
+      level: ""
+    smart_filter:
+      sort_by: audience_rating.desc
+      all:
+        year.gte: <<key_name>>
+        year.lte: <<ending>>
+    sort_title: 080_+<<level>>_<<starting>>
+    name_mapping: coll-<<starting>>
+    visible_library: true
+    visible_shared: true
+    visible_home: false
+    #    schedule: monthly(16)
+    delete_not_scheduled: false

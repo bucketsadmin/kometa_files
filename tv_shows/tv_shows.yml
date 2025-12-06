@@ -1,0 +1,302 @@
+external_templates:
+  file: /config/templates/tv_collections.yml
+
+collections:
+  #Special Collections
+  Christmas:
+    builder_level: episode
+    smart_filter:
+      sort_by: episode_title.asc
+      all:
+        title:
+          - "christmas"
+    sync_mode: append #(2!)
+    schedule: range(11/25-01/07)
+    delete_not_scheduled: true
+    file_poster: /assets/collections/tv/coll-christmas.png
+    visible_home: true
+
+  Recently Added:
+    builder_level: episode
+    summary: "pssst... hey you.\n yeah you.\n\n you want some new TV? I've got what you need man"
+    smart_filter:
+      sort_by: added.desc
+      all: 
+        episode_added: 30
+    template:
+      name: show_collection
+      poster: coll-recent.png
+
+  #### Hard-coded collections
+  # Marvel Collections
+  "Avatar Collection":
+    sync_mode: sync
+    template:
+      name: show_collection
+      poster: coll-avatar.png
+    summary: "The Avatar: The Last Airbender (sometimes officially referred to as Avatar Legends or simply Avatar) universe is a canon created by Bryan Konietzko and Michael Dante DiMartino for Nickelodeon.\nIt takes place in an East Asian-influenced Constructed World divided into nations based around the elements of water, earth, fire, and air. Some people from each nation, called \"benders\", have the ability to control the element on which their nation is based.\nOne person, the Avatar, has the ability to bend all four elements, and is reincarnated into each of the nations upon his or her death in an endless cycle. The main character of each work is this Avatar, and he or she must undergo the trials, tribulations and responsibility of holding that power."
+    plex_search:
+      any:
+        title.is:
+          - "Avatar: The Last Airbender"
+          - "The Legend of Korra"
+
+  "Marvel Cinematic Universe":
+    sync_mode: sync
+    template:
+      name: show_collection
+      poster: coll-mcu.png
+    collection_order: release
+    sort_title: Marvel_MCU
+    #summary:
+    trakt_list:
+      - https://trakt.tv/users/bart-vanacker-1/lists/marvelseries
+      - https://trakt.tv/users/adamarzip/lists/marvelcinematicuniverse
+
+  "MCU Phase 4":
+    sync_mode: sync
+    template:
+      name: show_collection
+      poster: coll-phase-04.png
+    collection_order: release
+    sort_title: Marvel_MCU Phase 4
+    summary: 'Phase Four of the Marvel Cinematic Universe (MCU) is a group of American superhero films and television series produced by Marvel Studios based on characters that appear in publications by Marvel Comics. Phase Four features all the Marvel Studios productions released from 2021 through 2022. It is the first phase in the franchise to include television series, alongside television specials marketed as "Marvel Studios Special Presentations", with Marvel Studios developing several event series for the streaming service Disney+ in addition to the feature films that it was already set to produce. Animation in the phase was produced by Marvel Studios Animation. Phase Four began with the series WandaVision, which premiered in January 2021, while the first theatrical film in this phase is Black Widow, which was released in July 2021 by Walt Disney Studios Motion Pictures. The phase concluded with the television special The Guardians of the Galaxy Holiday Special in November 2022. The release schedule of Phase Four was changed several times due to the COVID-19 pandemic. Kevin Feige produced every film and executive produced every series and special in this phase, alongside producers Jonathan Schwartz for Shang-Chi and the Legend of the Ten Rings, Nate Moore for Eternals and Black Panther: Wakanda Forever, Amy Pascal for Spider-Man: No Way Home, and Brad Winderbaum for Thor: Love and Thunder.'
+    trakt_list:
+      - https://trakt.tv/users/ale-spatti06/lists/mcu-s-phase-4
+
+  "MCU Phase 5":
+    template:
+      name: show_collection
+      poster: coll-phase-05.png
+    sort_title: Marvel_MCU Phase 5
+    summary: 'Phase Five of the Marvel Cinematic Universe (MCU) is a group of American superhero films and television series produced by Marvel Studios based on characters that appear in publications by Marvel Comics. Phase Five features all of the Marvel Studios productions set to be released starting from 2023 to mid-2025, with Walt Disney Studios Motion Pictures distributing the films, while the series release on Disney+. Starting with Agatha All Along in late 2024, live-action series were released under Marvel Studios'' "Marvel Television" label, while animation in the phase was produced by Marvel Studios Animation. The first film in the phase is Ant-Man and the Wasp: Quantumania, which was released in February 2023, while the first series in the phase, Secret Invasion, premiered in June 2023. The release schedule of Phase Five was changed several times due to the 2023 Hollywood labor disputes. Kevin Feige produces every film and serves as executive producer of every series in this phase, alongside producers Stephen Broussard for Quantumania; Lauren Shuler Donner, Ryan Reynolds, and Shawn Levy for Deadpool & Wolverine; and Nate Moore for Captain America: Brave New World.'
+    trakt_list:
+      - https://trakt.tv/users/ale-spatti06/lists/mcu-s-phase-5
+
+  "Star Trek Collection":
+    sync_mode: sync
+    template:
+      name: show_collection
+      poster: coll-star-trek.jpg
+    summary: "Space: the final frontier. These are the voyages of the starship Enterprise. Its continuing mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before."
+    plex_search:
+      any:
+        title:
+          - "Star Trek"
+          - "Enterprise"
+
+  "Star Wars Collection":
+    sync_mode: sync
+    template:
+      name: show_collection
+      poster: coll-star-wars.png
+    plex_search:
+      any:
+        title.is:
+          - "The Mandalorian"
+          - "The Book of Boba Fett"
+          - "Andor"
+
+  "Stargate Collection":
+    sync_mode: sync
+    template:
+      name: show_collection
+      poster: coll-stargate.jpg
+    summary: "It will take you a million light-years from home. But will it bring you back?"
+    plex_search:
+      any:
+        title:
+          - "Stargate"
+
+  ################# Custom Collections
+
+  "Cartoons":
+    summary: "Animation Nation"
+    smart_filter:
+      sort_by: title.asc
+      all:
+        title.not:
+          - "Red vs. Blue"
+          - "Yu-Gi-Oh!: The Abridged Series"
+          - "Adam Ruins Everything"
+        genre: "Animation"
+    template:
+      name: show_collection
+      poster: coll-cartoons.png
+
+  "Comedy":
+    summary: ""
+    smart_filter:
+      sort_by: title.asc
+      all:
+        collection.not: "Marvel Cinematic Universe"
+        title.not:
+          - "Red vs. Blue"
+          - "Yu-Gi-Oh!: The Abridged Series"
+          - "avatar"
+          - "eureka"
+          - "korra"
+          - "voltron"
+          - "warehouse 13"
+        genre: "Comedy"
+    template:
+      name: show_collection
+      poster: coll-comedy.png
+
+  "Docu-Series":
+    summary: ""
+    smart_filter:
+      sort_by: title.asc
+      all:
+        genre: "Documentary"
+    template:
+      name: show_collection
+      poster: coll-docu-series.png
+
+  "🗓️ Classic TV":
+    summary: "A collection of older shows"
+    builder_level: episode
+    sort_title: "080_++_Classic TV"
+    smart_filter:
+      sort_by: episode_release.asc
+      all:
+        episode_air_date.before: "12/31/1989"
+    template:
+      name: show_collection
+      poster: coll-classic-tv.png
+
+  "Not played in 3 years":
+    summary: "Oh the times we used to have, oh the shows we haven't watched in ages..."
+    builder_level: season
+    smart_filter:
+      sort_by: season.asc
+      all:
+        unplayed_episodes: false
+        episode_last_played.not: 1095
+    collection_filtering: user
+    visible_shared: false
+    template:
+      name: show_collection
+      poster: coll-default.png
+      level: +
+
+  "Not played in 5 years":
+    summary: "I would I could stand on a busy corner, hat in hand, and beg people to throw me all their wasted hours...."
+    builder_level: season
+    smart_filter:
+      sort_by: season.asc
+      all:
+        unplayed_episodes: false
+        episode_last_played.not: 1825
+    collection_filtering: user
+    visible_shared: false
+    template:
+      name: show_collection
+      poster: coll-default.png
+      level: +
+
+  "📀 Physical Media":
+    Summary: "Here you will find media that I have physical copies of in my home.\n\nA Collection for TV Shows that I have physical copies of. Whether Blu-Ray or DVD, gives me permanent access to always share these shows.\n\nSo view this collection as my way of \"sharing\" my physical copy with you, over the internet."
+    tmdb_list:
+      - https://www.themoviedb.org/list/8539683-physical-media
+    sort_title: "__+Physical Media"
+    smart_label:
+      sort_by: release.desc
+      all:
+        label: <<smart_label>>
+    template:
+      name: show_collection
+      poster: coll-default.png
+
+  "Musicals":
+    summary: ""
+    smart_filter:
+      sort_by: title.asc
+      all:
+        genre:
+          - "Musical"
+    template:
+      name: show_collection
+      poster: coll-musical.png
+
+  "Science Fiction":
+    summary: ""
+    smart_filter:
+      sort_by: title.asc
+      all:
+        collection.not: "Marvel Cinematic Universe"
+        all:
+          title.not:
+            - "danger 5"
+            - "gravity falls"
+            - "Red vs. Blue"
+            - "Yu-Gi-Oh!: The Abridged Series"
+            - "Invincible"
+            - "young justice"
+            - "korra"
+            - "better off ted"
+            - "ducktales"
+            - "digimon"
+            - "avatar"
+        any:
+          genre:
+            - "Science Fiction"
+            - "Sci-Fi & Fantasy"
+    template:
+      name: show_collection
+      poster: coll-sci-fi.png
+
+  "Weird Shows":
+    summary: "There's just something a little off about these shows"
+    smart_filter:
+      sort_by: title.asc
+      any:
+        title.is:
+          - "Police Squad!"
+          - "Danger 5"
+          - "Flight of the Conchords"
+          - "Garth Marenghi's Darkplace"
+          - "Yu-Gi-Oh!: The Abridged Series"
+          - "Portlandia"
+          - "The Middleman (2008)"
+    template:
+      name: show_collection
+      poster: coll-weird.jpg
+
+dynamic_collections:
+  ## Use DC as suffix to avoid name conflicts with static collections
+  ## These get generated in the order they are listed here, so put the more intensive ones at the bottom
+
+  Decade TV Shows per episode DC: # mapping name does not matter just needs to be unique
+    type: custom
+    data:
+      fifties: 1950
+      sixties: 1960
+      seventies: 1970
+      eighties: 1980
+      nineties: 1990
+      two_thousands: 2000
+      twenty_tens: 2010
+      twenty_twenties: 2020
+    template_variables:
+      starting:
+        fifties: 1950
+        sixties: 1960
+        seventies: 1970
+        eighties: 1980
+        nineties: 1990
+        two_thousands: 2000
+        twenty_tens: 2010
+        twenty_twenties: 2020
+      ending:
+        fifties: 1959
+        sixties: 1969
+        seventies: 1979
+        eighties: 1989
+        nineties: 1999
+        two_thousands: 2009
+        twenty_tens: 2019
+        twenty_twenties: 2029
+    title_format: 🗓️ The <<key_name>>s
+    template:
+      - Per_Decade
