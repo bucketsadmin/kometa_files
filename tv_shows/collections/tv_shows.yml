@@ -1,3 +1,5 @@
+settings:
+  custom_repo: https://github.com/bucketsadmin/kometa_files/tree/main
 external_templates:
   repo: tv_shows/templates/tv_collections
 
