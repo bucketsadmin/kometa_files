@@ -1,5 +1,5 @@
 external_templates:
-  file: /config/templates/movie_collections.yml
+  repo: templates/movie_collections
 
 collections:
   ################# TMDB collections
