@@ -2941,8 +2941,10 @@ metadata:
           6:
             url_poster: https://api.mediux.pro/assets/57359d30-90b3-403a-916a-49a53d9efd15a
   305288: # TVDB id for Stranger Things. Set by noonehere on MediUX. https://mediux.pro/sets/40728
+    url_background: https://api.mediux.pro/assets/25b8e961-1351-46e7-b658-c273a04f6d5f
     seasons:
       1:
+        url_poster: https://api.mediux.pro/assets/95b75545-070a-4f06-ac86-cc4ef2201139
         episodes:
           1:
             url_poster: https://api.mediux.pro/assets/4e1ad62f-9795-4ddf-8e5e-2dc2192569e3
@@ -2961,6 +2963,7 @@ metadata:
           8:
             url_poster: https://api.mediux.pro/assets/09f0d368-ff87-436e-9e2f-ca6e13f25de3
       2:
+        url_poster: https://api.mediux.pro/assets/214374c3-312c-46f7-aa97-efc1da71eb37
         episodes:
           1:
             url_poster: https://api.mediux.pro/assets/e432fa4b-6e60-430e-af2b-97ee56efb9ce
@@ -2981,6 +2984,7 @@ metadata:
           9:
             url_poster: https://api.mediux.pro/assets/f3a57cce-71f7-4a7a-9c7e-e4550cc1808d
       3:
+        url_poster: https://api.mediux.pro/assets/60280a6e-cd85-4a93-bded-61499666fbdb
         episodes:
           1:
             url_poster: https://api.mediux.pro/assets/bae66081-5c5b-414d-9a4d-5a110fcff679
@@ -2999,6 +3003,7 @@ metadata:
           8:
             url_poster: https://api.mediux.pro/assets/77681ff7-638e-4ff8-9bae-5434dfc0933c
       4:
+        url_poster: https://api.mediux.pro/assets/f624c927-76bf-4ab8-b25e-b3c8c565d63f
         episodes:
           1:
             url_poster: https://api.mediux.pro/assets/9779930b-df5f-43aa-b827-f6e7a2ed9dd9
@@ -3019,6 +3024,7 @@ metadata:
           9:
             url_poster: https://api.mediux.pro/assets/d0cf8bd2-1606-4b2b-a8c1-4d0375c32fcb
       5:
+        url_poster: https://api.mediux.pro/assets/343ba4e8-6c13-4f8e-893a-3c10f8f87e86
         episodes:
           1:
             url_poster: https://api.mediux.pro/assets/dc910cbc-a934-472f-9e21-2cf37c4c630f
