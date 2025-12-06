@@ -1,6 +1,5 @@
 # Kometa collection files
-Repo to hold collection based configuration for Kometa
-
+Repo to hold collection based configuration for Kometa. The actual Kometa config file is kept in a private git repo that references this repo.
 
 ## Shows missing Title Cards
 
