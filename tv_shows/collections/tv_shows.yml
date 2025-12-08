@@ -3,13 +3,21 @@ external_templates:
 
 collections:
   #Special Collections
-  Christmas:
+  "TV🎄Christmas 🎄specials":
+    summary: "Christmas time is here...\nWell... maybe\nThese shows all have 'Christmas' in the title"
     builder_level: episode
     smart_filter:
       sort_by: episode_title.asc
-      all:
-        title:
+      any:
+        episode_title:
           - "christmas"
+          - "santa"
+        all:
+          episode_title:
+            - "holiday"
+          title.not:
+            - "Stargate"
+            - "trek"
     sync_mode: append #(2!)
     schedule: range(11/25-01/07)
     delete_not_scheduled: true
