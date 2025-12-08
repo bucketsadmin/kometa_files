@@ -2942,20 +2942,6 @@ metadata:
             url_poster: https://api.mediux.pro/assets/57359d30-90b3-403a-916a-49a53d9efd15a
 
   ####### Marvel #######
-  412428: # TVDB id for Marvel Zombies. Set by BigDOOKY on MediUX. https://mediux.pro/sets/37498
-    url_poster: https://api.mediux.pro/assets/08dc1eac-b0be-4acc-a022-4868d45b5d7f
-    url_background: https://api.mediux.pro/assets/22efb4bd-2e73-4b88-9847-f65de8d6afc3
-    seasons:
-      1:
-        episodes:
-          1:
-            url_poster: https://api.mediux.pro/assets/328e59d0-bf04-40fb-96f5-527109bc534d
-          2:
-            url_poster: https://api.mediux.pro/assets/2b1f9cc2-95aa-4204-bd6b-a2a043a738cd
-          3:
-            url_poster: https://api.mediux.pro/assets/7e687375-2909-4be6-bc99-13604f8055ff
-          4:
-            url_poster: https://api.mediux.pro/assets/7cff39d7-6b81-4cfb-8bf8-6121ee64a2b5
 
   ####### Star Trek #######
   367138: # TVDB id for Star Trek: Lower Decks. Set by pmbasehore on MediUX. https://mediux.pro/sets/486
