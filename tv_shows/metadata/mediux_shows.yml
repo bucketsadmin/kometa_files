@@ -4,6 +4,8 @@ metadata:
  #### TV Shows
  ##########################################################################################################
  79488: # TVDB id for 30 Rock. Set by Sarrius on MediUX. https://mediux.pro/sets/2611
+   match:
+     mapping_id: 79488
    seasons:
      1:
        episodes:
