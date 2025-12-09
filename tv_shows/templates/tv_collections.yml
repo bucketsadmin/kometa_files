@@ -12,6 +12,20 @@ templates:
     visible_home: false
     delete_not_scheduled: false
 
+  Studio:
+    default:
+      level: ""
+      sort_title_name: <<collection_name>>
+    optional:
+      - poster
+    sort_title: 100_+<<level>>_<<sort_title_name>>
+    smart_filter:
+      sort_by: release.desc
+      validate: false
+      any:
+        studio: <<studio>>
+    name_mapping: <<poster>>
+
   tmdb_collection:
     default:
       level: ""
