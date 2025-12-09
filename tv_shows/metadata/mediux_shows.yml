@@ -4,8 +4,6 @@ metadata:
  #### TV Shows
  ##########################################################################################################
  79488: # TVDB id for 30 Rock. Set by Sarrius on MediUX. https://mediux.pro/sets/2611
-   match:
-     mapping_id: 79488
    seasons:
      1:
        episodes:
@@ -2945,8 +2943,6 @@ metadata:
 #
   ####### Marvel #######
 412428: # TVDB id for Marvel Zombies. Set by BigDOOKY on MediUX. https://mediux.pro/sets/37498
-  match:
-    mapping_id: 412428
   url_poster: https://api.mediux.pro/assets/08dc1eac-b0be-4acc-a022-4868d45b5d7f
   url_background: https://api.mediux.pro/assets/22efb4bd-2e73-4b88-9847-f65de8d6afc3
   seasons:
