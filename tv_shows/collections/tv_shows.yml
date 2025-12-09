@@ -254,17 +254,17 @@ collections:
       name: show_collection
       poster: coll-sci-fi.png
 
-  "Weird Shows":
-    summary: "There's just something a little off about these shows"
-    tmdb_list:
-      - https://www.themoviedb.org/list/8539896-weird-shows
-    smart_label:
-      sort_by: release.desc
-      all:
-        label: <<smart_label>>
-    template:
-      name: show_collection
-      poster: coll-weird.jpg
+#  "Weird Shows":
+#    summary: "There's just something a little off about these shows"
+#    tmdb_list:
+#      - https://www.themoviedb.org/list/8539896-weird-shows
+#    smart_label:
+#      sort_by: release.desc
+#      all:
+#        label: <<smart_label>>
+#    template:
+#      name: show_collection
+#      poster: coll-weird.jpg
 
 dynamic_collections:
   ## Use DC as suffix to avoid name conflicts with static collections
