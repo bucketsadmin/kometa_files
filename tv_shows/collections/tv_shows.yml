@@ -256,17 +256,12 @@ collections:
 
   "Weird Shows":
     summary: "There's just something a little off about these shows"
-    smart_filter:
-      sort_by: title.asc
-      any:
-        title.is:
-          - "Police Squad!"
-          - "Danger 5"
-          - "Flight of the Conchords"
-          - "Garth Marenghi's Darkplace"
-          - "Yu-Gi-Oh!: The Abridged Series"
-          - "Portlandia"
-          - "The Middleman (2008)"
+    tmdb_list:
+      - https://www.themoviedb.org/list/8539896-weird-shows
+    smart_label:
+      sort_by: release.desc
+      all:
+        label: <<smart_label>>
     template:
       name: show_collection
       poster: coll-weird.jpg
