@@ -7,7 +7,7 @@ collections:
     summary: "Christmas time is here...\nWell... maybe\nThese shows all have 'Christmas' in the title"
     builder_level: episode
     smart_filter:
-      sort_by: episode_title.asc
+      sort_by: title.asc
       any:
         episode_title:
           - "christmas"
