@@ -187,26 +187,45 @@ collections:
       poster: coll-weird.jpg
 
   ## Special Collections
-  "TV🎄Christmas 🎄specials":
-    summary: "Christmas time is here...\nWell... maybe\nThese shows all have 'Christmas' in the title"
-    builder_level: episode
-    smart_filter:
-      sort_by: title.asc
-      any:
-        episode_title:
-          - "christmas"
-          - "santa"
-        all:
-          episode_title:
-            - "holiday"
-          title.not:
-            - "Stargate"
-            - "trek"
-    sync_mode: append #(2!)
-    schedule: range(11/25-01/07)
-    delete_not_scheduled: true
-    file_poster: /assets/collections/tv/coll-christmas.png
-    visible_home: true
+    🎄A Very Special TV Christmas🎄:
+      trakt_list: 
+        - https://trakt.tv/users/candroid/lists/christmas-tv
+        - https://trakt.tv/users/bunsduo/lists/christmas-tv
+        - https://trakt.tv/users/toasterfaerie/lists/christmas-tv-specials
+        - https://trakt.tv/users/arthirak/lists/christmas-specials
+        - https://trakt.tv/users/somedude69/lists/wikipedia-christmas-episodes-sitcoms-32939629
+        - https://trakt.tv/users/somedude69/lists/wikipedia-christmas-episodes-drama
+      builder_level: episode
+      sort_title: "!032_A Very Special TV Christmas"
+      collection_order: release
+      sync_mode: sync
+      summary: "Christmas time is here...\nWell... at least on TV \nLook at all these danged Christmas episodes!"
+      schedule: range(11/01-12/31)
+      visible_home: range(11/01-12/31)
+      visible_shared: range(11/01-12/31)
+      file_poster: /assets/collections/tv/coll-christmas.png
+      delete_not_scheduled: true
+
+  # "TV🎄Christmas 🎄specials":
+  #   summary: "Christmas time is here...\nWell... maybe\nThese shows all have 'Christmas' in the title"
+  #   builder_level: episode
+  #   smart_filter:
+  #     sort_by: title.asc
+  #     any:
+  #       episode_title:
+  #         - "christmas"
+  #         - "santa"
+  #       all:
+  #         episode_title:
+  #           - "holiday"
+  #         title.not:
+  #           - "Stargate"
+  #           - "trek"
+  #   sync_mode: append #(2!)
+  #   schedule: range(11/25-01/07)
+  #   delete_not_scheduled: true
+  #   file_poster: /assets/collections/tv/coll-christmas.png
+  #   visible_home: true
 
   Recently Added:
     builder_level: episode

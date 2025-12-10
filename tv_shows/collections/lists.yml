@@ -8,6 +8,8 @@ external_templates:
 
 collections:
   ## trakt lists
+
+  
   ### Marvel Collections
   "Marvel Cinematic Universe":
     sync_mode: sync
