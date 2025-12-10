@@ -1,0 +1,57 @@
+#############################################################################
+#####
+##### External list collections
+#####
+#############################################################################
+external_templates:
+  - repo: tv_shows/templates/tv_collections
+
+collections:
+  ## trakt lists
+  ### Marvel Collections
+  "Marvel Cinematic Universe":
+    sync_mode: sync
+    template:
+      name: show_collection
+      poster: coll-mcu.png
+    collection_order: release
+    sort_title: Marvel_MCU
+    #summary:
+    trakt_list:
+      - https://trakt.tv/users/bart-vanacker-1/lists/marvelseries
+      - https://trakt.tv/users/adamarzip/lists/marvelcinematicuniverse
+
+  "MCU Phase 4":
+    sync_mode: sync
+    template:
+      name: show_collection
+      poster: coll-phase-04.png
+    collection_order: release
+    sort_title: Marvel_MCU Phase 4
+    summary: 'Phase Four of the Marvel Cinematic Universe (MCU) is a group of American superhero films and television series produced by Marvel Studios based on characters that appear in publications by Marvel Comics. Phase Four features all the Marvel Studios productions released from 2021 through 2022. It is the first phase in the franchise to include television series, alongside television specials marketed as "Marvel Studios Special Presentations", with Marvel Studios developing several event series for the streaming service Disney+ in addition to the feature films that it was already set to produce. Animation in the phase was produced by Marvel Studios Animation. Phase Four began with the series WandaVision, which premiered in January 2021, while the first theatrical film in this phase is Black Widow, which was released in July 2021 by Walt Disney Studios Motion Pictures. The phase concluded with the television special The Guardians of the Galaxy Holiday Special in November 2022. The release schedule of Phase Four was changed several times due to the COVID-19 pandemic. Kevin Feige produced every film and executive produced every series and special in this phase, alongside producers Jonathan Schwartz for Shang-Chi and the Legend of the Ten Rings, Nate Moore for Eternals and Black Panther: Wakanda Forever, Amy Pascal for Spider-Man: No Way Home, and Brad Winderbaum for Thor: Love and Thunder.'
+    trakt_list:
+      - https://trakt.tv/users/ale-spatti06/lists/mcu-s-phase-4
+
+  "MCU Phase 5":
+    template:
+      name: show_collection
+      poster: coll-phase-05.png
+    sort_title: Marvel_MCU Phase 5
+    summary: 'Phase Five of the Marvel Cinematic Universe (MCU) is a group of American superhero films and television series produced by Marvel Studios based on characters that appear in publications by Marvel Comics. Phase Five features all of the Marvel Studios productions set to be released starting from 2023 to mid-2025, with Walt Disney Studios Motion Pictures distributing the films, while the series release on Disney+. Starting with Agatha All Along in late 2024, live-action series were released under Marvel Studios'' "Marvel Television" label, while animation in the phase was produced by Marvel Studios Animation. The first film in the phase is Ant-Man and the Wasp: Quantumania, which was released in February 2023, while the first series in the phase, Secret Invasion, premiered in June 2023. The release schedule of Phase Five was changed several times due to the 2023 Hollywood labor disputes. Kevin Feige produces every film and serves as executive producer of every series in this phase, alongside producers Stephen Broussard for Quantumania; Lauren Shuler Donner, Ryan Reynolds, and Shawn Levy for Deadpool & Wolverine; and Nate Moore for Captain America: Brave New World.'
+    trakt_list:
+      - https://trakt.tv/users/ale-spatti06/lists/mcu-s-phase-5
+
+
+  ## tmdb lists
+  "📀 Physical Media":
+    Summary: "Here you will find media that I have physical copies of in my home.\n\nA Collection for TV Shows that I have physical copies of. Whether Blu-Ray or DVD, gives me permanent access to always share these shows.\n\nSo view this collection as my way of \"sharing\" my physical copy with you, over the internet."
+    tmdb_list:
+      - https://www.themoviedb.org/list/8539683-physical-media
+    sort_title: "__+Physical Media"
+    smart_label:
+      sort_by: release.desc
+      all:
+        label: <<smart_label>>
+    template:
+      name: show_collection
+      poster: coll-default.png

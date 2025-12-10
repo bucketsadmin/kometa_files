@@ -1,0 +1,56 @@
+#############################################################################
+#####
+##### Static collections
+#####
+#############################################################################
+external_templates:
+  - repo: tv_shows/templates/tv_collections
+
+collections:
+  #### Hard-coded collections
+  "Avatar Collection":
+    sync_mode: sync
+    template:
+      name: show_collection
+      poster: coll-avatar.png
+    summary: "The Avatar: The Last Airbender universe is a canon created by Bryan Konietzko and Michael Dante DiMartino for Nickelodeon.\nIt takes place in an East Asian-influenced Constructed World divided into nations based around the elements of water, earth, fire, and air. Some people from each nation, called \"benders\", have the ability to control the element on which their nation is based.\nOne person, the Avatar, has the ability to bend all four elements, and is reincarnated into each of the nations upon his or her death in an endless cycle. The main character of each work is this Avatar, and he or she must undergo the trials, tribulations and responsibility of holding that power."
+    plex_search:
+      any:
+        title.is:
+          - "Avatar: The Last Airbender"
+          - "The Legend of Korra"
+
+  "Star Trek Collection":
+    sync_mode: sync
+    template:
+      name: show_collection
+      poster: coll-star-trek.jpg
+    summary: "Space: the final frontier. These are the voyages of the starship Enterprise. Its continuing mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before."
+    plex_search:
+      any:
+        title:
+          - "Star Trek"
+          - "Enterprise"
+
+  "Star Wars Collection":
+    sync_mode: sync
+    template:
+      name: show_collection
+      poster: coll-star-wars.png
+    plex_search:
+      any:
+        title.is:
+          - "The Mandalorian"
+          - "The Book of Boba Fett"
+          - "Andor"
+
+  "Stargate Collection":
+    sync_mode: sync
+    template:
+      name: show_collection
+      poster: coll-stargate.jpg
+    summary: "It will take you a million light-years from home. But will it bring you back?"
+    plex_search:
+      any:
+        title:
+          - "Stargate"

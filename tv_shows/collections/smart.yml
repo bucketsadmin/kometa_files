@@ -1,0 +1,220 @@
+#############################################################################
+#####
+##### Smart filter collections
+#####
+#############################################################################
+external_templates:
+  - repo: tv_shows/templates/tv_collections
+
+dynamic_collections:
+  ## Use DC as suffix to avoid name conflicts with static collections
+  ## These get generated in the order they are listed here, so put the more intensive ones at the bottom
+
+  Decade TV Shows per episode DC: # mapping name does not matter just needs to be unique
+    type: custom
+    data:
+      fifties: 1950
+      sixties: 1960
+      seventies: 1970
+      eighties: 1980
+      nineties: 1990
+      two_thousands: 2000
+      twenty_tens: 2010
+      twenty_twenties: 2020
+    template_variables:
+      starting:
+        fifties: 1950
+        sixties: 1960
+        seventies: 1970
+        eighties: 1980
+        nineties: 1990
+        two_thousands: 2000
+        twenty_tens: 2010
+        twenty_twenties: 2020
+      ending:
+        fifties: 1959
+        sixties: 1969
+        seventies: 1979
+        eighties: 1989
+        nineties: 1999
+        two_thousands: 2009
+        twenty_tens: 2019
+        twenty_twenties: 2029
+    title_format: 🗓️ The <<key_name>>s
+    template:
+      - Per_Decade
+
+collections:
+  ## Custom Collections
+  "Cartoons":
+    summary: "Animation Nation"
+    smart_filter:
+      sort_by: title.asc
+      all:
+        title.not:
+          - "Red vs. Blue"
+          - "Yu-Gi-Oh!: The Abridged Series"
+          - "Adam Ruins Everything"
+        genre: "Animation"
+    template:
+      name: show_collection
+      poster: coll-cartoons.png
+
+  "Comedy":
+    summary: ""
+    smart_filter:
+      sort_by: title.asc
+      all:
+        collection.not: "Marvel Cinematic Universe"
+        title.not:
+          - "Red vs. Blue"
+          - "Yu-Gi-Oh!: The Abridged Series"
+          - "avatar"
+          - "eureka"
+          - "korra"
+          - "voltron"
+          - "warehouse 13"
+        genre: "Comedy"
+    template:
+      name: show_collection
+      poster: coll-comedy.png
+
+  "Docu-Series":
+    summary: ""
+    smart_filter:
+      sort_by: title.asc
+      all:
+        genre: "Documentary"
+    template:
+      name: show_collection
+      poster: coll-docu-series.png
+
+  "🗓️ Classic TV":
+    summary: "A collection of older shows"
+    builder_level: episode
+    sort_title: "080_++_Classic TV"
+    smart_filter:
+      sort_by: episode_release.asc
+      all:
+        episode_air_date.before: "12/31/1989"
+    template:
+      name: show_collection
+      poster: coll-classic-tv.png
+
+  "Not played in 3 years":
+    summary: "Oh the times we used to have, oh the shows we haven't watched in ages..."
+    builder_level: season
+    smart_filter:
+      sort_by: season.asc
+      all:
+        unplayed_episodes: false
+        episode_last_played.not: 1095
+    collection_filtering: user
+    visible_shared: false
+    template:
+      name: show_collection
+      poster: coll-default.png
+      level: +
+
+  "Not played in 5 years":
+    summary: "I would I could stand on a busy corner, hat in hand, and beg people to throw me all their wasted hours...."
+    builder_level: season
+    smart_filter:
+      sort_by: season.asc
+      all:
+        unplayed_episodes: false
+        episode_last_played.not: 1825
+    collection_filtering: user
+    visible_shared: false
+    template:
+      name: show_collection
+      poster: coll-default.png
+      level: +
+
+  "Musicals":
+    summary: ""
+    smart_filter:
+      sort_by: title.asc
+      all:
+        genre:
+          - "Musical"
+    template:
+      name: show_collection
+      poster: coll-musical.png
+
+  "Science Fiction":
+    summary: ""
+    smart_filter:
+      sort_by: title.asc
+      all:
+        collection.not: "Marvel Cinematic Universe"
+        all:
+          title.not:
+            - "danger 5"
+            - "gravity falls"
+            - "Red vs. Blue"
+            - "Yu-Gi-Oh!: The Abridged Series"
+            - "Invincible"
+            - "young justice"
+            - "korra"
+            - "better off ted"
+            - "ducktales"
+            - "digimon"
+            - "avatar"
+        any:
+          genre:
+            - "Science Fiction"
+            - "Sci-Fi & Fantasy"
+    template:
+      name: show_collection
+      poster: coll-sci-fi.png
+
+  "Weird Shows":
+    summary: "There's just something a little off about these shows"
+    smart_filter:
+      sort_by: title.asc
+      any:
+        title.is:
+          - "Police Squad!"
+          - "Danger 5"
+          - "Flight of the Conchords"
+          - "Garth Marenghi's Darkplace"
+          - "Yu-Gi-Oh!: The Abridged Series"
+          - "Portlandia"
+          - "The Middleman (2008)"
+    template:
+      name: show_collection
+      poster: coll-weird.jpg
+
+  ## Special Collections
+  "TV🎄Christmas 🎄specials":
+    summary: "Christmas time is here...\nWell... maybe\nThese shows all have 'Christmas' in the title"
+    builder_level: episode
+    smart_filter:
+      sort_by: title.asc
+      any:
+        episode_title:
+          - "christmas"
+          - "santa"
+        all:
+          episode_title:
+            - "holiday"
+          title.not:
+            - "Stargate"
+            - "trek"
+    sync_mode: append #(2!)
+    schedule: range(11/25-01/07)
+    delete_not_scheduled: true
+    file_poster: /assets/collections/tv/coll-christmas.png
+    visible_home: true
+
+  Recently Added:
+    builder_level: episode
+    summary: "pssst... hey you.\n yeah you.\n\n you want some new TV? I've got what you need man"
+    smart_filter:
+      sort_by: added.desc
+      all: 
+        episode_added: 30
+    template:
+      name: show_collection
+      poster: coll-recent.png
