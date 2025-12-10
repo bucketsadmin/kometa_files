@@ -8,8 +8,25 @@ external_templates:
 
 collections:
   ## trakt lists
+  🎄A Very Special TV Christmas🎄:
+    trakt_list: 
+      - https://trakt.tv/users/candroid/lists/christmas-tv
+      - https://trakt.tv/users/bunsduo/lists/christmas-tv
+      - https://trakt.tv/users/toasterfaerie/lists/christmas-tv-specials
+      - https://trakt.tv/users/arthirak/lists/christmas-specials
+      - https://trakt.tv/users/somedude69/lists/wikipedia-christmas-episodes-sitcoms-32939629
+      - https://trakt.tv/users/somedude69/lists/wikipedia-christmas-episodes-drama
+    builder_level: episode
+    sort_title: "!032_A Very Special TV Christmas"
+    collection_order: release
+    sync_mode: sync
+    summary: "Christmas time is here...\nWell... at least on TV \nLook at all these danged Christmas episodes!"
+    schedule: range(11/01-12/31)
+    visible_home: range(11/01-12/31)
+    visible_shared: range(11/01-12/31)
+    file_poster: /assets/collections/tv/coll-christmas.png
+    delete_not_scheduled: true
 
-  
   ### Marvel Collections
   "Marvel Cinematic Universe":
     sync_mode: sync
