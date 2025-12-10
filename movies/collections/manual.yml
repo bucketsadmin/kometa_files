@@ -1,0 +1,217 @@
+#############################################################################
+#####
+##### Static collections
+#####
+#############################################################################
+external_templates:
+  - repo: movies/templates/movie_collections
+
+collections:
+  "Batman Collection":
+    plex_search:
+      any:
+        title:
+          - "Batman"
+          - "The Dark Knight"
+    summary: "Batman, one of DC Comics' most iconic superheroes, is known for his dark and brooding persona as the Caped Crusader of Gotham City. Created by Bob Kane and Bill Finger, Batman made his first comic book appearance in 1939. Unlike other superheroes, Batman has no superhuman powers; instead, he relies on his intellect, physical prowess, detective skills, and advanced technology to fight crime.\nIn 1966, the character of Batman was brought to the big screen in the campy and colorful \"Batman: The Movie,\" starring Adam West as Batman and Burt Ward as Robin. This movie set the tone for a series of Batman films that would explore different aspects of the character over the years. From the darker, more gothic interpretations seen in Tim Burton's films to the gritty realism of Christopher Nolan's \"The Dark Knight\" trilogy, Batman has been portrayed in various ways on screen.\nThroughout the Batman movies, audiences have been captivated by the complex nature of Batman/Bruce Wayne, his moral code, his rogues' gallery of villains, and his unwavering dedication to justice. Whether portrayed as a brooding avenger or a symbol of hope, Batman continues to be a beloved and enduring figure in popular culture, leaving a lasting impact on fans of all ages."
+    template:
+      name: Collection
+      poster: coll-batman
+
+  "Blomkamp3":
+    summary: "WELCOME TO THE WORLD OF NEILL BLOMKAMP...\n...a world unlike any other. Blomkamp's first three'films tell the story of a filmmaker who sees the world differently and as the audience we too are invited to look through his eyes.\nBorn and raised in Johannesburg, South Africa, Neill Blomkamp quickly saw success as an animator and then award winning commercial director. No doubt Blomkamp's visions are a product of his journey as an artist and a man. His films seamlessly blend a trained hand in visual effects with an acute awareness for humanity and its struggles.\nIn District 9, Elysium and Chappie, Mr. Blomkamp has proven he is the true definition of an auteur. Each film stands.on its own, distinct of story and vision, but all of the films are stamped with his unique mark. The special blend of politicized science fiction with stark visual effects make it impossible to mistake them for any other filmmaker's work."
+    plex_search:
+      any:
+        title.is:
+          - "Chappie"
+          - "District 9"
+          - "Elysium"
+    template:
+      name: Collection
+      poster: coll-blomkamp
+
+  "Cloverfield Collection":
+    summary: "Dive deep into the mysterious Cloverfield universe from producer J.J. Abrams – now in one thrilling 3-Movie Collection!\nCloverfield - Five young New Yorkers throw their friend a going-away party the night that a monster the size of a skyscraper descends upon the city. Told from the point of view of their video camera, the film documents their attempt to survive the most surreal, horrifying event of their lives.\n10 Cloverfield Lane - Outside is dangerous…inside is terrifying in the heart-pounding new thriller from producer J.J. Abrams. After a catastrophic car crash, a young woman (Mary Elizabeth Winstead) wakes up in a survivalist’s (John Goodman) underground bunker. He claims to have saved her from an apocalyptic attack that has left the outside world uninhabitable. But, as his increasingly suspicious actions lead her to question his motives, she’ll have to escape in order to discover the truth.The Cloverfield Paradox - Producer J.J. Abrams takes you deeper into the Cloverfield universe than ever before with this mysterious sci-fi thriller. Orbiting Earth on the brink of a devastating energy war, scientists prepare to test a device that could provide unlimited power… or trap them in a terrifying alternate reality. Starring Gugu Mbatha-Raw, David Oyelowo, Daniel Brühl and Chris O’Dowd, The Cloverfield Paradox is the ultimate journey into the unknown."
+    plex_search:
+      any:
+        title:
+          - "Cloverfield"
+    template:
+      name: Collection
+      poster: coll-cloverfield
+
+  "Fan Edits":
+    summary: "Get Ready for the Ultimate Film Experience: Fan Edits Imagine\n\nyour favorite movie, remastered with new cuts, scores, and visual effects that will blow your mind. The \"Fan Edits\" collection is here, featuring reimagined versions of the most iconic films in history.     \nEach edit has been carefully crafted by a talented fan editor who's poured their heart and soul into creating something truly unique. With stunning visuals, pulse-pounding soundtracks, and fresh perspectives on beloved stories, these movies are guaranteed to captivate and inspire."
+    plex_search:
+      any:
+        title:
+          - "The Sacred Timeline Cut PART"
+          - "The Hobbit: Extended Edition"
+    template:
+      name: Collection
+      poster: coll-fans
+
+  "The Lego Movie Collection":
+    summary: "The Lego Movie: The first full-length theatrical LEGO movie follows Emmet an ordinary, rules-following, LEGO minifigure who is mistakenly identified as the most extraordinary person (the MasterBuilder) and the key to saving his LEGO world; The Lego Movie 2: The Second Part is the sequel to the box office phenomenon that started it all. It reunites the heroes of Bricksburg in an all new action-packed adventure to save their beloved city; The LEGO Batman Movie: In the irreverent spirit of fun that made The LEGO® Movie a worldwide phenomenon, the self-described leading man of that ensemble - LEGO Batman (Will Arnett) - stars in his own big-screen adventure"
+    collection_order: custom
+    plex_search:
+      any:
+        title.is:
+          - "The Lego Movie"
+          - "The Lego Movie 2: The Second Part"
+          - "The Lego Batman Movie"
+    template:
+      name: Collection
+      poster: coll-lego
+
+  "The Mel Brooks Collection":
+    collection_order: release
+    summary: "\"Enjoy! Revel! Live!\" as Mel says…and \"have yourselves one sweetheart of a good time.\"\nPresenting nine hugely popular films from one of cinema's most celebrated, prolific and funniest filmmakers, Mel Brooks! The undisputed king of hilariously quotable films, Mel has delivered hit after hit after hit, each one as memorable as the next. This nine-disc Blu-rayTM collection includes some of the most sidesplitting, gut-busting, guffaw-inducing films ever made. It really is \"good to be the king!\""
+    plex_search:
+      any:
+        writer:
+          - "Mel Brooks"
+        director:
+          - "Mel Brooks"
+        producer:
+          - "Mel Brooks"
+    template:
+      name: Collection
+      poster: coll-mel-brooks
+
+  "Middle Earth Collection":
+    plex_search:
+      any:
+        title:
+          - "Hobbit"
+          - "The Lord of the Rings"
+    summary: "Experience director Peter Jackson’s Middle-earth trilogies from beginning to end."
+    template:
+      name: Collection
+      poster: coll-middle-earth
+
+  "Monty Python Collection":
+    summary: Monty Python (also collectively known as the Pythons) were a British surreal comedy troupe who created the sketch comedy television show Monty Python's Flying Circus, which first aired on the BBC in 1969. Forty-five episodes were made over four series. The Python phenomenon developed from the television series into something larger in scope and influence, including touring stage shows, films, albums, books and musicals. The Pythons' influence on comedy has been compared to the Beatles' influence on music. Regarded as an enduring icon of 1970s pop culture, their sketch show has been referred to as being "an important moment in the evolution of television comedy".
+    plex_search:
+      any:
+        title:
+          - "Monty Python"
+        title.is:
+          - "Life of Brian"
+    template:
+      name: Collection
+      poster: coll-python
+
+  "The Muppets Collection":
+    summary: "It's time to play the music\nIt's time to light the lights\nIt's time to meet the Muppets on the Muppet Show tonight!"
+    plex_search:
+      any:
+        title:
+          - "Muppet"
+    template:
+      name: Collection
+      poster: coll-muppets
+
+  "Musicals":
+    summary: "5, 6, 7, 8... get swept into a world of spontaneous choreographed song and dance. A world where everyone knows the lyrics and no one sings out of tune (well mostly).\nEnter the land of the movie musical where your dream of sining in the chorus line can come true."
+    plex_search:
+      all:
+        genre:
+          - "Musical"
+        all:
+          title.not:
+            - "The Star Wars Holiday Special"
+            - "Robin Hood: Men in Tights"
+            - "The Meaning of Life"
+            - "History of the World: Part I"
+            - "The Lego Movie 2: The Second Part"
+    template:
+      name: Collection
+      poster: coll-musicals
+
+  "Power Rangers Collection":
+    plex_search:
+      any:
+        title:
+          - "Power Rangers"
+    template:
+      name: Collection
+      poster: coll-power-rangers
+
+  "Marvel: The Sacred Timeline Cut":
+    collection_order: custom
+    sort_title: Marvel Sacred Timeline Cut
+    summary: "\"It was never just a heist!\" Time for something truly epic. You've heard of Marvel marathons, you've heard of supercuts, but what if you took every MCU movie to date and put them together into one extraordinarily epic supercut?\nYes. Someone did this.\nA Reddit user called \"pizzabryon\" has put together and illegally fan-released this supercut which he has dubbed simply The Infinity Saga.\nAnother fan already tried to edit everything together in what is known as \"The Sacred Timeline Cut\" (a reference to \"Loki\" and the timeline with all the MCU events), but this one is slightly different. The Infinity Saga takes \"every MCU movie from Iron Man to Endgame\" (23 in total) and has re-edited everything into chronological scene order. Meaning, whatever year that scene took place, has been put into order that way..."
+    plex_search:
+      any:
+        title.is:
+          - "The Sacred Timeline Cut PART 1"
+          - "The Sacred Timeline Cut PART 2"
+          - "The Sacred Timeline Cut PART 3"
+          - "The Sacred Timeline Cut PART 4"
+          - "The Sacred Timeline Cut PART 5"
+    template:
+      name: Collection
+      poster: coll-sacred-timeline
+
+  "Stargate Collection":
+    summary: "The continuing missions of SG1 and friends as they explore the galaxy using ancient technologies and alien hardware."
+    plex_search:
+      any:
+        title:
+          - "Stargate"
+    template:
+      name: Collection
+      poster: coll-stargate
+
+  "Superman Collection":
+    summary: "Faster than a speeding bullet, more powerful than a locomotive… The Man of Steel fights a never-ending battle for truth, justice and a better tomorrow."
+    plex_search:
+      any:
+        title:
+          - "Superman"
+    template:
+      name: Collection
+      poster: coll-superman
+
+  "Teenage Mutant Ninja Turtles Collection":
+    summary: "Teenage Mutant Ninja Turtles\nTeenage Mutant Ninja Turtles\nTeenage Mutant Ninja Turtles\nHeroes in a half-shell\nTurtle power"
+    plex_search:
+      any:
+        title:
+          - "Teenage Mutant Ninja Turtles"
+    template:
+      name: Collection
+      poster: coll-tmnt
+
+  "Three Flavours Cornetto Trilogy":
+    summary: "Edgar Wright's \"Three Flavours Cornetto\" trilogy is called that because each film features a different flavor of Cornetto ice cream, but there's a bit more to it than that.\n\nEach film, written by Wright and star Simon Pegg, is also a different flavor of genre movie, playing with the tropes of genre cinema while still maintaining a lot in common (just like the ice cream treats)."
+    plex_search:
+      any:
+        title.is:
+          - "Shaun of the Dead"
+          - "Hot Fuzz"
+          - "The World's End"
+    template:
+      name: Collection
+      poster: coll-cornetto
+
+  "Walt Disney":
+    plex_search:
+      studio:
+        - "Walt Disney"
+    template:
+      name: Collection
+      poster: coll-disney
+
+  # Spider-Man Universe
+  "Spider-Man Universe":
+    sort_title: Spider-Man_001
+    summary: "Spider-Man, Spider-Man, \nDoes whatever a spider can\nSpins a web, any size,\nCatches thieves just like flies\nLook Out!\nHere comes the Spider-Man."
+    plex_search:
+      any:
+        title:
+          - "Spider-Man"
+    template:
+      name: Collection
+      poster: coll-spider-man-universe

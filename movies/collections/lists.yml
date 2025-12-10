@@ -1,8 +1,13 @@
+#############################################################################
+#####
+##### External list collections
+#####
+#############################################################################
 external_templates:
   - repo: movies/templates/movie_collections
 
 collections:
-  ################# TMDB collections
+  ## TMDB collections
   "Airplane Collection":
     template:
       name: tmdb_collection
@@ -208,7 +213,7 @@ collections:
       tmdb: 63043
       poster: coll-tron
 
-  ################# TMDB lists
+  ### TMDB lists
   "Black & White Movies":
     summary: "Life used to be a bit more Black & White in my day."
     tmdb_list:
@@ -225,14 +230,14 @@ collections:
       name: Collection
       poster: coll-disaster
 
-  ################# TMDB companies
+  ### TMDB companies
   "Pixar":
     tmdb_company: 3
     template:
       name: Collection
       poster: coll-pixar
 
-  ################# TMDB keywords
+  ### TMDB keywords
   "Marvel Cinematic Universe":
     tmdb_keyword: 180547
     summary: "The Marvel Cinematic Universe (MCU) is vast, incredibly varied, and richly complex, with different worlds, different timelines, and countless characters."
@@ -240,8 +245,8 @@ collections:
       name: Collection
       poster: coll-mcu
 
-  ################# Trakt lists
-  # Marvel Collections
+  ## Trakt lists
+  ### Marvel Collections
   "Marvel: The Infinity Saga":
     collection_order: release
     #summary:
@@ -304,7 +309,7 @@ collections:
       name: Collection
       poster: coll-phase-05
 
-  # Star Trek Collections
+  ### Star Trek Collections
   "Star Trek Collection":
     summary: "Space: the final frontier. These are the voyages of the starship Enterprise. Its' continuing mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no one has gone before."
     trakt_list:
@@ -321,8 +326,6 @@ collections:
       name: Collection
       poster: coll-star-wars
 
-  ################# Custom Collections
-
   #Special Collections
   "🎄Christmas 🎄":
     trakt_list: https://trakt.tv/users/k0meta/lists/christmas-extravaganza-non-tv-movie
@@ -335,6 +338,8 @@ collections:
     template:
       name: collection_no_schedule
       poster: coll-christmas
+
+  ## Custom Collections
 
   "📀Physical Media":
     summary: "Here you will find media that I have physical copies of in my home.\n\nA Collection for Movies that I have physical copies of. Whether Blu-Ray or DVD, these discs give me permanent access to always share these movies.\n\nSo view this collection as my way of \"sharing\" my physical copy with you, over the internet."
