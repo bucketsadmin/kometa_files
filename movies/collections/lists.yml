@@ -304,10 +304,19 @@ collections:
     sort_title: Marvel_MCU Phase 5
     summary: 'Phase Five of the Marvel Cinematic Universe (MCU) is a group of American superhero films and television series produced by Marvel Studios based on characters that appear in publications by Marvel Comics. Phase Five features all of the Marvel Studios productions set to be released starting from 2023 to mid-2025, with Walt Disney Studios Motion Pictures distributing the films, while the series release on Disney+. Starting with Agatha All Along in late 2024, live-action series were released under Marvel Studios'' "Marvel Television" label, while animation in the phase was produced by Marvel Studios Animation. The first film in the phase is Ant-Man and the Wasp: Quantumania, which was released in February 2023, while the first series in the phase, Secret Invasion, premiered in June 2023. The release schedule of Phase Five was changed several times due to the 2023 Hollywood labor disputes. Kevin Feige produces every film and serves as executive producer of every series in this phase, alongside producers Stephen Broussard for Quantumania; Lauren Shuler Donner, Ryan Reynolds, and Shawn Levy for Deadpool & Wolverine; and Nate Moore for Captain America: Brave New World.'
     trakt_list:
-      - https://trakt.tv/users/ale-spatti06/lists/mcu-s-phase-5
+      - https://trakt.tv/users/defqonforce/lists/marvel-phase-5
     template:
       name: Collection
       poster: coll-phase-05
+
+  "MCU Phase 6":
+    sort_title: Marvel_MCU Phase 6
+    summary: 'Phase Six of the Marvel Cinematic Universe (MCU)'
+    trakt_list:
+      - https://trakt.tv/users/defqonforce/lists/marvel-phase-6
+    template:
+      name: Collection
+      poster: coll-phase-06
 
   ### Star Trek Collections
   "Star Trek Collection":
