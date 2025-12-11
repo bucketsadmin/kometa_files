@@ -8,9 +8,6 @@ templates:
     sync_mode: sync
     collection_order: release
     name_mapping: <<poster>>
-    #    schedule:
-    #      - weekly(tuesday)
-    #      - weekly(friday)
     visible_library: true
     visible_shared: true
     visible_home: false
@@ -26,9 +23,6 @@ templates:
     sync_mode: sync
     collection_order: release
     name_mapping: <<poster>>
-    #    schedule:
-    #      - weekly(tuesday)
-    #      - weekly(friday)
     visible_library: true
     visible_shared: true
     visible_home: false
