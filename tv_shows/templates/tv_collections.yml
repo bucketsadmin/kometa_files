@@ -1,6 +1,18 @@
 templates:
   # Collection Templates
   # -----------------------------
+  Collection:
+    default:
+      level: ""
+      sort_title_name: <<collection_name>>
+    sync_mode: sync
+    collection_order: release
+    name_mapping: <<poster>>
+    visible_library: true
+    visible_shared: true
+    visible_home: false
+    delete_not_scheduled: false
+
   show_collection:
     default:
       level: ""
