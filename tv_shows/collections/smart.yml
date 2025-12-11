@@ -176,12 +176,12 @@ collections:
       any:
         title.is:
           - "Police Squad!"
-          - "Danger 5"
-          - "Flight of the Conchords"
           - "Garth Marenghi's Darkplace"
           - "Yu-Gi-Oh!: The Abridged Series"
-          - "Portlandia"
+          - "Flight of the Conchords"
           - "The Middleman (2008)"
+          - "Portlandia"
+          - "Danger 5"
     template:
       name: show_collection
       poster: coll-weird.jpg
