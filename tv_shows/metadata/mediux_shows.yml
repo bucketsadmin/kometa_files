@@ -3456,6 +3456,20 @@ metadata:
             url_poster: https://api.mediux.pro/assets/57359d30-90b3-403a-916a-49a53d9efd15a
 
   ####### Marvel #######
+  443358: # TVDB id for Eyes of Wakanda. Set by simpleporcelain on MediUX. https://mediux.pro/sets/37321
+    url_background: https://api.mediux.pro/assets/501c2640-4a50-4b95-bf5d-7650ff317a50
+    seasons:
+      1:
+        episodes:
+          1:
+            url_poster: https://api.mediux.pro/assets/7a8f743c-f0e7-445e-8d8d-1790b7f5bec9
+          2:
+            url_poster: https://api.mediux.pro/assets/35afb5ed-bc2d-49b3-be2a-7ab3f3828d15
+          3:
+            url_poster: https://api.mediux.pro/assets/e0fca4d7-ad11-4422-9d06-2ac138ef7d32
+          4:
+            url_poster: https://api.mediux.pro/assets/c7cdc5b2-e2d7-4f62-81ac-4c7fad2f8f26
+
   412428: # TVDB id for Marvel Zombies. Set by BigDOOKY on MediUX. https://mediux.pro/sets/37498
     url_poster: https://api.mediux.pro/assets/08dc1eac-b0be-4acc-a022-4868d45b5d7f
     url_background: https://api.mediux.pro/assets/22efb4bd-2e73-4b88-9847-f65de8d6afc3
