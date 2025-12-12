@@ -17,6 +17,9 @@ metadata:
   617126: # The Fantastic 4: First Steps (2025) Poster by tallinex on MediUX. https://mediux.pro/sets/35407
     url_background: https://api.mediux.pro/assets/c68bb5f9-8e7a-47ae-b2e6-f57910d54802
 
+  661374: # Glass Onion: A Knives Out Mystery (2022) Poster by RuviLev on MediUX. https://mediux.pro/sets/10241
+    url_poster: https://api.mediux.pro/assets/c380e9c1-7b22-4430-b74b-8871314615c4
+
   245891: # John Wick (2014) Poster by willtong93 on MediUX. https://mediux.pro/sets/24959
     url_poster: https://api.mediux.pro/assets/7d7e3ca8-a252-47a9-b224-6e80895c5fa9
 
@@ -29,5 +32,11 @@ metadata:
   603692: # John Wick: Chapter 4 (2023) Poster by willtong93 on MediUX. https://mediux.pro/sets/24959
     url_poster: https://api.mediux.pro/assets/fd44e22f-a11a-4d86-9e2d-b1f991b33c7a
 
+  546554: # Knives Out (2019) Poster by RuviLev on MediUX. https://mediux.pro/sets/10241
+    url_poster: https://api.mediux.pro/assets/cf65abb9-d475-485c-a599-e9eab6c81625
+
   324849: # The Lego Batman Movie (2017) Poster by RuviLev on MediUX. https://mediux.pro/sets/12328
     url_poster: https://api.mediux.pro/assets/c28a71be-9a34-46c8-8c9e-5958be90c7d8
+
+  812583: # Wake Up Dead Man: A Knives Out Mystery (2025) Poster by willtong93 on MediUX. https://mediux.pro/sets/26484
+    url_poster: https://api.mediux.pro/assets/cbb7dde6-6c60-40f6-a44d-02bdff447050
