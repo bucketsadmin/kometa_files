@@ -2629,6 +2629,21 @@ metadata:
             url_poster: https://api.mediux.pro/assets/ce10135c-e462-4faa-969f-de261d0c6fe7
           23:
             url_poster: https://api.mediux.pro/assets/9bd75b0f-27a9-462c-b044-d4e4641cf7a0
+  81848: # TVDB id for Phineas and Ferb. Set by MiniZaki on MediUX. https://mediux.pro/sets/34211
+    url_poster: https://api.mediux.pro/assets/17037b0f-6a5e-45d1-b11d-850487d0dc4f
+    seasons:
+      0:
+        url_poster: https://api.mediux.pro/assets/c309d89d-7d71-483d-931f-dfac5258e28a
+      1:
+        url_poster: https://api.mediux.pro/assets/a48ce857-6e2d-4e5a-a695-3c9b328a5abb
+      2:
+        url_poster: https://api.mediux.pro/assets/8cad03fd-5713-4035-a962-9167a85e3ed4
+      3:
+        url_poster: https://api.mediux.pro/assets/cfa89a5b-59e9-4b92-8495-2af9ceb0cfec
+      4:
+        url_poster: https://api.mediux.pro/assets/cb413650-5765-4e48-a56d-2fc244da9492
+      5:
+        url_poster: https://api.mediux.pro/assets/a43183a4-8fdb-4042-b65c-87cd92112de4
   328487: # TVDB id for The Orville. Set by valexv on MediUX. https://mediux.pro/sets/21192
     #    url_poster: https://api.mediux.pro/assets/c3a63cdd-fb5a-4bc4-9a4d-61f95b5a681f
     url_background: https://api.mediux.pro/assets/8b121cb6-9d51-417b-9c4e-ec50b7d5f717
