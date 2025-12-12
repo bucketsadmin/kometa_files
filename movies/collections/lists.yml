@@ -123,6 +123,12 @@ collections:
       tmdb: 328
       poster: coll-jurassic
 
+  "Knives Out Collection":
+    template:
+      name: tmdb_collection
+      tmdb: 722971
+      poster: coll-knives
+
   "The Lord of the Rings Collection":
     template:
       name: tmdb_collection
