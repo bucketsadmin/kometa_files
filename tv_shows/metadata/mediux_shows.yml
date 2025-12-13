@@ -3460,6 +3460,7 @@ metadata:
     url_background: https://api.mediux.pro/assets/501c2640-4a50-4b95-bf5d-7650ff317a50
     seasons:
       1:
+        url_background: https://api.mediux.pro/assets/501c2640-4a50-4b95-bf5d-7650ff317a50
         episodes:
           1:
             url_poster: https://api.mediux.pro/assets/7a8f743c-f0e7-445e-8d8d-1790b7f5bec9
