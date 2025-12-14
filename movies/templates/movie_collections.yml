@@ -28,6 +28,20 @@ templates:
     visible_home: false
     delete_not_scheduled: false
 
+  tmdb_director:
+    default:
+      level: ""
+      sort_title_name: <<collection_name>>
+    tmdb_director: <<tmdb>>
+    tmdb_director_details: <<tmdb>>
+    sync_mode: sync
+    collection_order: release
+    name_mapping: <<poster>>
+    visible_library: true
+    visible_shared: true
+    visible_home: false
+    delete_not_scheduled: false
+
   smart_collection:
     default:
       level: ""
