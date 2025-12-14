@@ -82,3 +82,10 @@ collections:
     template:
       name: show_collection
       poster: coll-default.png
+
+  ### TMDB Directors
+  Ken Burns:
+    template:
+      name: tmdb_director
+      tmdb: 204484
+      poster: coll-ken-burns

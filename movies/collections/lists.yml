@@ -243,6 +243,13 @@ collections:
       name: Collection
       poster: coll-pixar
 
+  ### TMDB Directors
+  Ken Burns:
+    template:
+      name: tmdb_director
+      tmdb: 204484
+      poster: coll-ken-burns
+
   ### TMDB keywords
   "Marvel Cinematic Universe":
     tmdb_keyword: 180547
