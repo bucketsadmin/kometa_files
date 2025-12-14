@@ -83,7 +83,8 @@ templates:
           - "Yu-Gi-Oh!: The Abridged Series"
           - "Red vs. Blue"
     sort_title: 080_+<<level>>_<<starting>>
-    file_poster: /assets/collections/tv/coll-<<starting>>.png
+#    file_poster: /assets/collections/tv/coll-<<starting>>.png
+    name_mapping: coll-<<starting>>
     visible_library: true
     visible_shared: true
     visible_home: false
