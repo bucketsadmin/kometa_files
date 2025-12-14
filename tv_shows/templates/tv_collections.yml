@@ -79,9 +79,6 @@ templates:
       all:
         episode_air_date.after: 01/01/<<key_name>>
         episode_air_date.before: 12/31/<<ending>>
-        title.not:
-          - "Yu-Gi-Oh!: The Abridged Series"
-          - "Red vs. Blue"
     sort_title: 080_+<<level>>_<<starting>>
 #    file_poster: /assets/collections/tv/coll-<<starting>>.png
     name_mapping: coll-<<starting>>
