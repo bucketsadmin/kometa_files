@@ -54,3 +54,20 @@ collections:
       any:
         title:
           - "Stargate"
+
+  "Weird Shows":
+    summary: "There's just something a little off about these shows"
+    plex_search:
+      sort_by: title.asc
+      any:
+        title.is:
+          - "Police Squad!"
+          - "Garth Marenghi's Darkplace"
+          - "Yu-Gi-Oh!: The Abridged Series"
+          - "Flight of the Conchords"
+          - "The Middleman (2008)"
+          - "Portlandia"
+          - "Danger 5"
+    template:
+      name: Collection
+      poster: coll-weird
