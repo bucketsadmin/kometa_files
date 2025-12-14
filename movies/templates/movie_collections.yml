@@ -99,7 +99,7 @@ templates:
     default:
       level: ""
     smart_filter:
-      sort_by: audience_rating.desc
+      sort_by: release.asc
       all:
         year.gte: <<key_name>>
         year.lte: <<ending>>
