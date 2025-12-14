@@ -83,6 +83,14 @@ collections:
       name: show_collection
       poster: coll-default.png
 
+  "Weird Shows":
+    summary: "There's just something a little off about these shows"
+    tmdb_list:
+      - https://www.themoviedb.org/list/8539896-weird-shows
+    template:
+      name: Collection
+      poster: coll-weird
+
   ### TMDB Directors
   Ken Burns:
     template:
