@@ -1,7 +1,7 @@
 overlays:
   physical:
-  name: physical_media
-  file: /assets/overlays/blu-ray.png
-  plex_search:
-    collection.is:
-      - "📀Physical Media"
+    name: physical_media
+    file: /assets/overlays/blu-ray.png
+    plex_search:
+      collection.is:
+        - "📀Physical Media"
