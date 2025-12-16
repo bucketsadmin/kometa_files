@@ -372,6 +372,9 @@ collections:
     summary: "shhhhhh.... it's a secret"
     tmdb_list: https://www.themoviedb.org/list/8578249-dvd-collection
     collection_mode: hidden
+    visible_library: false
+    visible_shared: false
+    visible_home: false
     smart_label:
       sort_by: title.asc
       all:
