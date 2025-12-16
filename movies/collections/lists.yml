@@ -361,7 +361,7 @@ collections:
     tmdb_list: https://www.themoviedb.org/list/8539683-physical-media
     sort_title: "__+Physical Media"
     smart_label:
-      sort_by: release.desc
+      sort_by: title.asc
       all:
         label: <<smart_label>>
     template:
