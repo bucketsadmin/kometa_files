@@ -371,7 +371,7 @@ collections:
   "Physical DVD":
     summary: "shhhhhh.... it's a secret"
     tmdb_list: https://www.themoviedb.org/list/8578249-dvd-collection
-    collection_mode: hidden
+    collection_mode: hide
     visible_library: false
     visible_shared: false
     visible_home: false
