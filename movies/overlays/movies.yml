@@ -5,5 +5,5 @@ overlays:
       file: /assets/overlays/blu-ray.png
     plex_search:
       all:
-        label.is:
+        label:
           - "📀Physical Media"
