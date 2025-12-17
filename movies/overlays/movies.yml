@@ -3,7 +3,12 @@ overlays:
     overlay:
       name: physical_media
       file: /assets/overlays/blu-ray.png
-    plex_search:
-      all:
-        label:
-          - "📀Physical Media"
+    tmdb_list:
+      - https://www.themoviedb.org/list/8539683-blu-ray-collection
+
+  dvd_overlay:
+    overlay:
+      name: dvd_collection
+      file: /assets/overlays/dvd.png
+    tmdb_list:
+      - https://www.themoviedb.org/list/8578249-dvd-collection
