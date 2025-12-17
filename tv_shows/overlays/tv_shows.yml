@@ -7,3 +7,9 @@ overlays:
       all:
         label:
           - "📀Physical Media"
+
+  DVD:
+    overlay:
+      name: DVD
+    tmdb_list:
+      - https://www.themoviedb.org/list/8578249-dvd-collection
