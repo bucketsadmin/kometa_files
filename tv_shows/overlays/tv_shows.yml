@@ -11,5 +11,6 @@ overlays:
   DVD:
     overlay:
       name: DVD
+      file: /assets/overlays/dvd.png
     tmdb_list:
       - https://www.themoviedb.org/list/8578249-dvd-collection
