@@ -73,7 +73,8 @@ collections:
   "📀Physical Media":
     summary: "Here you will find media that I have physical copies of in my home.\n\nA Collection for TV Shows that I have physical copies of. Whether Blu-Ray or DVD, gives me permanent access to always share these shows.\n\nSo view this collection as my way of \"sharing\" my physical copy with you, over the internet."
     tmdb_list:
-      - https://www.themoviedb.org/list/8539683-physical-media
+      - https://www.themoviedb.org/list/8539683-blu-ray-collection
+      - https://www.themoviedb.org/list/8578249-dvd-collection
     sort_title: "__+Physical Media"
     smart_label:
       sort_by: release.desc
