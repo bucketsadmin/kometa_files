@@ -3135,7 +3135,6 @@ metadata:
             url_poster: https://api.mediux.pro/assets/d8c19118-58ae-4e15-8147-38f151afca82
           7:
             url_poster: https://api.mediux.pro/assets/3dbfee78-198d-458a-b43b-b3efc643a920
-
   302938: # TVDB id for Letterkenny. Set by Pejamas on MediUX. https://mediux.pro/sets/2471
     url_poster: https://api.mediux.pro/assets/cfd6748c-683a-467a-9c9e-a0a48afe2b4a
     seasons:
@@ -3340,7 +3339,6 @@ metadata:
             url_poster: https://api.mediux.pro/assets/f730b42c-25ae-4e30-8583-72dfcc483039
           6:
             url_poster: https://api.mediux.pro/assets/8be82168-3c52-4351-ba01-e7402c34c962
-
   295829: # TVDB id for The Man in the High Castle. Set by bugtivugti on MediUX. https://mediux.pro/sets/22533
     url_background: https://api.mediux.pro/assets/29c67ab2-d7af-419e-b519-b43807ce000d
     seasons:
