@@ -8,6 +8,12 @@ external_templates:
 
 collections:
   ## TMDB collections
+  Anchorman Collection:
+    template:
+      name: tmdb_collection
+      tmdb: 93791
+      poster: coll-anchorman
+
   "Airplane Collection":
     template:
       name: tmdb_collection
