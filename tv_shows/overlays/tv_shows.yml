@@ -1,14 +1,14 @@
 overlays:
-  physical:
-    overlay:
-      name: physical_media
-      file: /assets/overlays/blu-ray.png
-    tmdb_list:
-      - https://www.themoviedb.org/list/8539683-blu-ray-collection
-
   dvd_overlay:
     overlay:
       name: dvd_collection
       file: /assets/overlays/dvd.png
     tmdb_list:
       - https://www.themoviedb.org/list/8578249-dvd-collection
+
+  physical:
+    overlay:
+      name: physical_media
+      file: /assets/overlays/blu-ray.png
+    tmdb_list:
+      - https://www.themoviedb.org/list/8539683-blu-ray-collection
