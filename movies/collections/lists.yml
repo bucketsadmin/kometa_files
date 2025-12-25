@@ -360,6 +360,19 @@ collections:
       name: collection_no_schedule
       poster: coll-christmas
 
+  #Special Collections
+  "🎄A Rankin and Bass Christmas":
+    tmdb_list:
+      - https://www.themoviedb.org/list/8580123-the-complete-rankin-bass-christmas-collection
+    sync_mode: append #(2!)
+#    collection_order: custom
+    schedule: range(11/25-01/07)
+    delete_not_scheduled: true
+    sort_title: "__++Christmas"
+    template:
+      name: collection_no_schedule
+      poster: coll-rankin
+
   ## Custom Collections
 
   "📀Physical Media":
