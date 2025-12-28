@@ -4790,6 +4790,7 @@ metadata:
             url_poster: https://api.mediux.pro/assets/57359d30-90b3-403a-916a-49a53d9efd15a
   307899: # TVDB id for Voltron: Legendary Defender. Set by noonehere on MediUX. https://mediux.pro/sets/41630
     seasons:
+      1:
         episodes:
           1:
             url_poster: https://api.mediux.pro/assets/609b9c29-4cff-4f6d-b534-cadd9e7c8c0d
@@ -4813,6 +4814,7 @@ metadata:
             url_poster: https://api.mediux.pro/assets/371e7d7d-291c-484b-ae13-24bc4dd2e64e
           11:
             url_poster: https://api.mediux.pro/assets/d4769bcf-37ba-4614-86ae-ba9d21908c5e
+      2:
         episodes:
           1:
             url_poster: https://api.mediux.pro/assets/55038e17-05bd-44c7-bea2-2753e1141bc8
@@ -4840,6 +4842,7 @@ metadata:
             url_poster: https://api.mediux.pro/assets/5bdf0eca-372a-4461-91d3-390fafa729fd
           13:
             url_poster: https://api.mediux.pro/assets/564d0bb0-8290-4149-8669-78733f7d1cc6
+      3:
         episodes:
           1:
             url_poster: https://api.mediux.pro/assets/79e197d9-f8ee-4edc-a4eb-0070ac83d95b
@@ -4853,6 +4856,7 @@ metadata:
             url_poster: https://api.mediux.pro/assets/7173fb2d-e1db-43ef-9cd8-86c71f445498
           7:
             url_poster: https://api.mediux.pro/assets/5621a338-1833-4f64-a98b-72f6ed39f03e
+      4:
         episodes:
           1:
             url_poster: https://api.mediux.pro/assets/92f1d49c-0063-476d-b2d8-f35c89bf7f90
@@ -4866,6 +4870,7 @@ metadata:
             url_poster: https://api.mediux.pro/assets/8c8f4860-f60c-4d3f-a103-66f33913b481
           6:
             url_poster: https://api.mediux.pro/assets/9821875d-1119-42e7-b900-29e52ee4e57e
+      5:
         episodes:
           1:
             url_poster: https://api.mediux.pro/assets/721624f6-6de0-454d-b7d9-5eb615d0f174
@@ -4879,6 +4884,7 @@ metadata:
             url_poster: https://api.mediux.pro/assets/a6e1e95a-308a-44fd-9b80-0935a00bcb44
           6:
             url_poster: https://api.mediux.pro/assets/ecf35118-a7b9-4fe8-9cb8-21faf9ffe616
+      6:
         episodes:
           1:
             url_poster: https://api.mediux.pro/assets/95bb7e91-7cbf-471b-9117-4514a01a9bd2
@@ -4894,6 +4900,7 @@ metadata:
             url_poster: https://api.mediux.pro/assets/36641aff-e115-4245-9ac1-59cac6955138
           7:
             url_poster: https://api.mediux.pro/assets/8f446f65-9022-4631-9c8f-6a09175119aa
+      7:
         episodes:
           1:
             url_poster: https://api.mediux.pro/assets/92e74216-aa97-4be8-9271-5a1fb07a8e8f
@@ -4921,6 +4928,7 @@ metadata:
             url_poster: https://api.mediux.pro/assets/ba0f0aae-040e-40a6-823e-8c339b704dfe
           13:
             url_poster: https://api.mediux.pro/assets/73a9e749-4a2a-4cb7-92fa-f8fc61cdc519
+      8:
         episodes:
           1:
             url_poster: https://api.mediux.pro/assets/d08597cc-4bc3-461c-a398-948ad8b8b184
