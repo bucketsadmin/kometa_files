@@ -26,7 +26,6 @@ kometa_files/
 * futurama (some)
 * warehouse 13
 * eureka
-* portlandia
 * galavant
 * danger 5
 * adam ruins everything
