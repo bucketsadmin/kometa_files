@@ -23,7 +23,6 @@ kometa_files/
 * twilight zone
 * monty python
 * the muppet show
-* futurama (some)
 * warehouse 13
 * eureka
 * galavant
