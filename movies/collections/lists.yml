@@ -225,6 +225,12 @@ collections:
       tmdb: 63043
       poster: coll-tron
 
+  "Wicked Collection":
+    template:
+      name: tmdb_collection
+      tmdb: 968080
+      poster: coll-wicked
+
   ### TMDB lists
   "Black & White Movies":
     summary: "Life used to be a bit more Black & White in my day."
