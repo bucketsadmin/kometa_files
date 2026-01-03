@@ -796,9 +796,12 @@ metadata:
             url_poster: https://api.mediux.pro/assets/c0bd8224-ae98-49e8-9bc4-2679e8649b34
           10:
             url_poster: https://api.mediux.pro/assets/318a9bdf-c61c-47a5-9f52-c14f9a0b0039
-  84021: # TVDB id for Better Off Ted. Set by turnbud on MediUX. https://mediux.pro/sets/31753
+  84021: # TVDB id for Better Off Ted. Set by turnbud on MediUX. https://mediux.pro/sets/31753 https://mediux.pro/sets/11268
+    url_poster: https://api.mediux.pro/assets/cb4a0880-2d81-4da0-aeb6-428402799baf
+    url_background: https://api.mediux.pro/assets/b1fffd28-1f3f-4f85-81b3-bba11a5ebf89
     seasons:
       1:
+        url_poster: https://api.mediux.pro/assets/741d0f0f-92aa-4256-8bc2-fdecd3e19652
         episodes:
           1:
             url_poster: https://api.mediux.pro/assets/b1fc8380-6a0c-46ec-8e70-1459cbe13e5e
@@ -827,6 +830,7 @@ metadata:
           13:
             url_poster: https://api.mediux.pro/assets/2628ce7b-05e3-4328-b0fb-065a45b03487
       2:
+        url_poster: https://api.mediux.pro/assets/d71ad1fb-a162-42da-9e74-04a6c3eecf25
         episodes:
           1:
             url_poster: https://api.mediux.pro/assets/06ad8a8f-a63e-475f-b468-6810a385693d
