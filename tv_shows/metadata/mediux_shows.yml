@@ -938,6 +938,22 @@ metadata:
             url_poster: https://api.mediux.pro/assets/fd7e7482-1cc1-4ff9-9fec-8aa5bc712f9e
           6:
             url_poster: https://api.mediux.pro/assets/000035b7-b208-431a-8b87-48f9a1d9c1c9
+  74058: # TVDB id for Boston Legal. Set by RuviLev on MediUX. https://mediux.pro/sets/14256
+    url_poster: https://api.mediux.pro/assets/9efc7eab-c9ff-46bd-ba21-d8831e082004
+    url_background: https://api.mediux.pro/assets/ba27d406-abf5-44e1-818e-f944c5d3dffa
+    seasons:
+      0:
+        url_poster: https://api.mediux.pro/assets/3e8faa54-244a-4667-91e4-e9ac180c5d34
+      1:
+        url_poster: https://api.mediux.pro/assets/67aa6214-eb3c-4ce4-b571-a774d6c24300
+      2:
+        url_poster: https://api.mediux.pro/assets/460f1f65-a79d-4cdd-8eef-cf8dc002bc50
+      3:
+        url_poster: https://api.mediux.pro/assets/be85abca-dadf-49db-a190-65cf2c949578
+      4:
+        url_poster: https://api.mediux.pro/assets/3d9ac4e9-1200-4547-be4a-17d62e9d5396
+      5:
+        url_poster: https://api.mediux.pro/assets/17f03b3f-758a-4815-9a8d-85ce6f085f42
   269586: # TVDB id for Brooklyn Nine-Nine. Set by valexv on MediUX. https://mediux.pro/sets/20720
     url_poster: https://api.mediux.pro/assets/08780f90-2fc3-426e-bb32-d5e00bbbb058
     url_background: https://api.mediux.pro/assets/95442f47-bf5e-435f-ad6c-6c08d64a5504
