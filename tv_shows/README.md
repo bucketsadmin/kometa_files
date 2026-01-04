@@ -28,7 +28,6 @@ kometa_files/
 * galavant
 * danger 5
 * adam ruins everything
-* voltron
 * justice league
 * boston legal
 * flight of the conchords
