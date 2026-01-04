@@ -31,3 +31,8 @@ kometa_files/
 * justice league
 * boston legal
 * flight of the conchords
+* phineas and ferb
+* red vs. blue
+* the G word
+* the dresden files
+* digimon - s2
