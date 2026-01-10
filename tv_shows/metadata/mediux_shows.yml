@@ -2575,6 +2575,12 @@ metadata:
         episodes:
           1:
             url_poster: https://api.mediux.pro/assets/db39c9c6-58b9-4c1e-80d8-dbda39b8a322
+          2:
+            url_poster: https://api.mediux.pro/assets/467b150b-cdd8-43f0-a814-e955f8705ed4
+          3:
+            url_poster: https://api.mediux.pro/assets/2d8814b3-c965-464f-9bf1-2a6e2e06c001
+          4:
+            url_poster: https://api.mediux.pro/assets/1a921a23-f0c4-4484-9b76-f42e47e15886
   73871: # TVDB id for Futurama. Set by r3draid3r04 on MediUX. https://mediux.pro/sets/21200
     url_background: https://api.mediux.pro/assets/51daae4a-4b3d-4763-928b-a8255e01238d
     seasons:
