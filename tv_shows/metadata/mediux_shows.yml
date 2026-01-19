@@ -6264,6 +6264,8 @@ metadata:
             url_poster: https://api.mediux.pro/assets/747a5280-ffe1-47c1-aa09-0bb82394f264
           10:
             url_poster: https://api.mediux.pro/assets/20a85434-9d1b-4871-8a14-9c679423c904
+  433120: # TVDB id for Star Trek: Starfleet Academy. Set by tallinex on MediUX. https://mediux.pro/sets/41307
+    url_background: https://api.mediux.pro/assets/8fa76470-5bf1-4df8-bd66-e0eaf8995b17
   382389: # TVDB id for Star Trek: Strange New Worlds. Set by codonzero22 on MediUX. https://mediux.pro/sets/24152
     seasons:
       0:
