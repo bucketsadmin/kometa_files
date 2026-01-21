@@ -2581,6 +2581,10 @@ metadata:
             url_poster: https://api.mediux.pro/assets/2d8814b3-c965-464f-9bf1-2a6e2e06c001
           4:
             url_poster: https://api.mediux.pro/assets/1a921a23-f0c4-4484-9b76-f42e47e15886
+          5:
+            url_poster: https://api.mediux.pro/assets/e999d6e5-eda1-4aba-9e00-6d4ba066bc48
+          6:
+            url_poster: https://api.mediux.pro/assets/eed8dd33-ce61-4d0b-9ad5-28c733578b9e
   75978: # TVDB id for Family Guy. Set by RuviLev on MediUX. https://mediux.pro/sets/12456
     url_poster: https://api.mediux.pro/assets/1439e0e1-292d-4432-aec8-0de7d9c6f092
     seasons:
