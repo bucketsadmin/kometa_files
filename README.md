@@ -37,8 +37,8 @@ Kometa config file requires the following settings to be configured for remote g
 
 ## Global settings
 
-    While you can use this repo directly, I'm not sure how much usage you can get out of a random person's config for their personal server
-    Feel free to fork this repo and modify the settings to your own desires.
+While you can use this repo directly, I'm not sure how much usage you can get out of a random person's config for their personal server
+Feel free to fork this repo and modify the settings to your own desires.
 
 ```
 settings:
