@@ -1,6 +1,8 @@
 # Kometa collection files
 Repo to hold collection based configuration for Kometa. The actual Kometa config file is kept in a private git repo that references this repo.
 
+[kometa.wiki](https://kometa.wiki)
+
 # Directory Structure
 ```
 kometa_files/
@@ -31,15 +33,16 @@ kometa_files/
 
 # Usage
 
-Kometa config file requires the following settings to be configured:
+Kometa config file requires the following settings to be configured for remote github usage:
 
 ## Global settings
+
+    While you can use this repo directly, I'm not sure how much usage you can get out of a random person's config for their personal server
+    Feel free to fork this repo and modify the settings to your own desires.
 
 ```
 settings:
     custom_repo: https://github.com/bucketsadmin/kometa_files/tree/main
-    # While you can use this repo directly, I'm not sure how much usage you can get out of a random person's config for their personal server
-    # Feel free to fork this repo and modify the settings to your own desires
 ```
 
 ## Per library settings
@@ -70,10 +73,13 @@ libraries:
 
 ## config file authorization
 
+It is recommended to use environment variables in configuration, placing the token in plain text is not a good security practice
+
 ```
 ########## Optional Connections ##########
 github:
   token: <<git_token>>
-  # it is recommended to use environment variables in configuration, placing the token in plain text is not a good security practice
 ```
 
+More information on configuring Github can be found here:
+[Kometa Wiki: github](https://kometa.wiki/en/latest/config/github/)
