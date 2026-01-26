@@ -1,8 +1,6 @@
 # Kometa collection files
 Repo to hold collection based configuration for Kometa. The actual Kometa config file is kept in a private git repo that references this repo.
 
-
-
 # Directory Structure
 ```
 kometa_files/
@@ -30,3 +28,52 @@ kometa_files/
     └── templates/
         └── tv_collections
 ```
+
+# Usage
+
+Kometa config file requires the following settings to be configured:
+
+## Global settings
+
+```
+settings:
+    custom_repo: https://github.com/bucketsadmin/kometa_files/tree/main
+    # While you can use this repo directly, I'm not sure how much usage you can get out of a random person's config for their personal server
+    # Feel free to fork this repo and modify the settings to your own desires
+```
+
+## Per library settings
+
+```
+libraries:
+  Movies:
+    collection_files:
+    - repo: movies/collections/lists
+    - repo: movies/collections/manual
+    - repo: movies/collections/smart
+    overlay_files:
+      - repo: movies/overlays/movies
+    metadata_files:
+    - repo: movies/metadata/mediux_movie
+    - repo: movies/metadata/movie_edits
+
+  TV Shows:
+    collection_files:
+    - repo: tv_shows/collections/lists
+    - repo: tv_shows/collections/manual
+    - repo: tv_shows/collections/smart
+    overlay_files:
+      - repo: tv_shows/overlays/tv_shows
+    metadata_files:
+      - repo: tv_shows/metadata/mediux_shows
+```
+
+## config file authorization
+
+```
+########## Optional Connections ##########
+github:
+  token: <<git_token>>
+  # it is recommended to use environment variables in configuration, placing the token in plain text is not a good security practice
+```
+
