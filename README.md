@@ -77,7 +77,7 @@ libraries:
 It is recommended to use environment variables in configuration, placing the token in plain text is not a good security practice
 When running a docker container, env variables can be passed to the config via docker runtime environment variables
 
-[Kometa: Run Commands & Environment Variables](https://kometa.wiki/en/latest/kometa/environmental/#docker-environment_30)
+<a href="https://kometa.wiki/en/latest/kometa/environmental/#docker-environment_30" target="_blank">Kometa: Run Commands & Environment Variables</a>
 
 ```
 ########## Optional Connections ##########
@@ -86,4 +86,4 @@ github:
 ```
 
 More information on configuring Github can be found here:
-[Kometa Wiki: github](https://kometa.wiki/en/latest/config/github/)
+<a href="https://kometa.wiki/en/latest/config/github/" target="_blank">Kometa Wiki: github</a>
