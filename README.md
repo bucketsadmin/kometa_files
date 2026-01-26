@@ -1,7 +1,9 @@
 # Kometa collection files
 Repo to hold collection based configuration for Kometa. The actual Kometa config file is kept in a private git repo that references this repo.
 
-[kometa.wiki](https://kometa.wiki)
+Feel free to fork this repo and modify the settings to your own desires.
+
+<a href="https://kometa.wiki" target="_blank">kometa.wiki</a>
 
 # Directory Structure
 ```
@@ -38,7 +40,6 @@ Kometa config file requires the following settings to be configured for remote g
 ## Global settings
 
 While you can use this repo directly, I'm not sure how much usage you can get out of a random person's config for their personal server
-Feel free to fork this repo and modify the settings to your own desires.
 
 ```
 settings:
