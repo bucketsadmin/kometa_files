@@ -6086,6 +6086,29 @@ metadata:
             url_poster: https://api.mediux.pro/assets/7e687375-2909-4be6-bc99-13604f8055ff
           4:
             url_poster: https://api.mediux.pro/assets/7cff39d7-6b81-4cfb-8bf8-6121ee64a2b5
+  428629: # TVDB id for Wonder Man. Set by AlanShore60607 on MediUX. https://mediux.pro/sets/42232
+    url_background: https://api.mediux.pro/assets/a9c5aa61-7197-402c-9091-c5990b11da03
+    seasons:
+      1:
+        episodes:
+          1:
+            url_poster: https://api.mediux.pro/assets/ad7de9f0-8dd0-4a50-a9d4-a927cf071009
+          2:
+            url_poster: https://api.mediux.pro/assets/39116d0a-36ca-4c25-a666-6dbd144e3c40
+          3:
+            url_poster: https://api.mediux.pro/assets/0119855c-5748-47ac-88c8-ad06654db2f6
+          4:
+            url_poster: https://api.mediux.pro/assets/3ea96636-4336-4daa-9977-3b6535cc8e4f
+          5:
+            url_poster: https://api.mediux.pro/assets/62a06df6-292a-42c1-a4aa-ae032db9636f
+          6:
+            url_poster: https://api.mediux.pro/assets/2c06bdba-d255-4d6e-b2b8-a5c5bb606417
+          7:
+            url_poster: https://api.mediux.pro/assets/a4a977bb-aa0d-453e-8222-e235f98b86e6
+          8:
+            url_poster: https://api.mediux.pro/assets/f8ccba58-621d-4bc6-a9b3-b8c036d65392
+
+
 
   ####### Star Trek #######
   367138: # TVDB id for Star Trek: Lower Decks. Set by pmbasehore on MediUX. https://mediux.pro/sets/486
