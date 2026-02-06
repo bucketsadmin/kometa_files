@@ -2,16 +2,16 @@ metadata:
   ##########################################################################################################
   #### Movies
   ##########################################################################################################
-  2924: # Backdraft (1991) Poster by CmdrRiker on MediUX. https://mediux.pro/sets/8400
+  2924:   # Backdraft (1991) Poster by CmdrRiker on MediUX. https://mediux.pro/sets/8400
     url_poster: https://api.mediux.pro/assets/fd0a5765-7c1b-4a9d-9836-162341178d77
 
-  105: # Back to the Future (1985) Poster by RuviLev on MediUX. https://mediux.pro/sets/8381
+  105:    # Back to the Future (1985) Poster by RuviLev on MediUX. https://mediux.pro/sets/8381
     url_poster: https://api.mediux.pro/assets/adb38dc9-9c4c-4f8c-9ca3-e17c96229e24
 
-  165: # Back to the Future Part II (1989) Poster by RuviLev on MediUX. https://mediux.pro/sets/8381
+  165:    # Back to the Future Part II (1989) Poster by RuviLev on MediUX. https://mediux.pro/sets/8381
     url_poster: https://api.mediux.pro/assets/2a8dd076-3256-4bda-9286-f1ef8b433b54
 
-  196: # Back to the Future Part III (1990) Poster by RuviLev on MediUX. https://mediux.pro/sets/8381
+  196:    # Back to the Future Part III (1990) Poster by RuviLev on MediUX. https://mediux.pro/sets/8381
     url_poster: https://api.mediux.pro/assets/be4f4aae-319e-4606-bb15-6ea0285a5321
 
   617126: # The Fantastic 4: First Steps (2025) Poster by tallinex on MediUX. https://mediux.pro/sets/35407
@@ -20,7 +20,7 @@ metadata:
   661374: # Glass Onion: A Knives Out Mystery (2022) Poster by RuviLev on MediUX. https://mediux.pro/sets/10241
     url_poster: https://api.mediux.pro/assets/c380e9c1-7b22-4430-b74b-8871314615c4
 
-  27205: # Inception (2010) Poster by Pejamas on MediUX. https://mediux.pro/sets/11285
+  27205:  # Inception (2010) Poster by Pejamas on MediUX. https://mediux.pro/sets/11285
     url_poster: https://api.mediux.pro/assets/82ea25ac-ea2c-4059-b9ff-0ffffb5550f7
 
   245891: # John Wick (2014) Poster by willtong93 on MediUX. https://mediux.pro/sets/24959
