@@ -3,7 +3,7 @@ metadata:
  ##########################################################################################################
  #### TV Shows
  ##########################################################################################################
-  79488: # TVDB id for 30 Rock. Set by Sarrius on MediUX. https://mediux.pro/sets/2611
+  79488:  # TVDB id for 30 Rock. Set by Sarrius on MediUX. https://mediux.pro/sets/2611
    seasons:
      1:
        episodes:
@@ -345,7 +345,7 @@ metadata:
             url_poster: https://api.mediux.pro/assets/b94710c9-35a6-4b47-b219-0de483272904
           12:
             url_poster: https://api.mediux.pro/assets/5bc55ea6-351f-4458-9f91-368f6c2b65bc
-  72173: # TVDB id for Arrested Development. Set by Sarrius on MediUX. https://mediux.pro/sets/2616
+  72173:  # TVDB id for Arrested Development. Set by Sarrius on MediUX. https://mediux.pro/sets/2616
     seasons:
       0:
       1:
@@ -526,7 +526,7 @@ metadata:
             url_poster: https://api.mediux.pro/assets/533bac51-86cd-4ba3-b5d5-1903522bffb9
           16:
             url_poster: https://api.mediux.pro/assets/55424572-30d7-47b2-aea5-5895a7c67881
-  73545: # TVDB id for Battlestar Galactica. Set by Koltom on MediUX. https://mediux.pro/sets/762
+  73545:  # TVDB id for Battlestar Galactica. Set by Koltom on MediUX. https://mediux.pro/sets/762
     url_background: https://api.mediux.pro/assets/0d50f2b7-25e2-41d7-a3df-7371e969ec74
     seasons:
       0:
@@ -796,7 +796,7 @@ metadata:
             url_poster: https://api.mediux.pro/assets/c0bd8224-ae98-49e8-9bc4-2679e8649b34
           10:
             url_poster: https://api.mediux.pro/assets/318a9bdf-c61c-47a5-9f52-c14f9a0b0039
-  84021: # TVDB id for Better Off Ted. Set by turnbud on MediUX. https://mediux.pro/sets/31753 https://mediux.pro/sets/11268
+  84021:  # TVDB id for Better Off Ted. Set by turnbud on MediUX. https://mediux.pro/sets/31753 https://mediux.pro/sets/11268
     url_poster: https://api.mediux.pro/assets/cb4a0880-2d81-4da0-aeb6-428402799baf
     url_background: https://api.mediux.pro/assets/b1fffd28-1f3f-4f85-81b3-bba11a5ebf89
     seasons:
@@ -942,7 +942,7 @@ metadata:
             url_poster: https://api.mediux.pro/assets/fd7e7482-1cc1-4ff9-9fec-8aa5bc712f9e
           6:
             url_poster: https://api.mediux.pro/assets/000035b7-b208-431a-8b87-48f9a1d9c1c9
-  74058: # TVDB id for Boston Legal. Set by RuviLev on MediUX. https://mediux.pro/sets/14256
+  74058:  # TVDB id for Boston Legal. Set by RuviLev on MediUX. https://mediux.pro/sets/14256
     url_poster: https://api.mediux.pro/assets/9efc7eab-c9ff-46bd-ba21-d8831e082004
     url_background: https://api.mediux.pro/assets/ba27d406-abf5-44e1-818e-f944c5d3dffa
     seasons:
@@ -1299,7 +1299,7 @@ metadata:
             url_poster: https://api.mediux.pro/assets/808e1e64-c56d-4cc9-b9bb-3b6e32283843
           9:
             url_poster: https://api.mediux.pro/assets/0102f58c-3e07-40e7-8ef0-faabf5668bbd
-  80348: # TVDB id for Chuck. Set by willtong93 on MediUX. https://mediux.pro/sets/16729
+  80348:  # TVDB id for Chuck. Set by willtong93 on MediUX. https://mediux.pro/sets/16729
     url_poster: https://api.mediux.pro/assets/eacb9b8f-fcd1-448f-8d27-7a9e9189a2c7
     url_background: https://api.mediux.pro/assets/9b3dc6b3-6cdb-4a17-993d-06c83a01fd94
     seasons:
@@ -1500,7 +1500,7 @@ metadata:
             url_poster: https://api.mediux.pro/assets/3f43bae4-e7df-4fd2-811c-860fd62d751d
           13:
             url_poster: https://api.mediux.pro/assets/792d0cc0-1eaf-48e9-93ab-977925530998
-  94571: # TVDB id for Community. Set by cuball on MediUX. https://mediux.pro/sets/32796
+  94571:  # TVDB id for Community. Set by cuball on MediUX. https://mediux.pro/sets/32796
     seasons:
       0:
         episodes:
@@ -1873,7 +1873,7 @@ metadata:
             url_poster: https://api.mediux.pro/assets/82ff2b7c-ee27-4533-a7ee-61da2c1b1fdf
           9:
             url_poster: https://api.mediux.pro/assets/0084b19d-2d10-4313-b041-22e1e44cd9a1
-  78804: # TVDB id for Doctor Who. Set by Recker_Man on MediUX. https://mediux.pro/sets/15049
+  78804:  # TVDB id for Doctor Who. Set by Recker_Man on MediUX. https://mediux.pro/sets/15049
     seasons:
       0:
         episodes:
@@ -2463,7 +2463,7 @@ metadata:
             url_poster: https://api.mediux.pro/assets/84fee1fd-982b-42c3-871e-344b9270a2ed
           6:
             url_poster: https://api.mediux.pro/assets/b66cd287-2c73-41ed-bc05-5f6ac9ef5f3d
-  82046: # TVDB id for Dollhouse. Set by r3draid3r04 on MediUX. https://mediux.pro/sets/12926
+  82046:  # TVDB id for Dollhouse. Set by r3draid3r04 on MediUX. https://mediux.pro/sets/12926
     # TVDB id for Dollhouse. Set by edmondantes32 on MediUX. https://mediux.pro/sets/19104
     url_background: https://api.mediux.pro/assets/b976cff3-8a0f-45d3-a32e-5c03b719eee4
     seasons:
@@ -2525,7 +2525,7 @@ metadata:
             url_poster: https://api.mediux.pro/assets/765fb290-3a76-4ae4-a6b7-d4b945cbd1b1
           13:
             url_poster: https://api.mediux.pro/assets/4fe02cde-a006-4c97-9367-31264bea88ea
-  79759: # TVDB id for The Dresden Files. Set by r3draid3r04 on MediUX. https://mediux.pro/sets/7847
+  79759:  # TVDB id for The Dresden Files. Set by r3draid3r04 on MediUX. https://mediux.pro/sets/7847
     url_poster: https://api.mediux.pro/assets/195c6020-0c26-453c-ae09-2abd759f2e43
     url_background: https://api.mediux.pro/assets/4e29d83e-f803-4366-827d-4820624d5322
     seasons:
@@ -2589,7 +2589,7 @@ metadata:
             url_poster: https://api.mediux.pro/assets/1656a9d7-acb1-4a26-a28b-6346a67f3172
           8:
             url_poster: https://api.mediux.pro/assets/2b38a7f9-1e43-421f-85b2-21a76bf784f4
-  73871: # TVDB id for Futurama. Set by r3draid3r04 on MediUX. https://mediux.pro/sets/21200
+  73871:  # TVDB id for Futurama. Set by r3draid3r04 on MediUX. https://mediux.pro/sets/21200
     url_background: https://api.mediux.pro/assets/51daae4a-4b3d-4763-928b-a8255e01238d
     seasons:
       0:
@@ -2943,7 +2943,7 @@ metadata:
             url_poster: https://api.mediux.pro/assets/38c81ee4-1649-4785-aa1d-5d7920d12628
           10:
             url_poster: https://api.mediux.pro/assets/c6863950-a76d-414e-b1b4-60f5ee336960
-  79554: # TVDB id for Garth Marenghi's Darkplace. Set by noonehere on MediUX. https://mediux.pro/sets/34177
+  79554:  # TVDB id for Garth Marenghi's Darkplace. Set by noonehere on MediUX. https://mediux.pro/sets/34177
     seasons:
       1:
         episodes:
@@ -2959,7 +2959,7 @@ metadata:
             url_poster: https://api.mediux.pro/assets/91393df4-e063-46b2-b165-44c38538b971
           6:
             url_poster: https://api.mediux.pro/assets/bd2b7c0f-e93b-4d28-96d2-168cd9d8bd44
-  79216: # TVDB id for The IT Crowd. Set by NakedRoboticCore on MediUX. https://mediux.pro/sets/32813
+  79216:  # TVDB id for The IT Crowd. Set by NakedRoboticCore on MediUX. https://mediux.pro/sets/32813
     # TVDB id for The IT Crowd. Set by Hikari on MediUX.
     url_poster: https://api.mediux.pro/assets/32752fac-cf24-40b8-a992-826d3f89df42
     url_background: https://api.mediux.pro/assets/2e8c4e30-8e5e-4dcc-8da3-a3ed54d6f559
@@ -3029,7 +3029,7 @@ metadata:
             url_poster: https://api.mediux.pro/assets/e633fc8c-51c5-468d-ae17-cdd12e1b9b0f
           6:
             url_poster: https://api.mediux.pro/assets/1a867cee-2b99-439a-9b1b-22806abb593b
-  79330: # TVDB id for Jericho. Set by iAMbeingSARCASTIC on MediUX. https://mediux.pro/sets/36776
+  79330:  # TVDB id for Jericho. Set by iAMbeingSARCASTIC on MediUX. https://mediux.pro/sets/36776
     seasons:
       1:
         episodes:
@@ -3392,7 +3392,7 @@ metadata:
             url_poster: https://api.mediux.pro/assets/c47c5b03-43b3-4ece-8000-3505bfd477c2
           10:
             url_poster: https://api.mediux.pro/assets/dca3a42e-d587-4c78-a10e-c744ced1ff91
-  70994: # TVDB id for M*A*S*H. Set by MrSaiclops on MediUX. https://mediux.pro/sets/22961
+  70994:  # TVDB id for M*A*S*H. Set by MrSaiclops on MediUX. https://mediux.pro/sets/22961
     seasons:
       1:
         episodes:
@@ -3918,7 +3918,7 @@ metadata:
             url_poster: https://api.mediux.pro/assets/dbe81bcc-96b5-476d-acaa-cc822a7df088
           16:
             url_poster: https://api.mediux.pro/assets/be4b34cb-f1ea-4e34-b50e-e8bb8e7cdb1b
-  82230: # TVDB id for The Middleman. Set by noonehere on MediUX. https://mediux.pro/sets/34296
+  82230:  # TVDB id for The Middleman. Set by noonehere on MediUX. https://mediux.pro/sets/34296
     seasons:
       1:
         episodes:
@@ -3946,7 +3946,7 @@ metadata:
             url_poster: https://api.mediux.pro/assets/16e924c2-8131-42ee-93a2-c5ff0d4bb3cf
           12:
             url_poster: https://api.mediux.pro/assets/a7dee04c-7697-4ec1-bc1e-27a3075b25ff
-  75853: # TVDB id for Monty Python's Flying Circus. Set by cundallini on MediUX. https://mediux.pro/sets/30274
+  75853:  # TVDB id for Monty Python's Flying Circus. Set by cundallini on MediUX. https://mediux.pro/sets/30274
     # url_poster: https://api.mediux.pro/assets/85eba34c-151e-4e36-bb6f-c9bd654ad9f2
     url_background: https://api.mediux.pro/assets/720e0d2e-6003-4f52-ac2c-3a6aef4c26af
     seasons:
@@ -3960,7 +3960,7 @@ metadata:
         url_poster: https://api.mediux.pro/assets/ba57bd5a-c801-4e06-8096-49d9443301d6
       4:
         url_poster: https://api.mediux.pro/assets/26a31034-da73-47d7-9d3b-060576ef2c65
-  73244: # TVDB id for The Office. Set by willtong93 on MediUX. https://mediux.pro/sets/14124
+  73244:  # TVDB id for The Office. Set by willtong93 on MediUX. https://mediux.pro/sets/14124
     # TVDB id for The Office. Set by RuviLev on MediUX. https://mediux.pro/sets/12893
     url_poster: https://api.mediux.pro/assets/9864de2f-f074-4f29-913a-ffbae6e98a16
     url_background: https://api.mediux.pro/assets/df10f480-0c0d-4998-9314-221093f637c9
@@ -4366,7 +4366,7 @@ metadata:
             url_poster: https://api.mediux.pro/assets/ce10135c-e462-4faa-969f-de261d0c6fe7
           23:
             url_poster: https://api.mediux.pro/assets/9bd75b0f-27a9-462c-b044-d4e4641cf7a0
-  81848: # TVDB id for Phineas and Ferb. Set by MiniZaki on MediUX. https://mediux.pro/sets/34211
+  81848:  # TVDB id for Phineas and Ferb. Set by MiniZaki on MediUX. https://mediux.pro/sets/34211
     url_poster: https://api.mediux.pro/assets/17037b0f-6a5e-45d1-b11d-850487d0dc4f
     seasons:
       0:
