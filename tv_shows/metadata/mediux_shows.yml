@@ -3297,6 +3297,17 @@ metadata:
             url_poster: https://api.mediux.pro/assets/f730b42c-25ae-4e30-8583-72dfcc483039
           6:
             url_poster: https://api.mediux.pro/assets/8be82168-3c52-4351-ba01-e7402c34c962
+  281709: # TVDB id for The Librarians. Set by fwlolx on MediUX. https://mediux.pro/sets/31728
+    url_poster: https://api.mediux.pro/assets/cd990f82-54d1-426e-b4c5-9883f28e08cf
+    seasons:
+      1:
+        url_poster: https://api.mediux.pro/assets/f2b6bbd8-1a68-4a18-824e-815c32a761d3
+      2:
+        url_poster: https://api.mediux.pro/assets/f27fc354-7c6b-46f4-bf3a-4276a4d229ff
+      3:
+        url_poster: https://api.mediux.pro/assets/2b2656f0-bb34-4740-8967-b82aea3f44cb
+      4:
+        url_poster: https://api.mediux.pro/assets/1d45d420-7956-4618-83e8-323ceb1d769b
   295829: # TVDB id for The Man in the High Castle. Set by bugtivugti on MediUX. https://mediux.pro/sets/22533
     url_background: https://api.mediux.pro/assets/29c67ab2-d7af-419e-b519-b43807ce000d
     seasons:
