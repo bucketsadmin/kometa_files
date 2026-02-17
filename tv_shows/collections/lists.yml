@@ -84,6 +84,14 @@ collections:
       name: show_collection
       poster: coll-default.png
 
+  "Star Trek Collection":
+    template:
+      name: Collection
+      poster: coll-star-trek.jpg
+    summary: "Space: the final frontier. These are the voyages of the starship Enterprise. Its continuing mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before."
+    tmdb_list:
+      - https://www.themoviedb.org/list/8634450-star-trek
+
   "Weird Shows":
     summary: "There's just something a little off about these shows"
     tmdb_list:

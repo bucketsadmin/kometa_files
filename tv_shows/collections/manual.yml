@@ -20,17 +20,6 @@ collections:
           - "Avatar: The Last Airbender"
           - "The Legend of Korra"
 
-  "Star Trek Collection":
-    sync_mode: sync
-    template:
-      name: show_collection
-      poster: coll-star-trek.jpg
-    summary: "Space: the final frontier. These are the voyages of the starship Enterprise. Its continuing mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before."
-    plex_search:
-      any:
-        title:
-          - "Star Trek"
-          - "Enterprise"
 
   "Star Wars Collection":
     sync_mode: sync
