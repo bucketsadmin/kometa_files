@@ -248,6 +248,14 @@ collections:
       name: Collection
       poster: coll-disaster
 
+  "Star Trek Collection":
+    summary: "Space: the final frontier. These are the voyages of the starship Enterprise. Its' continuing mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no one has gone before."
+    tmdb_list:
+      - https://www.themoviedb.org/list/8634450-star-trek
+    template:
+      name: Collection
+      poster: coll-trek
+
   ### TMDB companies
   "Pixar":
     tmdb_company: 3
@@ -335,15 +343,6 @@ collections:
     template:
       name: Collection
       poster: coll-phase-06
-
-  ### Star Trek Collections
-  "Star Trek Collection":
-    summary: "Space: the final frontier. These are the voyages of the starship Enterprise. Its' continuing mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no one has gone before."
-    trakt_list:
-      - https://trakt.tv/users/dgw/lists/star-trek-canon
-    template:
-      name: Collection
-      poster: coll-trek
 
   "Star Wars Collection":
     summary: 'An epic space-opera theatrical film series, which depicts the adventures of various characters "a long time ago in a galaxy far, far away…."'
