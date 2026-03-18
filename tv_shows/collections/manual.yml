@@ -20,6 +20,17 @@ collections:
           - "Avatar: The Last Airbender"
           - "The Legend of Korra"
 
+  "Documentaries":
+    sync_mode: sync
+    summary: "Capturing truth, life, and reality — one episode at a time. The best documentaries allow us to see the world with a fresh set of eyes..."
+    template:
+      name: Collection
+      poster: coll-docs
+    plex_search:
+      any:
+        genre.is:
+          - "Documentary"
+
   "Scrubs":
     sync_mode: sync
     template:

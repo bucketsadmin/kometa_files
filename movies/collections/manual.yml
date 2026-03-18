@@ -40,6 +40,17 @@ collections:
       name: Collection
       poster: coll-cloverfield
 
+  "Documentaries":
+    sync_mode: sync
+    summary: "Capturing truth, life, and reality — one movie at a time. The best documentaries allow us to see the world with a fresh set of eyes..."
+    template:
+      name: Collection
+      poster: coll-docs
+    plex_search:
+      any:
+        genre.is:
+          - "Documentary"
+
   "Fan Edits":
     summary: "Get Ready for the Ultimate Film Experience: Fan Edits Imagine\n\nyour favorite movie, remastered with new cuts, scores, and visual effects that will blow your mind. The \"Fan Edits\" collection is here, featuring reimagined versions of the most iconic films in history.     \nEach edit has been carefully crafted by a talented fan editor who's poured their heart and soul into creating something truly unique. With stunning visuals, pulse-pounding soundtracks, and fresh perspectives on beloved stories, these movies are guaranteed to captivate and inspire."
     plex_search:
