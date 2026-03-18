@@ -394,6 +394,18 @@ collections:
       name: smart_no_schedule
       poster: coll-default
 
+  "Plays":
+    tmdb_list:
+      - https://www.themoviedb.org/list/8640092-plays
+    sort_title: "__+Plays"
+    smart_label:
+      sort_by: title.asc
+      all:
+        label: <<smart_label>>
+    template:
+      name: smart_no_schedule
+      poster: coll-default
+
   ################# Studio Collections
 
   "Walt Disney Animation":
