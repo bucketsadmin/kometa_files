@@ -404,7 +404,7 @@ collections:
         label: <<smart_label>>
     template:
       name: smart_no_schedule
-      poster: coll-default
+      poster: coll-plays
 
   ################# Studio Collections
 
