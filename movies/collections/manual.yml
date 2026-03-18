@@ -114,6 +114,8 @@ collections:
 
   "Musicals":
     summary: "5, 6, 7, 8... get swept into a world of spontaneous choreographed song and dance. A world where everyone knows the lyrics and no one sings out of tune (well mostly).\nEnter the land of the movie musical where your dream of sining in the chorus line can come true."
+    tmdb_list:
+      - https://www.themoviedb.org/list/8574753-musicals
     plex_search:
       all:
         genre:
