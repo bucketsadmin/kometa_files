@@ -58,6 +58,9 @@ collections:
         title:
           - "The Sacred Timeline Cut PART"
           - "The Hobbit: Extended Edition"
+        edition:
+          - "The Morton Jankel Cut"
+          - "1080p"
     template:
       name: Collection
       poster: coll-fans
