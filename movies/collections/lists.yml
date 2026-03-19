@@ -248,6 +248,14 @@ collections:
       name: Collection
       poster: coll-disaster
 
+  "Plays":
+    summary: "A darkened theater. The murmur of the audience fading as the lights dim. Anticipation palpable in the air. Suddenly, the curtain lifts and a different world comes alive right before your eyes. This is the magic of a play.\nFrom ancient Greek tragedies to modern Broadway musicals, plays have evolved and adapted to reflect the changing times and societies. They have and will continue to hold a special place in our culture and hearts."
+    tmdb_list:
+      - https://www.themoviedb.org/list/8640092-plays
+    template:
+      name: Collection
+      poster: coll-plays
+
   "Star Trek Collection":
     summary: "Space: the final frontier. These are the voyages of the starship Enterprise. Its' continuing mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no one has gone before."
     tmdb_list:
@@ -393,17 +401,6 @@ collections:
     template:
       name: smart_no_schedule
       poster: coll-default
-
-  "Plays":
-    tmdb_list:
-      - https://www.themoviedb.org/list/8640092-plays
-    smart_label:
-      sort_by: title.asc
-      all:
-        label: <<smart_label>>
-    template:
-      name: smart_no_schedule
-      poster: coll-plays
 
   ################# Studio Collections
 
