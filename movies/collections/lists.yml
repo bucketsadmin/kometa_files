@@ -415,16 +415,3 @@ collections:
     visible_library: false
     visible_home: false
     visible_shared: true
-
-
-  "Walt Disney Animation":
-    template:
-      {
-        name: Studio,
-        studio: ["Walt Disney Animation Studios"],
-        poster: coll-disney-animation,
-      }
-    summary: "Walt Disney Animation"
-    visible_library: false
-    visible_home: false
-    visible_shared: false
