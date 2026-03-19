@@ -404,6 +404,19 @@ collections:
 
   ################# Studio Collections
 
+  "Walt Disney":
+    template:
+      {
+        name: Studio,
+        studio: ["Walt Disney", "Walt Disney Pictures", "Walt Disney Productions", "Walt Disney Animation Studios", "Walt Disney Feature Animation"],
+        poster: coll-disney,
+      }
+    summary: "Walt Disney Studios"
+    visible_library: false
+    visible_home: false
+    visible_shared: true
+
+
   "Walt Disney Animation":
     template:
       {
