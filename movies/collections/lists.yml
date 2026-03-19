@@ -397,7 +397,6 @@ collections:
   "Plays":
     tmdb_list:
       - https://www.themoviedb.org/list/8640092-plays
-    sort_title: "__+Plays"
     smart_label:
       sort_by: title.asc
       all:
