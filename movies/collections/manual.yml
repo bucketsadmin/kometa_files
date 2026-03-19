@@ -212,14 +212,6 @@ collections:
       name: Collection
       poster: coll-cornetto
 
-  "Walt Disney":
-    plex_search:
-      studio:
-        - "Walt Disney"
-    template:
-      name: Collection
-      poster: coll-disney
-
   # Spider-Man Universe
   "Spider-Man Universe":
     sort_title: Spider-Man_001
