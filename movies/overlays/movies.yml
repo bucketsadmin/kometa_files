@@ -12,3 +12,10 @@ overlays:
       file: /assets/overlays/blu-ray.png
     tmdb_list:
       - https://www.themoviedb.org/list/8539683-blu-ray-collection
+
+  ultra_high_def:
+    overlay:
+      name: ultra_high_def
+      file: /assets/overlays/ultrablu-ray.png
+#    tmdb_list:
+#      - https://www.themoviedb.org/list/8539683-blu-ray-collection
