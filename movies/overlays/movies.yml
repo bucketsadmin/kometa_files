@@ -6,9 +6,9 @@ overlays:
     tmdb_list:
       - https://www.themoviedb.org/list/8578249-dvd-collection
 
-  physical:
+  blur_ray:
     overlay:
-      name: physical_media
+      name: blur_ray
       file: /assets/overlays/blu-ray.png
     tmdb_list:
       - https://www.themoviedb.org/list/8539683-blu-ray-collection
