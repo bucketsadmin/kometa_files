@@ -7,25 +7,6 @@ external_templates:
   - repo: movies/templates/movie_collections
 
 collections:
-  "Top 10":
-    summary: "My favorite movies of all time"
-    template:
-      name: Collection
-      poster: coll-top
-    plex_search:
-      any:
-        titie.is:
-          - "Star Trek II: The Wrath of Khan"
-          - "Star Trek: First Contact"
-          - "Young Frankenstein"
-          - "Blazing Saddles"
-          - "Hot Fuzz"
-          - "Monty Python and the Holy Grail"
-          - "The Muppet Christmas Carol"
-          - "Ghostbusters"
-          - "Clue"
-          - "Airplane!"
-
   "Batman Collection":
     plex_search:
       any:

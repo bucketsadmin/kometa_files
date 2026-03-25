@@ -403,6 +403,29 @@ collections:
       name: smart_no_schedule
       poster: coll-default
 
+  "Top 10":
+    sort_title: "__+Top-10"
+    summary: "My favorite movies of all time"
+    template:
+      name: smart_collection
+      poster: coll-top
+    collection_order: custom
+    limit: 10
+    smart_filter:
+      validate: true
+      any:
+        titie.is:
+          - "Star Trek II: The Wrath of Khan"
+          - "Star Trek: First Contact"
+          - "Young Frankenstein"
+          - "Blazing Saddles"
+          - "Hot Fuzz"
+          - "Monty Python and the Holy Grail"
+          - "The Muppet Christmas Carol"
+          - "Ghostbusters"
+          - "Clue"
+          - "Airplane!"
+
   ################# Studio Collections
 
   "Walt Disney":
