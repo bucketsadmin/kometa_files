@@ -84,6 +84,27 @@ collections:
       name: show_collection
       poster: coll-default.png
 
+  "Top 10":
+    summary: "My favorite TV Shows of all time"
+    sort_title: "__+Top-10"
+    collection_order: custom
+    template:
+      name: Collection
+      poster: coll-top
+    smart_filter:
+      any:
+        title.is:
+          - "Star Trek: The Next Generation"
+          - "Star Trek: Deep Space 9"
+          - "Star Trek: Lower Decks"
+          - "Avatar: The Last Airbender"
+          - "Scrubs"
+          - "Battlestar Galactica (2003)"
+          - "Doctor Who (2005)"
+          - "M*A*S*H"
+          - "Community"
+          - "The Simpsons"
+
   "Star Trek Collection":
     template:
       name: Collection

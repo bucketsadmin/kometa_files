@@ -8,25 +8,6 @@ external_templates:
 
 collections:
   #### Hard-coded collections
-  "Top 10":
-    summary: "My favorite TV Shows of all time"
-    template:
-      name: Collection
-      poster: coll-top
-    plex_search:
-      any:
-        title.is:
-          - "Star Trek: The Next Generation"
-          - "Star Trek: Deep Space 9"
-          - "Star Trek: Lower Decks"
-          - "Avatar: The Last Airbender"
-          - "Scrubs"
-          - "Battlestar Galactica (2003)"
-          - "Doctor Who (2005)"
-          - "M*A*S*H"
-          - "Community"
-          - "The Simpsons"
-
   "Avatar Collection":
     sync_mode: sync
     template:
