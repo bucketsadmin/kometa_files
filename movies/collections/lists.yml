@@ -68,6 +68,12 @@ collections:
       tmdb: 357402
       poster: coll-digimon-tri
 
+  "Dune Collection":
+    template:
+      name: tmdb_collection
+      tmdb: 726871
+      poster: coll-dune
+
   "Family Guy Trilogy Collection: Laugh It Up, Fuzzball!":
     template:
       name: tmdb_collection
