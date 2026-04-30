@@ -1207,6 +1207,23 @@ metadata:
             url_poster: https://api.mediux.pro/assets/808e1e64-c56d-4cc9-b9bb-3b6e32283843
           9:
             url_poster: https://api.mediux.pro/assets/0102f58c-3e07-40e7-8ef0-faabf5668bbd
+  360893: # TVDB id for Chernobyl. Set by willtong93 on MediUX. https://mediux.pro/sets/7028
+    url_poster: https://api.mediux.pro/assets/cc1baa0f-2b31-456b-8268-2f3a3b43cad9
+    url_background: https://api.mediux.pro/assets/865ac3cc-3438-4593-af43-9095fe3bc452
+    seasons:
+      1:
+        url_poster: https://api.mediux.pro/assets/60f04089-d79d-4715-9093-b6ddcce5e961
+        episodes:
+          1:
+            url_poster: https://api.mediux.pro/assets/795d2fa6-750e-4cbf-926d-7588f5550c86
+          2:
+            url_poster: https://api.mediux.pro/assets/41266b2c-2f6a-4a77-b700-8d89186dc959
+          3:
+            url_poster: https://api.mediux.pro/assets/baafcc7b-94ac-4551-91a1-39b7f7d35cb6
+          4:
+            url_poster: https://api.mediux.pro/assets/23fea3cb-7feb-4b63-8ee8-e6063706b67e
+          5:
+            url_poster: https://api.mediux.pro/assets/1d56cdaf-6ea3-4574-89c8-c195c550f95c
   80348:  # TVDB id for Chuck. Set by willtong93 on MediUX. https://mediux.pro/sets/16729
     url_poster: https://api.mediux.pro/assets/eacb9b8f-fcd1-448f-8d27-7a9e9189a2c7
     url_background: https://api.mediux.pro/assets/9b3dc6b3-6cdb-4a17-993d-06c83a01fd94
