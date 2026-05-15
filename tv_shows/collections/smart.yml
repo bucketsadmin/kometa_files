@@ -187,7 +187,7 @@ collections:
           - "The Simpsons"
     template:
       name: show_collection
-      poster: coll-top
+      poster: coll-top.png
 
   ## Special Collections
   Recently Added:
