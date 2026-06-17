@@ -269,6 +269,7 @@ collections:
     template:
       name: Collection
       poster: coll-trek
+    visible_shared: true
 
   ### TMDB companies
   "Pixar":
@@ -284,6 +285,7 @@ collections:
     template:
       name: Collection
       poster: coll-mcu
+    visible_shared: true
 
   ## Trakt lists
   ### Marvel Collections
@@ -365,6 +367,7 @@ collections:
     template:
       name: Collection
       poster: coll-star-wars
+    visible_shared: true
 
   #Special Collections
   "🎄Christmas 🎄":
@@ -401,6 +404,7 @@ collections:
       - https://www.themoviedb.org/list/8578249-dvd-collection
       - https://www.themoviedb.org/list/8641678-ultra-hd
     sort_title: "__+Physical Media"
+    visible_shared: true
     smart_label:
       sort_by: title.asc
       all:
