@@ -376,6 +376,8 @@ collections:
     sync_mode: append #(2!)
     collection_order: custom
     schedule: range(11/25-01/07)
+    visible_home: range(11/25-01/07)
+    visible_shared: range(11/25-01/07)
     delete_not_scheduled: true
     sort_title: "__++Christmas"
     template:
@@ -389,6 +391,8 @@ collections:
     sync_mode: append #(2!)
 #    collection_order: custom
     schedule: range(11/25-01/07)
+    visible_home: range(11/25-01/07)
+    visible_shared: range(11/25-01/07)
     delete_not_scheduled: true
     sort_title: "__++Christmas"
     template:
