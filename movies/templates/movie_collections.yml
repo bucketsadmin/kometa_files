@@ -9,7 +9,7 @@ templates:
     collection_order: release
     name_mapping: <<poster>>
     visible_library: true
-    visible_shared: true
+    visible_shared: false
     visible_home: false
     delete_not_scheduled: false
 
@@ -24,7 +24,7 @@ templates:
     collection_order: release
     name_mapping: <<poster>>
     visible_library: true
-    visible_shared: true
+    visible_shared: false
     visible_home: false
     delete_not_scheduled: false
 
@@ -38,7 +38,7 @@ templates:
     collection_order: release
     name_mapping: <<poster>>
     visible_library: true
-    visible_shared: true
+    visible_shared: false
     visible_home: false
     delete_not_scheduled: false
 
@@ -52,7 +52,7 @@ templates:
       - weekly(tuesday)
       - weekly(friday)
     visible_library: true
-    visible_shared: true
+    visible_shared: false
     visible_home: false
 
   smart_no_schedule:
@@ -62,7 +62,7 @@ templates:
     sync_mode: sync
     name_mapping: <<poster>>
     visible_library: true
-    visible_shared: true
+    visible_shared: false
     visible_home: false
 
   collection_no_schedule:
@@ -73,7 +73,7 @@ templates:
     collection_order: release
     name_mapping: <<poster>>
     visible_library: true
-    visible_shared: true
+    visible_shared: false
     visible_home: false
     delete_not_scheduled: false
 
@@ -106,7 +106,7 @@ templates:
     sort_title: 080_+<<level>>_<<starting>>
     name_mapping: coll-<<starting>>
     visible_library: true
-    visible_shared: true
+    visible_shared: false
     visible_home: false
     #    schedule: monthly(16)
     delete_not_scheduled: false
