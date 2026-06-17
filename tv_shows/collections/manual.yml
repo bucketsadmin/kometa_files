@@ -44,6 +44,7 @@ collections:
 
   "Star Wars Collection":
     sync_mode: sync
+    visible_shared: true
     template:
       name: show_collection
       poster: coll-star-wars.png
