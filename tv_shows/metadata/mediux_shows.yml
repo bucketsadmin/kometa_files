@@ -4602,6 +4602,21 @@ metadata:
             url_poster: https://api.mediux.pro/assets/f8764193-cdac-4665-8138-aa75e6b98489
           10:
             url_poster: https://api.mediux.pro/assets/dfc07a21-c9a8-4f2e-bcbd-585c864c643c
+      9:
+        url_poster: https://api.mediux.pro/assets/084732f3-a2d1-4896-b346-71944770d5c1
+        episodes:
+          1:
+            url_poster: https://api.mediux.pro/assets/f0ede603-a4e0-4c12-a2c2-1f14662fce9c
+          2:
+            url_poster: https://api.mediux.pro/assets/5334a24e-1fde-4a20-9f9c-3f7d92d40f95
+          3:
+            url_poster: https://api.mediux.pro/assets/17d3ca92-4a50-4d7a-910b-f527e7413b22
+          4:
+            url_poster: https://api.mediux.pro/assets/21850379-13fb-4023-935e-450cc09cd977
+          5:
+            url_poster: https://api.mediux.pro/assets/278afac5-baff-4725-ae17-d376b21e240f
+          6:
+            url_poster: https://api.mediux.pro/assets/5ddb5543-9fde-499c-9bb6-22e86e90be33
   393154: # TVDB id for Schmigadoon!. Set by davidlettice on MediUX. https://mediux.pro/sets/30131
     #    url_poster: https://api.mediux.pro/assets/97f8be46-5fef-4686-8929-ac742925ef6b
     url_background: https://api.mediux.pro/assets/f4b7f616-a38d-4e88-a238-39256016b32a
