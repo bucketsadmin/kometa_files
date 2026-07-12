@@ -1,4 +1,5 @@
 overlays:
+  #### tmdb lists
   dvd_overlay:
     overlay:
       name: dvd_collection
@@ -19,3 +20,11 @@ overlays:
       file: /assets/overlays/ultra-blu-ray.png
     tmdb_list:
       - https://www.themoviedb.org/list/8641678-ultra-hd
+
+  #### manual configs
+  horrible:
+    overlay:
+      name: blu_ray
+      file: /assets/overlays/blu-ray.png
+    plex_search:
+

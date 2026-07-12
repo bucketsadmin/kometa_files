@@ -51,3 +51,15 @@ metadata:
     genre: [Action, Adventure, Comedy, Sci-Fi, Science Fiction]
     content_rating: PG-13
 #    collection: ["Marvel: The Sacred Timeline Cut"]
+
+  Dr. Horrible's Sing-Along Blog:
+    sort_title: "Dr. Horrible's Sing-Along Blog"
+    originally_available: 2008-07-15
+    studio: Mutant Enemy Productions
+    content_rating: NR
+    tagline: "Freeze ray. Tell your friends."
+    summary: "Aspiring super-villain Dr. Horrible wants to join the Evil League of Evil and win the girl of his dreams, but his nemesis, Captain Hammer, stops him at every turn."
+    director: [Joss Whedon]
+    genre: [Comedy, Musical]
+    writer: [Joss Whedon]
+    producer: [Michael Boretz, David M. Burns]
