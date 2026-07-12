@@ -27,4 +27,6 @@ overlays:
       name: blu_ray
       file: /assets/overlays/blu-ray.png
     plex_search:
-
+      any:
+        title.is:
+          - "Dr. Horrible's Sing-Along Blog"
