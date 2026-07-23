@@ -360,15 +360,6 @@ collections:
       name: Collection
       poster: coll-phase-06
 
-  "Star Wars Collection":
-    summary: 'An epic space-opera theatrical film series, which depicts the adventures of various characters "a long time ago in a galaxy far, far away…."'
-    trakt_list:
-      - https://trakt.tv/users/fedprod/lists/star-wars-movies
-    template:
-      name: Collection
-      poster: coll-star-wars
-    visible_shared: true
-
   #Special Collections
   "🎄Christmas 🎄":
     trakt_list: https://trakt.tv/users/k0meta/lists/christmas-extravaganza-non-tv-movie

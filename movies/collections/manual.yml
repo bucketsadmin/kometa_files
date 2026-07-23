@@ -170,6 +170,18 @@ collections:
       name: Collection
       poster: coll-sacred-timeline
 
+  "Star Wars Collection":
+    summary: 'An epic space-opera theatrical film series, which depicts the adventures of various characters "a long time ago in a galaxy far, far away…."'
+    plex_search:
+      any:
+        title:
+          - "Star Wars"
+          - ""
+    template:
+      name: Collection
+      poster: coll-star-wars
+    visible_shared: true
+
   "Stargate Collection":
     summary: "The continuing missions of SG1 and friends as they explore the galaxy using ancient technologies and alien hardware."
     plex_search:
