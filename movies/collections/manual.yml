@@ -176,6 +176,9 @@ collections:
       any:
         title:
           - "Star Wars"
+        all:
+          title.not:
+            - "Robot Chicken: Star Wars"
     template:
       name: Collection
       poster: coll-star-wars
