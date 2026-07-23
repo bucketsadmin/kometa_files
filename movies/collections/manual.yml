@@ -176,7 +176,6 @@ collections:
       any:
         title:
           - "Star Wars"
-          - ""
     template:
       name: Collection
       poster: coll-star-wars
