@@ -66,8 +66,7 @@ metadata:
 
   Rogue One:
     match:
-      title: Rogue One
-      edition_contains: andor cut
+      title: Rogue One the Andor Cut
     title: "Rogue One"
     sort_title: rogue one the andor cut
     edition: The Andor Cut
