@@ -10,7 +10,7 @@ metadata:
     genre: [Action, Adventure, Comedy, Fantasy]
     content_rating: PG-13
     summary: A fan edit that combines The Hobbit trilogy into one film that is as close as possible to J.R.R. Tolkien’s book while also matching better with The Lord of the Rings films. Sideplots and characters have been re-edited or removed, which also helps keep the audience more engaged in Bilbo’s adventure.
-#    collection: ["Fan Edits"]
+    label: [fan_edit]
 
   The Sacred Timeline Cut PART 1:
     originally_available: 2020-06-20
@@ -18,7 +18,7 @@ metadata:
     producer: Tim Leftwich
     content_rating: PG-13
     genre: [Action, Adventure, Comedy, Sci-Fi, Science Fiction]
-#    collection: ["Marvel: The Sacred Timeline Cut"]
+    label: [fan_edit]
 
   The Sacred Timeline Cut PART 2:
     originally_available: 2020-06-20
@@ -26,7 +26,7 @@ metadata:
     producer: Tim Leftwich
     genre: [Action, Adventure, Comedy, Sci-Fi, Science Fiction]
     content_rating: PG-13
-#    collection: ["Marvel: The Sacred Timeline Cut"]
+    label: [fan_edit]
 
   The Sacred Timeline Cut PART 3:
     originally_available: 2020-06-20
@@ -34,7 +34,7 @@ metadata:
     producer: Tim Leftwich
     genre: [Action, Adventure, Comedy, Sci-Fi, Science Fiction]
     content_rating: PG-13
-#    collection: ["Marvel: The Sacred Timeline Cut"]
+    label: [fan_edit]
 
   The Sacred Timeline Cut PART 4:
     originally_available: 2020-06-20
@@ -42,7 +42,7 @@ metadata:
     producer: Tim Leftwich
     genre: [Action, Adventure, Comedy, Sci-Fi, Science Fiction]
     content_rating: PG-13
-#    collection: ["Marvel: The Sacred Timeline Cut"]
+    label: [fan_edit]
 
   The Sacred Timeline Cut PART 5:
     originally_available: 2020-06-20
@@ -50,7 +50,7 @@ metadata:
     producer: Tim Leftwich
     genre: [Action, Adventure, Comedy, Sci-Fi, Science Fiction]
     content_rating: PG-13
-#    collection: ["Marvel: The Sacred Timeline Cut"]
+    label: [fan_edit]
 
   Dr. Horrible's Sing-Along Blog:
     sort_title: "Dr. Horrible's Sing-Along Blog"
@@ -78,6 +78,7 @@ metadata:
     studio: Lucasfilm Ltd.
     director: Gareth Edwards
     country: United States of America
+    label: [fan_edit]
     tagline: "Welcome to the rebellion, and witness the end of the andor saga."
     summary: >-
       "Re-watch ROGUE ONE like you've never seen it before. 
