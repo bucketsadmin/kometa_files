@@ -173,12 +173,11 @@ collections:
   "Star Wars Collection":
     summary: 'An epic space-opera theatrical film series, which depicts the adventures of various characters "a long time ago in a galaxy far, far away…."'
     plex_search:
-      any:
+      all:
         title:
           - "Star Wars"
-        all:
-          title.not:
-            - "Robot Chicken: Star Wars"
+        title.not:
+          - "Robot Chicken: Star Wars"
     template:
       name: Collection
       poster: coll-star-wars
