@@ -91,3 +91,8 @@ metadata:
     match:
       edition_contains: The Morton Jankel Cut
       label: [fan_edit]
+
+  Interstella 5555:
+    match:
+      edition_contains: 1080p upscale
+      label: [fan_edit]
