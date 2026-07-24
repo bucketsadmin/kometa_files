@@ -68,9 +68,9 @@ metadata:
     match:
       title: Rogue One
       edition_contains: andor cut
-    title: "Rogue One: The Andor Cut"
+    title: "Rogue One"
     sort_title: rogue one the andor cut
-    edition: The Andor Cut"
+    edition: The Andor Cut
     originally_available: 2026-05-25
     genre: [Action, Adventure, Comedy, Fantasy]
     content_rating: PG-13
