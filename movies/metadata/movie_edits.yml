@@ -86,13 +86,3 @@ metadata:
       as the finale and epilogue to the 'ANDOR series, as if it had been made after the conclusion of its two seasons. 
       Musical themes and leitmotifs from the show are present, pertinent flashbacks are inserted, 
       and the tone is shifted to be more in line with what was conveyed in the 24-episode epic."
-
-  Super Mario Bros.:
-    match:
-      edition_contains: The Morton Jankel Cut
-      label: [fan_edit]
-
-  Interstella 5555:
-    match:
-      edition_contains: 1080p upscale
-      label: [fan_edit]
