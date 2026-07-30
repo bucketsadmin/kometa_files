@@ -147,6 +147,12 @@ collections:
       tmdb: 119
       poster: coll-lotr
 
+  "Men in Black Collection":
+    template:
+      name: tmdb_collection
+      tmdb: 86055
+      poster: coll-mib
+
   "The Mummy Collection":
     template:
       name: tmdb_collection
