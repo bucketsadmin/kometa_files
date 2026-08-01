@@ -252,16 +252,6 @@ collections:
       name: Collection
       poster: coll-default
 
-  "Disaster Movies":
-    summary: "\"In a world where the sky is falling, the ground is cracking, and common sense is on vacation... one unlikely hero must outrun fire, flood, meteors, and bad dialogue to save humanity—and his dog.\n\nFrom a well curated Plex Server, comes the ultimate thrill ride where science is loud, the stakes are global, and the only thing more unstable than the planet... is the plot.\"\n\nComing to a Plex server near you..."
-    YamTrack List:
-      yamtrack_list: <<yamtrack_domain>>/list/6
-#    tmdb_list:
-#      - https://www.themoviedb.org/list/8539695-disaster-movies/
-    template:
-      name: Collection
-      poster: coll-disaster
-
   "Plays":
     summary: "A darkened theater. The murmur of the audience fading as the lights dim. Anticipation palpable in the air. Suddenly, the curtain lifts and a different world comes alive right before your eyes. This is the magic of a play.\nFrom ancient Greek tragedies to modern Broadway musicals, plays have evolved and adapted to reflect the changing times and societies. They have and will continue to hold a special place in our culture and hearts."
     tmdb_list:
@@ -294,6 +284,17 @@ collections:
       name: Collection
       poster: coll-mcu
     visible_shared: true
+
+  ### yamtrack lists
+  "Disaster Movies":
+    summary: "\"In a world where the sky is falling, the ground is cracking, and common sense is on vacation... one unlikely hero must outrun fire, flood, meteors, and bad dialogue to save humanity—and his dog.\n\nFrom a well curated Plex Server, comes the ultimate thrill ride where science is loud, the stakes are global, and the only thing more unstable than the planet... is the plot.\"\n\nComing to a Plex server near you..."
+    YamTrack List:
+      yamtrack_list: <<yamtrack_domain>>/list/6
+#    tmdb_list:
+#      - https://www.themoviedb.org/list/8539695-disaster-movies/
+    template:
+      name: Collection
+      poster: coll-disaster
 
   ## Trakt lists
   ### Marvel Collections
