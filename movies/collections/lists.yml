@@ -289,7 +289,7 @@ collections:
   "Disaster Movies":
     summary: "\"In a world where the sky is falling, the ground is cracking, and common sense is on vacation... one unlikely hero must outrun fire, flood, meteors, and bad dialogue to save humanity—and his dog.\n\nFrom a well curated Plex Server, comes the ultimate thrill ride where science is loud, the stakes are global, and the only thing more unstable than the planet... is the plot.\"\n\nComing to a Plex server near you..."
     YamTrack List:
-      yamtrack_list: <<yamtrack_domain>>/list/6
+      yamtrack_list: <<yamtrackdomain>>/list/6
 #    tmdb_list:
 #      - https://www.themoviedb.org/list/8539695-disaster-movies/
     template:
