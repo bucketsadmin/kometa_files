@@ -296,17 +296,16 @@ collections:
       name: Collection
       poster: coll-disaster
 
-  ## Trakt lists
   ### Marvel Collections
   "Marvel: The Infinity Saga":
     collection_order: release
-    #summary:
-    trakt_list:
-      - https://trakt.tv/users/nikraddin/lists/the-infinity-saga
+    YamTrack List:
+      yamtrack_list: <<yamtrackdomain>>/list/16
     template:
       name: Collection
       poster: coll-mcu-infinity
 
+  ## Trakt lists
   "Marvel: Multiverse Saga":
     #summary:
     trakt_list:
