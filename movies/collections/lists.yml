@@ -371,7 +371,8 @@ collections:
 
   #Special Collections
   "🎄Christmas 🎄":
-    trakt_list: https://trakt.tv/users/k0meta/lists/christmas-extravaganza-non-tv-movie
+    mdblist_list:
+      url: https://mdblist.com/lists/n0t4u2c/complete-christmas-collection
     summary: "Christmas time is here..."
     sync_mode: append #(2!)
     collection_order: custom
@@ -382,7 +383,6 @@ collections:
     sort_title: "__++Christmas"
     template:
       name: collection_no_schedule
-      poster: coll-christmas
 
   #Special Collections
   "🎄A Rankin and Bass Christmas":
