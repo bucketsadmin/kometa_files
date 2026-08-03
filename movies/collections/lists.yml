@@ -316,8 +316,8 @@ collections:
   "MCU Phase 1":
     sort_title: Marvel_MCU Phase 1
     summary: "Phase One of the Marvel Cinematic Universe (MCU) is a group of American superhero films produced by Marvel Studios based on characters that appear in publications by Marvel Comics. The MCU is the shared universe in which all of the films are set. The phase began in May 2008 with the release of Iron Man and concluded in May 2012 with the release of The Avengers. Kevin Feige produced every film in the phase, with Avi Arad also producing Iron Man and The Incredible Hulk, and Gale Anne Hurd also producing The Incredible Hulk."
-    trakt_list:
-      - https://trakt.tv/users/ale-spatti06/lists/mcu-s-phase-1
+    YamTrack List:
+      yamtrack_list: <<yamtrackdomain>>/list/9
     template:
       name: Collection
       poster: coll-phase-01
@@ -325,8 +325,8 @@ collections:
   "MCU Phase 2":
     sort_title: Marvel_MCU Phase 2
     summary: "Phase Two of the Marvel Cinematic Universe (MCU) is a group of American superhero films produced by Marvel Studios based on characters that appear in publications by Marvel Comics. The phase began in 2013 with the release of Iron Man 3 and concluded in 2015 with the release of Ant-Man. It includes the crossover film Avengers: Age of Ultron, also released in 2015. Kevin Feige produced every film in the phase"
-    trakt_list:
-      - https://trakt.tv/users/ale-spatti06/lists/mcu-s-phase-2
+    YamTrack List:
+      yamtrack_list: <<yamtrackdomain>>/list/10
     template:
       name: Collection
       poster: coll-phase-02
@@ -334,8 +334,8 @@ collections:
   "MCU Phase 3":
     sort_title: Marvel_MCU Phase 3
     summary: "Phase Three of the Marvel Cinematic Universe (MCU) is a group of American superhero films produced by Marvel Studios based on characters that appear in publications by Marvel Comics. The phase began in 2016 with the release of Captain America: Civil War and concluded in 2019 with the release of Spider-Man: Far From Home. It includes the crossover films Avengers: Infinity War, released in 2018, and its sequel Avengers: Endgame, released in 2019. Kevin Feige produced every film in the phase, alongside Amy Pascal for Spider-Man: Homecoming and Spider-Man: Far From Home, and Stephen Broussard for Ant-Man and the Wasp."
-    trakt_list:
-      - https://trakt.tv/users/ale-spatti06/lists/mcu-s-phase-3
+    YamTrack List:
+      yamtrack_list: <<yamtrackdomain>>/list/11
     template:
       name: Collection
       poster: coll-phase-03
@@ -343,8 +343,8 @@ collections:
   "MCU Phase 4":
     sort_title: Marvel_MCU Phase 4
     summary: 'Phase Four of the Marvel Cinematic Universe (MCU) is a group of American superhero films and television series produced by Marvel Studios based on characters that appear in publications by Marvel Comics. Phase Four features all the Marvel Studios productions released from 2021 through 2022. It is the first phase in the franchise to include television series, alongside television specials marketed as "Marvel Studios Special Presentations", with Marvel Studios developing several event series for the streaming service Disney+ in addition to the feature films that it was already set to produce. Animation in the phase was produced by Marvel Studios Animation. Phase Four began with the series WandaVision, which premiered in January 2021, while the first theatrical film in this phase is Black Widow, which was released in July 2021 by Walt Disney Studios Motion Pictures. The phase concluded with the television special The Guardians of the Galaxy Holiday Special in November 2022. The release schedule of Phase Four was changed several times due to the COVID-19 pandemic. Kevin Feige produced every film and executive produced every series and special in this phase, alongside producers Jonathan Schwartz for Shang-Chi and the Legend of the Ten Rings, Nate Moore for Eternals and Black Panther: Wakanda Forever, Amy Pascal for Spider-Man: No Way Home, and Brad Winderbaum for Thor: Love and Thunder.'
-    trakt_list:
-      - https://trakt.tv/users/ale-spatti06/lists/mcu-s-phase-4
+    YamTrack List:
+      yamtrack_list: <<yamtrackdomain>>/list/12
     template:
       name: Collection
       poster: coll-phase-04
@@ -352,8 +352,8 @@ collections:
   "MCU Phase 5":
     sort_title: Marvel_MCU Phase 5
     summary: 'Phase Five of the Marvel Cinematic Universe (MCU) is a group of American superhero films and television series produced by Marvel Studios based on characters that appear in publications by Marvel Comics. Phase Five features all of the Marvel Studios productions set to be released starting from 2023 to mid-2025, with Walt Disney Studios Motion Pictures distributing the films, while the series release on Disney+. Starting with Agatha All Along in late 2024, live-action series were released under Marvel Studios'' "Marvel Television" label, while animation in the phase was produced by Marvel Studios Animation. The first film in the phase is Ant-Man and the Wasp: Quantumania, which was released in February 2023, while the first series in the phase, Secret Invasion, premiered in June 2023. The release schedule of Phase Five was changed several times due to the 2023 Hollywood labor disputes. Kevin Feige produces every film and serves as executive producer of every series in this phase, alongside producers Stephen Broussard for Quantumania; Lauren Shuler Donner, Ryan Reynolds, and Shawn Levy for Deadpool & Wolverine; and Nate Moore for Captain America: Brave New World.'
-    trakt_list:
-      - https://trakt.tv/users/defqonforce/lists/marvel-phase-5
+    YamTrack List:
+      yamtrack_list: <<yamtrackdomain>>/list/13
     template:
       name: Collection
       poster: coll-phase-05
@@ -361,8 +361,8 @@ collections:
   "MCU Phase 6":
     sort_title: Marvel_MCU Phase 6
     summary: 'Phase Six of the Marvel Cinematic Universe (MCU)'
-    trakt_list:
-      - https://trakt.tv/users/defqonforce/lists/marvel-phase-6
+    YamTrack List:
+      yamtrack_list: <<yamtrackdomain>>/list/14
     template:
       name: Collection
       poster: coll-phase-06
