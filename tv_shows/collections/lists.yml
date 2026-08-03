@@ -7,26 +7,6 @@ external_templates:
   - repo: tv_shows/templates/tv_collections
 
 collections:
-  ## trakt lists
-  🎄A Very Special TV Christmas🎄:
-    trakt_list: 
-      - https://trakt.tv/users/candroid/lists/christmas-tv
-      - https://trakt.tv/users/bunsduo/lists/christmas-tv
-      - https://trakt.tv/users/toasterfaerie/lists/christmas-tv-specials
-      - https://trakt.tv/users/arthirak/lists/christmas-specials
-      - https://trakt.tv/users/somedude69/lists/wikipedia-christmas-episodes-sitcoms-32939629
-      - https://trakt.tv/users/somedude69/lists/wikipedia-christmas-episodes-drama
-    builder_level: episode
-    sort_title: "!032_A Very Special TV Christmas"
-    collection_order: release
-    sync_mode: sync
-    summary: "Christmas time is here...\nWell... at least on TV \nLook at all these danged Christmas episodes!"
-    schedule: range(11/01-12/31)
-    visible_home: range(11/01-12/31)
-    visible_shared: range(11/01-12/31)
-    file_poster: /assets/collections/tv/coll-christmas.png
-    delete_not_scheduled: true
-
   ### Marvel Collections
   "Marvel Cinematic Universe":
     sync_mode: sync
@@ -36,10 +16,7 @@ collections:
     collection_order: release
     sort_title: Marvel_MCU
     visible_shared: true
-    #summary:
-    trakt_list:
-      - https://trakt.tv/users/bart-vanacker-1/lists/marvelseries
-      - https://trakt.tv/users/adamarzip/lists/marvelcinematicuniverse
+    tmdb_keyword: 180547
 
   "MCU Phase 4":
     sync_mode: sync
@@ -49,8 +26,8 @@ collections:
     collection_order: release
     sort_title: Marvel_MCU Phase 4
     summary: 'Phase Four of the Marvel Cinematic Universe (MCU) is a group of American superhero films and television series produced by Marvel Studios based on characters that appear in publications by Marvel Comics. Phase Four features all the Marvel Studios productions released from 2021 through 2022. It is the first phase in the franchise to include television series, alongside television specials marketed as "Marvel Studios Special Presentations", with Marvel Studios developing several event series for the streaming service Disney+ in addition to the feature films that it was already set to produce. Animation in the phase was produced by Marvel Studios Animation. Phase Four began with the series WandaVision, which premiered in January 2021, while the first theatrical film in this phase is Black Widow, which was released in July 2021 by Walt Disney Studios Motion Pictures. The phase concluded with the television special The Guardians of the Galaxy Holiday Special in November 2022. The release schedule of Phase Four was changed several times due to the COVID-19 pandemic. Kevin Feige produced every film and executive produced every series and special in this phase, alongside producers Jonathan Schwartz for Shang-Chi and the Legend of the Ten Rings, Nate Moore for Eternals and Black Panther: Wakanda Forever, Amy Pascal for Spider-Man: No Way Home, and Brad Winderbaum for Thor: Love and Thunder.'
-    trakt_list:
-      - https://trakt.tv/users/ale-spatti06/lists/mcu-s-phase-4
+    YamTrack List:
+      yamtrack_list: <<yamtrackdomain>>/list/12
 
   "MCU Phase 5":
     template:
@@ -58,8 +35,8 @@ collections:
       poster: coll-phase-05.png
     sort_title: Marvel_MCU Phase 5
     summary: 'Phase Five of the Marvel Cinematic Universe (MCU) is a group of American superhero films and television series produced by Marvel Studios based on characters that appear in publications by Marvel Comics. Phase Five features all of the Marvel Studios productions set to be released starting from 2023 to mid-2025, with Walt Disney Studios Motion Pictures distributing the films, while the series release on Disney+. Starting with Agatha All Along in late 2024, live-action series were released under Marvel Studios'' "Marvel Television" label, while animation in the phase was produced by Marvel Studios Animation. The first film in the phase is Ant-Man and the Wasp: Quantumania, which was released in February 2023, while the first series in the phase, Secret Invasion, premiered in June 2023. The release schedule of Phase Five was changed several times due to the 2023 Hollywood labor disputes. Kevin Feige produces every film and serves as executive producer of every series in this phase, alongside producers Stephen Broussard for Quantumania; Lauren Shuler Donner, Ryan Reynolds, and Shawn Levy for Deadpool & Wolverine; and Nate Moore for Captain America: Brave New World.'
-    trakt_list:
-      - https://trakt.tv/users/defqonforce/lists/marvel-phase-5
+    YamTrack List:
+      yamtrack_list: <<yamtrackdomain>>/list/13
 
   "MCU Phase 6":
     template:
@@ -67,8 +44,8 @@ collections:
       poster: coll-phase-06.png
     sort_title: Marvel_MCU Phase 6
     summary: 'Phase Six of the Marvel Cinematic Universe (MCU)'
-    trakt_list:
-      - https://trakt.tv/users/defqonforce/lists/marvel-phase-6
+    YamTrack List:
+      yamtrack_list: <<yamtrackdomain>>/list/14
 
   ## tmdb lists
   "📀Physical Media":
