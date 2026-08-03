@@ -307,9 +307,8 @@ collections:
 
   ## Trakt lists
   "Marvel: Multiverse Saga":
-    #summary:
-    trakt_list:
-      - https://trakt.tv/users/aschillingchi/lists/marvel-multiverse-saga
+    YamTrack List:
+      yamtrack_list: <<yamtrackdomain>>/list/17
     template:
       name: Collection
       poster: coll-mcu-multi
