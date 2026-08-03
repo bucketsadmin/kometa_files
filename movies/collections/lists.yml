@@ -305,7 +305,6 @@ collections:
       name: Collection
       poster: coll-mcu-infinity
 
-  ## Trakt lists
   "Marvel: Multiverse Saga":
     YamTrack List:
       yamtrack_list: <<yamtrackdomain>>/list/17
