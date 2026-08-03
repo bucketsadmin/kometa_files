@@ -36,10 +36,7 @@ collections:
     collection_order: release
     sort_title: Marvel_MCU
     visible_shared: true
-    #summary:
-    trakt_list:
-      - https://trakt.tv/users/bart-vanacker-1/lists/marvelseries
-      - https://trakt.tv/users/adamarzip/lists/marvelcinematicuniverse
+    tmdb_keyword: 180547
 
   "MCU Phase 4":
     sync_mode: sync
