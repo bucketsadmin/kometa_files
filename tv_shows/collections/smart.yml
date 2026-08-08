@@ -164,7 +164,6 @@ collections:
         any:
           genre:
             - "Science Fiction"
-            - "Sci-Fi & Fantasy"
     template:
       name: show_collection
       poster: coll-sci-fi.png
