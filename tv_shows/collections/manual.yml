@@ -28,7 +28,7 @@ collections:
       poster: coll-docs
     plex_search:
       any:
-        genre.is:
+        genre:
           - "Documentary"
 
   "Scrubs":
