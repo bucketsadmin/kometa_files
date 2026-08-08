@@ -425,7 +425,7 @@ collections:
     smart_filter:
       validate: true
       any:
-        titie.is:
+        title.is:
           - "Star Trek II: The Wrath of Khan"
           - "Star Trek: First Contact"
           - "Young Frankenstein"
