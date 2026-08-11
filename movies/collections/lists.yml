@@ -245,32 +245,6 @@ collections:
       tmdb: 968080
       poster: coll-wicked
 
-  ### TMDB lists
-  "Black & White Movies":
-    summary: "Life used to be a bit more Black & White in my day."
-    tmdb_list:
-      - https://www.themoviedb.org/list/8539684-black-white
-    template:
-      name: Collection
-      poster: coll-default
-
-  "Plays":
-    summary: "A darkened theater. The murmur of the audience fading as the lights dim. Anticipation palpable in the air. Suddenly, the curtain lifts and a different world comes alive right before your eyes. This is the magic of a play.\nFrom ancient Greek tragedies to modern Broadway musicals, plays have evolved and adapted to reflect the changing times and societies. They have and will continue to hold a special place in our culture and hearts."
-    tmdb_list:
-      - https://www.themoviedb.org/list/8640092-plays
-    template:
-      name: Collection
-      poster: coll-plays
-
-  "Star Trek Collection":
-    summary: "Space: the final frontier. These are the voyages of the starship Enterprise. Its' continuing mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no one has gone before."
-    tmdb_list:
-      - https://www.themoviedb.org/list/8634450-star-trek
-    template:
-      name: Collection
-      poster: coll-trek
-    visible_shared: true
-
   ### TMDB companies
   "Pixar":
     tmdb_company: 3
@@ -301,21 +275,6 @@ collections:
     sort_title: "__++Christmas"
     template:
       name: collection_no_schedule
-
-  #Special Collections
-  "🎄A Rankin and Bass Christmas":
-    tmdb_list:
-      - https://www.themoviedb.org/list/8580123-the-complete-rankin-bass-christmas-collection
-    sync_mode: append #(2!)
-#    collection_order: custom
-    schedule: range(11/25-01/07)
-    visible_home: range(11/25-01/07)
-    visible_shared: range(11/25-01/07)
-    delete_not_scheduled: true
-    sort_title: "__++Christmas"
-    template:
-      name: collection_no_schedule
-      poster: coll-rankin
 
   ## Custom Collections
 
