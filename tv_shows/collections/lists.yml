@@ -6,7 +6,7 @@
 external_templates:
   - repo: tv_shows/templates/tv_collections
 
-### yamtrack collections should be kept in the local config
+### yamtrack collections are kept in the local config
 
 collections:
   ### Marvel Collections
