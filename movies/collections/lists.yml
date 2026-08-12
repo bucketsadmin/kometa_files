@@ -409,7 +409,6 @@ collections:
     template:
       name: smart_collection
       poster: coll-top
-    collection_order: custom
     limit: 10
     smart_filter:
       validate: true
