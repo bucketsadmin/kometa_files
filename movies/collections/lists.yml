@@ -6,10 +6,8 @@
 external_templates:
   - repo: movies/templates/movie_collections
 
-### yamtrack collections are kept in the local config
-
 collections:
-  ## yamtrack lists
+  ################# yamtrack lists
   "Black & White Movies":
     summary: "Life used to be a bit more Black & White in my day."
     yamtrack_list:
@@ -127,7 +125,7 @@ collections:
       name: collection_no_schedule
       poster: coll-rankin
 
-  ## TMDB collections
+  ################# TMDB collections
   Anchorman Collection:
     template:
       name: tmdb_collection
@@ -394,7 +392,7 @@ collections:
     template:
       name: collection_no_schedule
 
-  ## Custom Collections
+  ################# Custom Collections
 
   "📀Physical Media":
     summary: "Here you will find media that I have physical copies of in my home.\n\nA Collection for Movies that I have physical copies of. Whether Blu-Ray or DVD, these discs give me permanent access to always share these movies.\n\nSo view this collection as my way of \"sharing\" my physical copy with you, over the internet."

@@ -7,7 +7,7 @@ external_templates:
   - repo: tv_shows/templates/tv_collections
 
 collections:
-  #### yamtrack lists
+  ################# yamtrack lists
   "Star Trek Collection":
     template:
       name: Collection
@@ -56,18 +56,8 @@ collections:
     yamtrack_list:
       - https://lists.jjsimpson.xyz/list/14
 
-  ### Marvel Collections
-  "Marvel Cinematic Universe":
-    sync_mode: sync
-    template:
-      name: show_collection
-      poster: coll-mcu.png
-    collection_order: release
-    sort_title: Marvel_MCU
-    visible_shared: true
-    tmdb_keyword: 180547
-
-  ## tmdb lists
+################# TMDB collections
+  ### TMDB lists
   "📀Physical Media":
     summary: "Here you will find media that I have physical copies of in my home.\n\nA Collection for TV Shows that I have physical copies of. Whether Blu-Ray or DVD, gives me permanent access to always share these shows.\n\nSo view this collection as my way of \"sharing\" my physical copy with you, over the internet."
     tmdb_list:
@@ -89,3 +79,14 @@ collections:
       name: tmdb_director
       tmdb: 204484
       poster: coll-ken-burns
+
+  ### TMDB keywords
+  "Marvel Cinematic Universe":
+    sync_mode: sync
+    template:
+      name: show_collection
+      poster: coll-mcu.png
+    collection_order: release
+    sort_title: Marvel_MCU
+    visible_shared: true
+    tmdb_keyword: 180547
