@@ -59,7 +59,13 @@ collections:
 
   "MCU Phase 1":
     sort_title: Marvel_MCU Phase 1
-    summary: "Phase One of the Marvel Cinematic Universe (MCU) is a group of American superhero films produced by Marvel Studios based on characters that appear in publications by Marvel Comics. The MCU is the shared universe in which all of the films are set. The phase began in May 2008 with the release of Iron Man and concluded in May 2012 with the release of The Avengers. Kevin Feige produced every film in the phase, with Avi Arad also producing Iron Man and The Incredible Hulk, and Gale Anne Hurd also producing The Incredible Hulk."
+    summary: >-
+      "The six Phase 1 films (Iron Man, The Incredible Hulk, Iron Man 2, Thor, Captain America: The First Avenger, The Avengers) 
+      are the most efficiently produced setup in franchise history. 
+      Each film has a distinct genre register — heist, monster movie, political thriller, fish-out-of-water comedy, WWII adventure — 
+      while systematically seeding the Infinity Stones and establishing the Avengers roster. 
+      The Avengers (2012) is the payoff: Joss Whedon assembling six heroes in one film and making it work through character conflict rather than spectacle. 
+      Phase 1 remains the strongest sustained argument for what the MCU is capable of."
     yamtrack_list:
       -  https://lists.jjsimpson.xyz/list/9
     template:
@@ -68,7 +74,13 @@ collections:
 
   "MCU Phase 2":
     sort_title: Marvel_MCU Phase 2
-    summary: "Phase Two of the Marvel Cinematic Universe (MCU) is a group of American superhero films produced by Marvel Studios based on characters that appear in publications by Marvel Comics. The phase began in 2013 with the release of Iron Man 3 and concluded in 2015 with the release of Ant-Man. It includes the crossover film Avengers: Age of Ultron, also released in 2015. Kevin Feige produced every film in the phase"
+    summary: >-
+      "Phase 2 also opened the cosmic register with Guardians of the Galaxy (2014), 
+      proving that the MCU's formula could scale to characters completely outside the Avengers framework. 
+      Thor: The Dark World, Iron Man 3, and Avengers: Age of Ultron are the phase's weaker entries — 
+      each carrying traces of the creative limitations that come with franchise maintenance rather than originality — 
+      but the phase as a whole establishes the Infinity Stones as a coherent threat and introduces characters 
+      (Sam Wilson, Scott Lang, the Guardians) who will define Phase 3."
     yamtrack_list:
       -  https://lists.jjsimpson.xyz/list/10
     template:
@@ -77,7 +89,8 @@ collections:
 
   "MCU Phase 3":
     sort_title: Marvel_MCU Phase 3
-    summary: "Phase Three of the Marvel Cinematic Universe (MCU) is a group of American superhero films produced by Marvel Studios based on characters that appear in publications by Marvel Comics. The phase began in 2016 with the release of Captain America: Civil War and concluded in 2019 with the release of Spider-Man: Far From Home. It includes the crossover films Avengers: Infinity War, released in 2018, and its sequel Avengers: Endgame, released in 2019. Kevin Feige produced every film in the phase, alongside Amy Pascal for Spider-Man: Homecoming and Spider-Man: Far From Home, and Stephen Broussard for Ant-Man and the Wasp."
+    summary: >-
+      ""
     yamtrack_list:
       -  https://lists.jjsimpson.xyz/list/11
     template:
@@ -86,7 +99,8 @@ collections:
 
   "MCU Phase 4":
     sort_title: Marvel_MCU Phase 4
-    summary: 'Phase Four of the Marvel Cinematic Universe (MCU) is a group of American superhero films and television series produced by Marvel Studios based on characters that appear in publications by Marvel Comics. Phase Four features all the Marvel Studios productions released from 2021 through 2022. It is the first phase in the franchise to include television series, alongside television specials marketed as "Marvel Studios Special Presentations", with Marvel Studios developing several event series for the streaming service Disney+ in addition to the feature films that it was already set to produce. Animation in the phase was produced by Marvel Studios Animation. Phase Four began with the series WandaVision, which premiered in January 2021, while the first theatrical film in this phase is Black Widow, which was released in July 2021 by Walt Disney Studios Motion Pictures. The phase concluded with the television special The Guardians of the Galaxy Holiday Special in November 2022. The release schedule of Phase Four was changed several times due to the COVID-19 pandemic. Kevin Feige produced every film and executive produced every series and special in this phase, alongside producers Jonathan Schwartz for Shang-Chi and the Legend of the Ten Rings, Nate Moore for Eternals and Black Panther: Wakanda Forever, Amy Pascal for Spider-Man: No Way Home, and Brad Winderbaum for Thor: Love and Thunder.'
+    summary: >-
+      ""
     yamtrack_list:
       -  https://lists.jjsimpson.xyz/list/12
     template:
@@ -95,7 +109,8 @@ collections:
 
   "MCU Phase 5":
     sort_title: Marvel_MCU Phase 5
-    summary: 'Phase Five of the Marvel Cinematic Universe (MCU) is a group of American superhero films and television series produced by Marvel Studios based on characters that appear in publications by Marvel Comics. Phase Five features all of the Marvel Studios productions set to be released starting from 2023 to mid-2025, with Walt Disney Studios Motion Pictures distributing the films, while the series release on Disney+. Starting with Agatha All Along in late 2024, live-action series were released under Marvel Studios'' "Marvel Television" label, while animation in the phase was produced by Marvel Studios Animation. The first film in the phase is Ant-Man and the Wasp: Quantumania, which was released in February 2023, while the first series in the phase, Secret Invasion, premiered in June 2023. The release schedule of Phase Five was changed several times due to the 2023 Hollywood labor disputes. Kevin Feige produces every film and serves as executive producer of every series in this phase, alongside producers Stephen Broussard for Quantumania; Lauren Shuler Donner, Ryan Reynolds, and Shawn Levy for Deadpool & Wolverine; and Nate Moore for Captain America: Brave New World.'
+    summary: >-
+      ""
     yamtrack_list:
       -  https://lists.jjsimpson.xyz/list/13
     template:
@@ -104,7 +119,8 @@ collections:
 
   "MCU Phase 6":
     sort_title: Marvel_MCU Phase 6
-    summary: 'Phase Six of the Marvel Cinematic Universe (MCU)'
+    summary: >-
+      ""
     yamtrack_list:
       -  https://lists.jjsimpson.xyz/list/14
     template:
@@ -217,7 +233,11 @@ collections:
       poster: coll-gremlins
 
   "Harry Potter Collection":
-    summary: "When Harry Potter learns on his eleventh birthday that he is, in fact, a wizard, he is quickly swept up into the spellbinding world of Hogwarts School of Witchcraft and Wizardry alongside new best friends, Ron Weasley and Hermione Granger. He soon discovers, though, that there is a much darker side to the wizarding world than any of them could have imagined."
+    summary: >-
+      "When Harry Potter learns on his eleventh birthday that he is, in fact, a wizard, 
+      he is quickly swept up into the spellbinding world of Hogwarts School of Witchcraft and Wizardry 
+      alongside new best friends, Ron Weasley and Hermione Granger. 
+      He soon discovers, though, that there is a much darker side to the wizarding world than any of them could have imagined."
     template:
       name: tmdb_collection
       tmdb: 1241
@@ -415,7 +435,11 @@ collections:
   ################# Custom Collections
 
   "📀Physical Media":
-    summary: "Here you will find media that I have physical copies of in my home.\n\nA Collection for Movies that I have physical copies of. Whether Blu-Ray or DVD, these discs give me permanent access to always share these movies.\n\nSo view this collection as my way of \"sharing\" my physical copy with you, over the internet."
+    summary: >-
+      "Here you will find media that I have physical copies of in my home.\n\n
+      A Collection for Movies that I have physical copies of. 
+      Whether Blu-Ray or DVD, these discs give me permanent access to always share these movies.\n\n
+      So view this collection as my way of \"sharing\" my physical copy with you, over the internet."
     tmdb_list:
       - https://www.themoviedb.org/list/8539683-blu-ray-collection
       - https://www.themoviedb.org/list/8578249-dvd-collection
