@@ -473,9 +473,9 @@ collections:
       Whether Blu-Ray or DVD, these discs give me permanent access to always share these movies.\n\n
       So view this collection as my way of \"sharing\" my physical copy with you, over the internet."
     floppy_list:
-      - url: https://lists.jjsimpson.xyz/list/1
-      - url: https://lists.jjsimpson.xyz/list/5
-      - url: https://lists.jjsimpson.xyz/list/18
+      - url: https://lists.jjsimpson.xyz/list/blu-ray
+      - url: https://lists.jjsimpson.xyz/list/dvd
+      - url: https://lists.jjsimpson.xyz/list/ultra-hd
     sort_title: "__+Physical Media"
     visible_shared: true
     smart_label:
