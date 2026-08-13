@@ -10,7 +10,7 @@ collections:
   ################# yamtrack lists
   "Black & White Movies":
     summary: "Life used to be a bit more Black & White in my day."
-    yamtrack_list:
+    floppy_list:
       - https://lists.jjsimpson.xyz/list/2
     template:
       name: Collection
@@ -18,7 +18,7 @@ collections:
 
   "Disaster Movies":
     summary: "\"In a world where the sky is falling, the ground is cracking, and common sense is on vacation... one unlikely hero must outrun fire, flood, meteors, and bad dialogue to save humanity—and his dog.\n\nFrom a well curated Plex Server, comes the ultimate thrill ride where science is loud, the stakes are global, and the only thing more unstable than the planet... is the plot.\"\n\nComing to a Plex server near you..."
-    yamtrack_list:
+    floppy_list:
       - https://lists.jjsimpson.xyz/list/6
     template:
       name: Collection
@@ -26,7 +26,7 @@ collections:
 
   "Plays":
     summary: "A darkened theater. The murmur of the audience fading as the lights dim. Anticipation palpable in the air. Suddenly, the curtain lifts and a different world comes alive right before your eyes. This is the magic of a play.\nFrom ancient Greek tragedies to modern Broadway musicals, plays have evolved and adapted to reflect the changing times and societies. They have and will continue to hold a special place in our culture and hearts."
-    yamtrack_list:
+    floppy_list:
       - https://lists.jjsimpson.xyz/list/20
     template:
       name: Collection
@@ -34,7 +34,7 @@ collections:
 
   "Star Trek Collection":
     summary: "Space: the final frontier. These are the voyages of the starship Enterprise. Its' continuing mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no one has gone before."
-    yamtrack_list:
+    floppy_list:
       - https://lists.jjsimpson.xyz/list/19
     template:
       name: Collection
@@ -44,14 +44,14 @@ collections:
   ### Marvel Collections
   "Marvel: The Infinity Saga":
     collection_order: release
-    yamtrack_list:
+    floppy_list:
       -  https://lists.jjsimpson.xyz/list/16
     template:
       name: Collection
       poster: coll-mcu-infinity
 
   "Marvel: Multiverse Saga":
-    yamtrack_list:
+    floppy_list:
       -  https://lists.jjsimpson.xyz/list/17
     template:
       name: Collection
@@ -72,7 +72,7 @@ collections:
       while systematically seeding the Infinity Stones and establishing the Avengers roster. 
       The Avengers (2012) is the payoff: Joss Whedon assembling six heroes in one film and making it work through 
       character conflict rather than spectacle. Phase 1 remains the strongest sustained argument for what the MCU is capable of."
-    yamtrack_list:
+    floppy_list:
       -  https://lists.jjsimpson.xyz/list/9
     template:
       name: Collection
@@ -92,7 +92,7 @@ collections:
       and Avengers: Age of Ultron are the phase's weaker entries — each carrying traces of the creative limitations 
       that come with franchise maintenance rather than originality — but the phase as a whole establishes the Infinity Stones 
       as a coherent threat and introduces characters (Sam Wilson, Scott Lang, the Guardians) who will define Phase 3."
-    yamtrack_list:
+    floppy_list:
       -  https://lists.jjsimpson.xyz/list/10
     template:
       name: Collection
@@ -102,7 +102,7 @@ collections:
     sort_title: Marvel_MCU Phase 3
     summary: >-
       ""
-    yamtrack_list:
+    floppy_list:
       -  https://lists.jjsimpson.xyz/list/11
     template:
       name: Collection
@@ -112,7 +112,7 @@ collections:
     sort_title: Marvel_MCU Phase 4
     summary: >-
       ""
-    yamtrack_list:
+    floppy_list:
       -  https://lists.jjsimpson.xyz/list/12
     template:
       name: Collection
@@ -134,7 +134,7 @@ collections:
       into the theatrical MCU. Phase 5 is essential preparation for Avengers: Doomsday — it populates 
       the final battle with characters whose histories matter, and establishes the specific multiverse 
       mechanics that Doomsday will exploit."
-    yamtrack_list:
+    floppy_list:
       -  https://lists.jjsimpson.xyz/list/13
     template:
       name: Collection
@@ -154,7 +154,7 @@ collections:
       the actor who defined the MCU's opening era returning in an entirely different register, 
       playing a character whose philosophy is the inverse of Tony Stark's. Phase 6 is where the 
       multiverse experiment concludes. Every essential film and series across the Multiverse Saga is preparation for this payoff."
-    yamtrack_list:
+    floppy_list:
       -  https://lists.jjsimpson.xyz/list/14
     template:
       name: Collection
@@ -162,7 +162,7 @@ collections:
 
   ### Special Collections
   "🎄A Rankin and Bass Christmas":
-    yamtrack_list:
+    floppy_list:
       -  https://lists.jjsimpson.xyz/list/3
     sync_mode: append #(2!)
     schedule: range(11/25-01/07)
