@@ -101,7 +101,35 @@ collections:
   "MCU Phase 3":
     sort_title: Marvel_MCU Phase 3
     summary: >-
-      ""
+      "Phase 3 opens with Ant-Man (2015) and Captain America: Civil War (2016) — 
+      the latter functioning as a de facto Avengers film that fractures the team in ways that persist through Infinity War. 
+      Civil War introduces both Black Panther and Spider-Man to the MCU, making it one of the most consequential single films in the franchise's history.
+      /n
+      Phase 3 processes the fallout of Civil War while expanding the MCU's cosmic and magical registers. 
+      Doctor Strange (2016) introduces the Mystic Arts, the Eye of Agamotto, and a new narrative dimension — 
+      the multiverse — that the franchise wouldn't fully exploit for another five years. 
+      Guardians of the Galaxy Vol. 2 and Spider-Man: Homecoming continue established character arcs while 
+      Black Panther (2018) delivers the franchise's most fully realised standalone world.
+      /n
+      Black Panther is Phase 3's defining achievement: a film with the political ambition to make Wakanda's
+      isolationism the villain's argument as much as his violence, and the craft to cast an antagonist (Killmonger)
+      whose grievances are structurally legitimate. Thor: Ragnarok dismantles the Asgard mythology set up in Phase 1
+      with anarchic comedy and unexpected emotional honesty. By the end of Phase 3, every major Avenger has been tested,
+      every major location established, and every Infinity Stone positioned. 
+      Avengers: Infinity War is the logical conclusion of everything Phase 3 built.
+      /n
+      Phase 3 is the Infinity War proper: the period in which Thanos collects the Infinity Stones, 
+      the Avengers fail to stop him, and half of all life in the universe is erased. Avengers: Infinity War (2018) 
+      is among the most structurally ambitious films in the franchise — twenty-two characters, 
+      three simultaneous storylines, and a villain who wins. Its status as the most genuinely shocking MCU release 
+      reflects how effectively the preceding twenty films had established the stakes.
+      /n
+      Avengers: Endgame (2019) is the resolution and the farewell to Phase 3's central characters and the Infinity War Saga. 
+      The five-year time jump, the quantum time heist, the multiverse-spanning final battle, and the deaths of Tony Stark 
+      and Natasha Romanoff constitute one of the most complete narrative endings in franchise filmmaking. 
+      Spider-Man: Far From Home functions as an epilogue — both to Endgame and to the Infinity Saga — 
+      examining what the world looks like for survivors in the immediate aftermath. 
+      Phase 3C rewards every hour of viewing that preceded it."
     floppy_list:
       url:  https://lists.jjsimpson.xyz/list/11
     template:
@@ -111,7 +139,7 @@ collections:
   "MCU Phase 4":
     sort_title: Marvel_MCU Phase 4
     summary: >-
-      "Phase 4 introduces both the The Blip recovery era and the introduction of the Multiverse.
+      "Phase 4 introduces both the The Blip recovery era and the introduction of the Multiverse, beginning the Multiverse saga.
       /n
        The Blip recovery era covers the MCU titles set in the immediate aftermath of Avengers: Endgame — 
       primarily the Disney+ series launched from 2021 onward. WandaVision, The Falcon and the Winter Soldier, Loki, 
