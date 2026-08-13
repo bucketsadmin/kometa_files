@@ -60,12 +60,18 @@ collections:
   "MCU Phase 1":
     sort_title: Marvel_MCU Phase 1
     summary: >-
-      "The six Phase 1 films (Iron Man, The Incredible Hulk, Iron Man 2, Thor, Captain America: The First Avenger, The Avengers) 
-      are the most efficiently produced setup in franchise history. 
-      Each film has a distinct genre register — heist, monster movie, political thriller, fish-out-of-water comedy, WWII adventure — 
+      "Phase 1 is where the MCU bet everything on a proposition that had never been tested: 
+      that multiple superhero franchises, each internally coherent, could build toward a single shared climactic event. 
+      Iron Man (2008) launched the experiment with a character who wasn't Marvel's most bankable property 
+      and an actor whose career was considered a risk. The gamble worked — both creatively and commercially — 
+      and established the template that the next fifteen years of superhero cinema would imitate and rarely equal.
+      /n
+      The six Phase 1 films (Iron Man, The Incredible Hulk, Iron Man 2, Thor, Captain America: The First Avenger, 
+      The Avengers) are the most efficiently produced setup in franchise history. Each film has a distinct genre register — 
+      heist, monster movie, political thriller, fish-out-of-water comedy, WWII adventure — 
       while systematically seeding the Infinity Stones and establishing the Avengers roster. 
-      The Avengers (2012) is the payoff: Joss Whedon assembling six heroes in one film and making it work through character conflict rather than spectacle. 
-      Phase 1 remains the strongest sustained argument for what the MCU is capable of."
+      The Avengers (2012) is the payoff: Joss Whedon assembling six heroes in one film and making it work through 
+      character conflict rather than spectacle. Phase 1 remains the strongest sustained argument for what the MCU is capable of."
     yamtrack_list:
       -  https://lists.jjsimpson.xyz/list/9
     template:
@@ -75,12 +81,17 @@ collections:
   "MCU Phase 2":
     sort_title: Marvel_MCU Phase 2
     summary: >-
-      "Phase 2 also opened the cosmic register with Guardians of the Galaxy (2014), 
-      proving that the MCU's formula could scale to characters completely outside the Avengers framework. 
-      Thor: The Dark World, Iron Man 3, and Avengers: Age of Ultron are the phase's weaker entries — 
-      each carrying traces of the creative limitations that come with franchise maintenance rather than originality — 
-      but the phase as a whole establishes the Infinity Stones as a coherent threat and introduces characters 
-      (Sam Wilson, Scott Lang, the Guardians) who will define Phase 3."
+      "Phase 2 sharpened the franchise's ambitions and introduced its most enduring structural element: 
+      the revelation that HYDRA had been embedded inside SHIELD since the organisation's founding. 
+      Captain America: The Winter Soldier (2014) is the phase's centrepiece and arguably the best MCU film, 
+      importing the paranoiac texture of 1970s political thrillers into a superhero narrative and making the 
+      institutional betrayal feel genuinely consequential rather than cosmetic.
+      /n
+      Phase 2 also opened the cosmic register with Guardians of the Galaxy (2014), proving that the MCU's formula 
+      could scale to characters completely outside the Avengers framework. Thor: The Dark World, Iron Man 3, 
+      and Avengers: Age of Ultron are the phase's weaker entries — each carrying traces of the creative limitations 
+      that come with franchise maintenance rather than originality — but the phase as a whole establishes the Infinity Stones 
+      as a coherent threat and introduces characters (Sam Wilson, Scott Lang, the Guardians) who will define Phase 3."
     yamtrack_list:
       -  https://lists.jjsimpson.xyz/list/10
     template:
@@ -110,7 +121,19 @@ collections:
   "MCU Phase 5":
     sort_title: Marvel_MCU Phase 5
     summary: >-
-      ""
+      "Phase 5 is the Multiverse War in earnest: the period in which the threat of Kang 
+      and the fragmentation of the multiverse become structurally unavoidable. 
+      Guardians of the Galaxy Vol. 3, Loki Season 2, Echo, Ironheart, Agatha All Along, 
+      Daredevil: Born Again, and Captain America: Brave New World collectively position the heroes 
+      of the incoming Doomsday era while resolving outstanding character arcs from earlier phases.
+      /n
+      Loki Season 2's finale is Phase 5's most consequential narrative event: 
+      Loki's sacrifice at the end of time restructures the multiverse's architecture and sets the 
+      conditions for everything that follows in Phase 6. Guardians of the Galaxy Vol. 3 closes that 
+      ensemble's story definitively. Daredevil: Born Again reintegrates Charlie Cox's Matt Murdock 
+      into the theatrical MCU. Phase 5 is essential preparation for Avengers: Doomsday — it populates 
+      the final battle with characters whose histories matter, and establishes the specific multiverse 
+      mechanics that Doomsday will exploit."
     yamtrack_list:
       -  https://lists.jjsimpson.xyz/list/13
     template:
@@ -120,7 +143,17 @@ collections:
   "MCU Phase 6":
     sort_title: Marvel_MCU Phase 6
     summary: >-
-      ""
+      "Phase 6 is the Multiverse Saga's endgame — the period leading to and immediately following 
+      Avengers: Doomsday (2026), the franchise's largest assembled cast event since Endgame. 
+      The phase brings together heroes from the MCU main timeline, the Fox X-Men universe, 
+      and multiple alternate realities to confront Doctor Doom and whatever the fractured 
+      multiverse has made possible.
+      /n
+      Avengers: Doomsday is positioned as the resolution of every narrative thread seeded across Phases 4 and 5. 
+      Robert Downey Jr.'s return as Victor Von Doom — rather than Tony Stark — is the phase's central creative statement: 
+      the actor who defined the MCU's opening era returning in an entirely different register, 
+      playing a character whose philosophy is the inverse of Tony Stark's. Phase 6 is where the 
+      multiverse experiment concludes. Every essential film and series across the Multiverse Saga is preparation for this payoff."
     yamtrack_list:
       -  https://lists.jjsimpson.xyz/list/14
     template:
