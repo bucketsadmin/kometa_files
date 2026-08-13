@@ -433,8 +433,7 @@ collections:
 
 ################# mdblist Collections
   "The Criterion Collection":
-    mdblist_list:
-      url: https://mdblist.com/lists/pizzadeath/the-criterion-collection
+    letterboxd_list: https://letterboxd.com/michaelhutchins/list/the-completely-complete-criterion-collection/
     summary: >-
       "Since 1984, the Criterion Collection has been dedicated to publishing important classic and contemporary films 
       from around the world in editions that offer the highest technical quality and award-winning, original supplements. 
