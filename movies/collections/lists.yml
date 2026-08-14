@@ -8,6 +8,26 @@ external_templates:
 
 collections:
   ################# yamtrack lists
+  "📀Physical Media":
+    summary: >-
+      "Here you will find media that I have physical copies of in my home.\n\n
+      A Collection for Movies that I have physical copies of. 
+      Whether Blu-Ray or DVD, these discs give me permanent access to always share these movies.\n\n
+      So view this collection as my way of \"sharing\" my physical copy with you, over the internet."
+    floppy_list:
+      - url: https://lists.jjsimpson.xyz/list/1
+      - url: https://lists.jjsimpson.xyz/list/5
+      - url: https://lists.jjsimpson.xyz/list/18
+    sort_title: "__+Physical Media"
+    visible_shared: true
+    smart_label:
+      sort_by: title.asc
+      all:
+        label: <<smart_label>>
+    template:
+      name: smart_no_schedule
+      poster: coll-default
+
   "Black & White Movies":
     summary: "Life used to be a bit more Black & White in my day."
     floppy_list:
@@ -520,26 +540,6 @@ collections:
       name: collection_no_schedule
 
   ################# Custom Collections
-
-  "📀Physical Media":
-    summary: >-
-      "Here you will find media that I have physical copies of in my home.\n\n
-      A Collection for Movies that I have physical copies of. 
-      Whether Blu-Ray or DVD, these discs give me permanent access to always share these movies.\n\n
-      So view this collection as my way of \"sharing\" my physical copy with you, over the internet."
-    floppy_list:
-      - url: https://lists.jjsimpson.xyz/list/1
-      - url: https://lists.jjsimpson.xyz/list/5
-      - url: https://lists.jjsimpson.xyz/list/18
-    sort_title: "__+Physical Media"
-    visible_shared: true
-    smart_label:
-      sort_by: title.asc
-      all:
-        label: <<smart_label>>
-    template:
-      name: smart_no_schedule
-      poster: coll-default
 
   "Top 10":
     sort_title: "__+Top-10"

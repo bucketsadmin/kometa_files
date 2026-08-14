@@ -8,6 +8,27 @@ external_templates:
 
 collections:
   ################# yamtrack lists
+  "📀Physical Media":
+    summary: >- 
+      "Here you will find media that I have physical copies of in my home.
+      \n\n
+      A Collection for TV Shows that I have physical copies of. Whether Blu-Ray or DVD, 
+      gives me permanent access to always share these shows.\n\nSo view this collection as my way of 
+      \"sharing\" my physical copy with you, over the internet."
+    floppy_list:
+      - url: https://lists.jjsimpson.xyz/list/1
+      - url: https://lists.jjsimpson.xyz/list/5
+      - url: https://lists.jjsimpson.xyz/list/18
+    sort_title: "__+Physical Media"
+    visible_shared: true
+    smart_label:
+      sort_by: release.desc
+      all:
+        label: <<smart_label>>
+    template:
+      name: show_collection
+      poster: coll-default.png
+
   "Star Trek Collection":
     template:
       name: Collection
@@ -110,27 +131,6 @@ collections:
 
 ################# TMDB collections
   ### TMDB lists
-  "📀Physical Media":
-    summary: >- 
-      "Here you will find media that I have physical copies of in my home.
-      \n\n
-      A Collection for TV Shows that I have physical copies of. Whether Blu-Ray or DVD, 
-      gives me permanent access to always share these shows.\n\nSo view this collection as my way of 
-      \"sharing\" my physical copy with you, over the internet."
-    floppy_list:
-      - url: https://lists.jjsimpson.xyz/list/1
-      - url: https://lists.jjsimpson.xyz/list/5
-      - url: https://lists.jjsimpson.xyz/list/18
-    sort_title: "__+Physical Media"
-    visible_shared: true
-    smart_label:
-      sort_by: release.desc
-      all:
-        label: <<smart_label>>
-    template:
-      name: show_collection
-      poster: coll-default.png
-
   ### TMDB Directors
   Ken Burns:
     template:
