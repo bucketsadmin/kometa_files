@@ -8,6 +8,20 @@ external_templates:
 
 collections:
   ################# floppy lists
+  ### Special Collections
+  "🎄A Rankin and Bass Christmas":
+    floppy_list:
+      - url:  https://lists.jjsimpson.xyz/list/3
+    sync_mode: append #(2!)
+    schedule: range(11/25-01/07)
+    visible_home: range(11/25-01/07)
+    visible_shared: range(11/25-01/07)
+    delete_not_scheduled: true
+    sort_title: "__++Christmas"
+    template:
+      name: collection_no_schedule
+      poster: coll-rankin
+
   "📀Physical Media":
     summary: >-
       "Here you will find media that I have physical copies of in my home.\n\n
@@ -28,10 +42,11 @@ collections:
       name: smart_no_schedule
       poster: coll-default
 
+  ### personal collections
   "Black & White Movies":
     summary: "Life used to be a bit more Black & White in my day."
     floppy_list:
-      url: https://lists.jjsimpson.xyz/list/2
+      - url: https://lists.jjsimpson.xyz/list/2
     template:
       name: Collection
       poster: coll-default
@@ -39,7 +54,7 @@ collections:
   "Disaster Movies":
     summary: "\"In a world where the sky is falling, the ground is cracking, and common sense is on vacation... one unlikely hero must outrun fire, flood, meteors, and bad dialogue to save humanity—and his dog.\n\nFrom a well curated Plex Server, comes the ultimate thrill ride where science is loud, the stakes are global, and the only thing more unstable than the planet... is the plot.\"\n\nComing to a Plex server near you..."
     floppy_list:
-      url: https://lists.jjsimpson.xyz/list/6
+      - url: https://lists.jjsimpson.xyz/list/6
     template:
       name: Collection
       poster: coll-disaster
@@ -47,7 +62,7 @@ collections:
   "Plays":
     summary: "A darkened theater. The murmur of the audience fading as the lights dim. Anticipation palpable in the air. Suddenly, the curtain lifts and a different world comes alive right before your eyes. This is the magic of a play.\nFrom ancient Greek tragedies to modern Broadway musicals, plays have evolved and adapted to reflect the changing times and societies. They have and will continue to hold a special place in our culture and hearts."
     floppy_list:
-      url: https://lists.jjsimpson.xyz/list/20
+      - url: https://lists.jjsimpson.xyz/list/20
     template:
       name: Collection
       poster: coll-plays
@@ -55,7 +70,7 @@ collections:
   "Star Trek Collection":
     summary: "Space: the final frontier. These are the voyages of the starship Enterprise. Its' continuing mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no one has gone before."
     floppy_list:
-      url: https://lists.jjsimpson.xyz/list/19
+      - url: https://lists.jjsimpson.xyz/list/19
     template:
       name: Collection
       poster: coll-trek
@@ -65,14 +80,14 @@ collections:
   "Marvel: The Infinity Saga":
     collection_order: release
     floppy_list:
-      url:  https://lists.jjsimpson.xyz/list/16
+      - url:  https://lists.jjsimpson.xyz/list/16
     template:
       name: Collection
       poster: coll-mcu-infinity
 
   "Marvel: Multiverse Saga":
     floppy_list:
-      url:  https://lists.jjsimpson.xyz/list/17
+      - url:  https://lists.jjsimpson.xyz/list/17
     template:
       name: Collection
       poster: coll-mcu-multi
@@ -93,7 +108,7 @@ collections:
       The Avengers (2012) is the payoff: Joss Whedon assembling six heroes in one film and making it work through 
       character conflict rather than spectacle. Phase 1 remains the strongest sustained argument for what the MCU is capable of."
     floppy_list:
-      url:  https://lists.jjsimpson.xyz/list/9
+      - url:  https://lists.jjsimpson.xyz/list/9
     template:
       name: Collection
       poster: coll-phase-01
@@ -113,7 +128,7 @@ collections:
       that come with franchise maintenance rather than originality — but the phase as a whole establishes the Infinity Stones 
       as a coherent threat and introduces characters (Sam Wilson, Scott Lang, the Guardians) who will define Phase 3."
     floppy_list:
-      url:  https://lists.jjsimpson.xyz/list/10
+      - url:  https://lists.jjsimpson.xyz/list/10
     template:
       name: Collection
       poster: coll-phase-02
@@ -151,7 +166,7 @@ collections:
       examining what the world looks like for survivors in the immediate aftermath. 
       Phase 3C rewards every hour of viewing that preceded it."
     floppy_list:
-      url:  https://lists.jjsimpson.xyz/list/11
+      - url:  https://lists.jjsimpson.xyz/list/11
     template:
       name: Collection
       poster: coll-phase-03
@@ -188,7 +203,7 @@ collections:
       — but the multiverse infrastructure it establishes is load-bearing for everything that follows in Phases 5 and 6.
        "
     floppy_list:
-      url:  https://lists.jjsimpson.xyz/list/12
+      - url:  https://lists.jjsimpson.xyz/list/12
     template:
       name: Collection
       poster: coll-phase-04
@@ -210,7 +225,7 @@ collections:
       the final battle with characters whose histories matter, and establishes the specific multiverse 
       mechanics that Doomsday will exploit."
     floppy_list:
-      url:  https://lists.jjsimpson.xyz/list/13
+      - url:  https://lists.jjsimpson.xyz/list/13
     template:
       name: Collection
       poster: coll-phase-05
@@ -230,24 +245,10 @@ collections:
       playing a character whose philosophy is the inverse of Tony Stark's. Phase 6 is where the 
       multiverse experiment concludes. Every essential film and series across the Multiverse Saga is preparation for this payoff."
     floppy_list:
-      url:  https://lists.jjsimpson.xyz/list/14
+      - url:  https://lists.jjsimpson.xyz/list/14
     template:
       name: Collection
       poster: coll-phase-06
-
-  ### Special Collections
-  "🎄A Rankin and Bass Christmas":
-    floppy_list:
-      url:  https://lists.jjsimpson.xyz/list/3
-    sync_mode: append #(2!)
-    schedule: range(11/25-01/07)
-    visible_home: range(11/25-01/07)
-    visible_shared: range(11/25-01/07)
-    delete_not_scheduled: true
-    sort_title: "__++Christmas"
-    template:
-      name: collection_no_schedule
-      poster: coll-rankin
 
   ################# TMDB collections
   Anchorman Collection:

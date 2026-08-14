@@ -8,6 +8,7 @@ external_templates:
 
 collections:
   ################# floppy lists
+  ### Special Collections
   "📀Physical Media":
     summary: >- 
       "Here you will find media that I have physical copies of in my home.
@@ -29,6 +30,7 @@ collections:
       name: show_collection
       poster: coll-default.png
 
+  ### personal collections
   "Star Trek Collection":
     template:
       name: Collection
@@ -36,7 +38,7 @@ collections:
     summary: "Space: the final frontier. These are the voyages of the starship Enterprise. Its continuing mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before."
     visible_shared: true
     floppy_list:
-      url: https://lists.jjsimpson.xyz/list/19
+      - url: https://lists.jjsimpson.xyz/list/19
 
   "Weird Shows":
     summary: "There's just something a little off about these shows"
@@ -45,7 +47,7 @@ collections:
       name: Collection
       poster: coll-weird
     floppy_list:
-      url: https://lists.jjsimpson.xyz/list/4
+      - url: https://lists.jjsimpson.xyz/list/4
 
   #### MCU
   "MCU Phase 4":
@@ -85,7 +87,7 @@ collections:
       — but the multiverse infrastructure it establishes is load-bearing for everything that follows in Phases 5 and 6.
        "
     floppy_list:
-      url: https://lists.jjsimpson.xyz/list/12
+      - url: https://lists.jjsimpson.xyz/list/12
 
   "MCU Phase 5":
     template:
@@ -107,7 +109,7 @@ collections:
       the final battle with characters whose histories matter, and establishes the specific multiverse 
       mechanics that Doomsday will exploit."
     floppy_list:
-      url: https://lists.jjsimpson.xyz/list/13
+      - url: https://lists.jjsimpson.xyz/list/13
 
   "MCU Phase 6":
     template:
@@ -127,7 +129,7 @@ collections:
       playing a character whose philosophy is the inverse of Tony Stark's. Phase 6 is where the 
       multiverse experiment concludes. Every essential film and series across the Multiverse Saga is preparation for this payoff."
     floppy_list:
-      url: https://lists.jjsimpson.xyz/list/14
+      - url: https://lists.jjsimpson.xyz/list/14
 
 ################# TMDB collections
   ### TMDB lists
