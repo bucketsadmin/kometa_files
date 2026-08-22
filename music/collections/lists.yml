@@ -10,8 +10,10 @@ collections:
   ### personal collections
   "Vinyl collection":
     summary: "You spin me right round baby, right round"
-    floppy_list:
-      - url: https://lists.jjsimpson.xyz/list/22
+    sort_title: "__+Physical Media: Vinyl"
     template:
       name: Collection
       poster: coll-vinyl
+    plex_search:
+      album_label:
+        - "vinyl"
