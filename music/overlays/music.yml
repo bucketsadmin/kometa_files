@@ -1,0 +1,17 @@
+overlays:
+  cd_overlay:
+    overlay:
+      name: cd_collection
+      file: /assets/overlays/cd-overlay.png
+    plex_search:
+      album_label:
+        - "cd"
+
+  vinyl_overlay:
+    overlay:
+      name: vinyl_collection
+      file: /assets/overlays/vinyl-overlay.png
+    plex_search:
+      album_label:
+        - "vinyl"
+
