@@ -17,3 +17,13 @@ collections:
     plex_search:
       album_label:
         - "vinyl"
+
+  "CD Collection":
+    summary: "The future is now old man!"
+    sort_title: "__+Physical Media: CD"
+    template:
+      name: Collection
+      poster: coll-cd
+    plex_search:
+      album_label:
+        - "cd"
