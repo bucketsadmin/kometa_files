@@ -8,7 +8,7 @@ external_templates:
 
 collections:
   ### personal collections
-  "Vinyl collection":
+  "Vinyl Collection":
     summary: "You spin me right round baby, right round"
     sort_title: "__+Physical Media: Vinyl"
     template:
