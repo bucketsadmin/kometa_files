@@ -1,0 +1,17 @@
+#############################################################################
+#####
+##### External list collections
+#####
+#############################################################################
+external_templates:
+  - repo: music/templates/music_collections
+
+collections:
+  ### personal collections
+  "Vinyl collection":
+    summary: "You spin me right round baby, right round"
+    floppy_list:
+      - url: https://lists.jjsimpson.xyz/list/22
+    template:
+      name: Collection
+      poster: coll-vinyl
