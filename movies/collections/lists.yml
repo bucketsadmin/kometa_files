@@ -23,14 +23,6 @@ collections:
       poster: coll-rankin
 
   ### personal collections
-  "Black & White Movies":
-    summary: "Life used to be a bit more Black & White in my day."
-    floppy_list:
-      - url: https://lists.jjsimpson.xyz/list/2
-    template:
-      name: Collection
-      poster: coll-default
-
   "Disaster Movies":
     summary: "\"In a world where the sky is falling, the ground is cracking, and common sense is on vacation... one unlikely hero must outrun fire, flood, meteors, and bad dialogue to save humanity—and his dog.\n\nFrom a well curated Plex Server, comes the ultimate thrill ride where science is loud, the stakes are global, and the only thing more unstable than the planet... is the plot.\"\n\nComing to a Plex server near you..."
     floppy_list:
@@ -38,23 +30,6 @@ collections:
     template:
       name: Collection
       poster: coll-disaster
-
-  "Plays":
-    summary: "A darkened theater. The murmur of the audience fading as the lights dim. Anticipation palpable in the air. Suddenly, the curtain lifts and a different world comes alive right before your eyes. This is the magic of a play.\nFrom ancient Greek tragedies to modern Broadway musicals, plays have evolved and adapted to reflect the changing times and societies. They have and will continue to hold a special place in our culture and hearts."
-    floppy_list:
-      - url: https://lists.jjsimpson.xyz/list/20
-    template:
-      name: Collection
-      poster: coll-plays
-
-  "Star Trek Collection":
-    summary: "Space: the final frontier. These are the voyages of the starship Enterprise. Its' continuing mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no one has gone before."
-    floppy_list:
-      - url: https://lists.jjsimpson.xyz/list/19
-    template:
-      name: Collection
-      poster: coll-trek
-    visible_shared: true
 
   ### Marvel Collections
   "Marvel: The Infinity Saga":
@@ -506,6 +481,32 @@ collections:
     template:
       name: smart_no_schedule
       poster: coll-default
+
+  "Black & White Movies":
+    summary: "Life used to be a bit more Black & White in my day."
+    tmdb_list:
+      - https://www.themoviedb.org/list/8539684-black-white
+    template:
+      name: Collection
+      poster: coll-default
+
+  "Plays":
+    summary: "A darkened theater. The murmur of the audience fading as the lights dim. Anticipation palpable in the air. Suddenly, the curtain lifts and a different world comes alive right before your eyes. This is the magic of a play.\nFrom ancient Greek tragedies to modern Broadway musicals, plays have evolved and adapted to reflect the changing times and societies. They have and will continue to hold a special place in our culture and hearts."
+    tmdb_list:
+      - https://www.themoviedb.org/list/8640092-plays
+    template:
+      name: Collection
+      poster: coll-plays
+
+  "Star Trek Collection":
+    summary: "Space: the final frontier. These are the voyages of the starship Enterprise. Its' continuing mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no one has gone before."
+    tmdb_list:
+      - https://www.themoviedb.org/list/8634450-star-trek
+    template:
+      name: Collection
+      poster: coll-trek
+    visible_shared: true
+
 
 ################# mdblist Collections
   "The Criterion Collection":
