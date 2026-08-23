@@ -8,6 +8,19 @@ external_templates:
 
 collections:
   ### personal collections
+  "Physical Collection":
+    summary: ""
+    sort_title: "__+Physical Media"
+    template:
+      name: Collection
+      poster: coll-vinyl
+    plex_search:
+      sort_by: album_artist.asc
+      any:
+        album_label:
+          - "vinyl"
+          - "cd"
+
   "Vinyl Collection":
     summary: "You spin me right round baby, right round"
     sort_title: "__+Physical Media: Vinyl"
@@ -15,6 +28,7 @@ collections:
       name: Collection
       poster: coll-vinyl
     plex_search:
+      sort_by: album_artist.asc
       album_label:
         - "vinyl"
 
@@ -25,5 +39,6 @@ collections:
       name: Collection
       poster: coll-cd
     plex_search:
+      sort_by: album_artist.asc
       album_label:
         - "cd"
