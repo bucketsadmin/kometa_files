@@ -8,7 +8,7 @@ external_templates:
 
 collections:
   ### personal collections
-  "Physical Collection":
+  "📀Physical Media":
     summary: ""
     sort_title: "__+Physical Media"
     template:
