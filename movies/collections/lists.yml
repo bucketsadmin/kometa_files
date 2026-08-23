@@ -524,6 +524,7 @@ collections:
       name: Collection
       poster: coll-criterion
     visible_shared: true
+    schedule: weekly(saturday)
 
   #Special Collections
   "🎄Christmas 🎄":
