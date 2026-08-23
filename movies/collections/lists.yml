@@ -22,26 +22,6 @@ collections:
       name: collection_no_schedule
       poster: coll-rankin
 
-  "📀Physical Media":
-    summary: >-
-      "Here you will find media that I have physical copies of in my home.\n\n
-      A Collection for Movies that I have physical copies of. 
-      Whether Blu-Ray or DVD, these discs give me permanent access to always share these movies.\n\n
-      So view this collection as my way of \"sharing\" my physical copy with you, over the internet."
-    tmdb_list:
-      - https://www.themoviedb.org/list/8539683-blu-ray-collection
-      - https://www.themoviedb.org/list/8578249-dvd-collection
-      - https://www.themoviedb.org/list/8641678-ultra-hd
-    sort_title: "__+Physical Media"
-    visible_shared: true
-    smart_label:
-      sort_by: title.asc
-      all:
-        label: <<smart_label>>
-    template:
-      name: smart_no_schedule
-      poster: coll-default
-
   ### personal collections
   "Black & White Movies":
     summary: "Life used to be a bit more Black & White in my day."
@@ -506,6 +486,26 @@ collections:
       poster: coll-mcu
     visible_shared: true
 
+  ### TMDB lists
+  "📀Physical Media":
+    summary: >-
+      "Here you will find media that I have physical copies of in my home.\n\n
+      A Collection for Movies that I have physical copies of. 
+      Whether Blu-Ray or DVD, these discs give me permanent access to always share these movies.\n\n
+      So view this collection as my way of \"sharing\" my physical copy with you, over the internet."
+    tmdb_list:
+      - https://www.themoviedb.org/list/8539683-blu-ray-collection
+      - https://www.themoviedb.org/list/8578249-dvd-collection
+      - https://www.themoviedb.org/list/8641678-ultra-hd
+    sort_title: "__+Physical Media"
+    visible_shared: true
+    smart_label:
+      sort_by: title.asc
+      all:
+        label: <<smart_label>>
+    template:
+      name: smart_no_schedule
+      poster: coll-default
 
 ################# mdblist Collections
   "The Criterion Collection":
