@@ -16,7 +16,7 @@ collections:
       name: Collection
       poster: coll-vinyl
     plex_search:
-#      sort_by: album_artist.asc
+      sort_by: album_artist.asc
       any:
         album_label:
           - "vinyl"
@@ -30,7 +30,7 @@ collections:
       name: Collection
       poster: coll-vinyl
     plex_search:
-#      sort_by: album_artist.asc
+      sort_by: album_artist.asc
       album_label:
         - "vinyl"
 
@@ -42,6 +42,6 @@ collections:
       name: Collection
       poster: coll-cd
     plex_search:
-#      sort_by: album_artist.asc
+      sort_by: album_artist.asc
       album_label:
         - "cd"
