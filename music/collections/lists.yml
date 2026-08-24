@@ -11,11 +11,11 @@ collections:
   "📀Physical Media":
     summary: ""
     sort_title: "__+Physical Media"
+    builder_level: album
     template:
       name: Collection
       poster: coll-vinyl
     plex_search:
-      builder_level: album
 #      sort_by: album_artist.asc
       any:
         album_label:
@@ -25,11 +25,11 @@ collections:
   "Vinyl Collection":
     summary: "You spin me right round baby, right round"
     sort_title: "__+Physical Media: Vinyl"
+    builder_level: album
     template:
       name: Collection
       poster: coll-vinyl
     plex_search:
-      builder_level: album
 #      sort_by: album_artist.asc
       album_label:
         - "vinyl"
@@ -37,11 +37,11 @@ collections:
   "CD Collection":
     summary: "The future is now old man!"
     sort_title: "__+Physical Media: CD"
+    builder_level: album
     template:
       name: Collection
       poster: coll-cd
     plex_search:
-      builder_level: album
 #      sort_by: album_artist.asc
       album_label:
         - "cd"
