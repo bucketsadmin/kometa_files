@@ -58,4 +58,4 @@ collections:
         album_label:
           - "musical"
         album_genre:
-          "Musicals"
+          - "Musical"
