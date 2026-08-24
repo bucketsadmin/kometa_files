@@ -24,6 +24,7 @@ collections:
       name: Collection
       poster: coll-mcu-multi
 
+  ### TVDB lists
   "MCU Phase 1":
     sort_title: Marvel_MCU Phase 1
     summary: "Phase 1 is where the MCU bet everything on a proposition that had never been tested: 
@@ -39,8 +40,7 @@ collections:
     The Avengers (2012) is the payoff: Joss Whedon assembling six heroes in one film and making it work 
     through character conflict rather than spectacle. 
     Phase 1 remains the strongest sustained argument for what the MCU is capable of."
-    floppy_list:
-      - url:  https://lists.jjsimpson.xyz/list/9
+    tvdb_list: https://thetvdb.com/lists/16374
     template:
       name: Collection
       poster: coll-phase-01
@@ -58,8 +58,7 @@ collections:
       and Avengers: Age of Ultron are the phase's weaker entries — each carrying traces of the creative limitations 
       that come with franchise maintenance rather than originality — but the phase as a whole establishes the Infinity Stones 
       as a coherent threat and introduces characters (Sam Wilson, Scott Lang, the Guardians) who will define Phase 3."
-    floppy_list:
-      - url:  https://lists.jjsimpson.xyz/list/10
+    tvdb_list: https://thetvdb.com/lists/16375
     template:
       name: Collection
       poster: coll-phase-02
@@ -96,8 +95,7 @@ collections:
       Spider-Man: Far From Home functions as an epilogue — both to Endgame and to the Infinity Saga — 
       examining what the world looks like for survivors in the immediate aftermath. 
       Phase 3C rewards every hour of viewing that preceded it."
-    floppy_list:
-      - url:  https://lists.jjsimpson.xyz/list/11
+    tvdb_list: https://thetvdb.com/lists/16376
     template:
       name: Collection
       poster: coll-phase-03
