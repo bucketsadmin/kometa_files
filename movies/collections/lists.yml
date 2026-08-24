@@ -26,19 +26,7 @@ collections:
 
   "MCU Phase 1":
     sort_title: Marvel_MCU Phase 1
-    summary: >-
-      "Phase 1 is where the MCU bet everything on a proposition that had never been tested: 
-      that multiple superhero franchises, each internally coherent, could build toward a single shared climactic event. 
-      Iron Man (2008) launched the experiment with a character who wasn't Marvel's most bankable property 
-      and an actor whose career was considered a risk. The gamble worked — both creatively and commercially — 
-      and established the template that the next fifteen years of superhero cinema would imitate and rarely equal.
-      /n
-      The six Phase 1 films (Iron Man, The Incredible Hulk, Iron Man 2, Thor, Captain America: The First Avenger, 
-      The Avengers) are the most efficiently produced setup in franchise history. Each film has a distinct genre register — 
-      heist, monster movie, political thriller, fish-out-of-water comedy, WWII adventure — 
-      while systematically seeding the Infinity Stones and establishing the Avengers roster. 
-      The Avengers (2012) is the payoff: Joss Whedon assembling six heroes in one film and making it work through 
-      character conflict rather than spectacle. Phase 1 remains the strongest sustained argument for what the MCU is capable of."
+    summary: "Phase 1 is where the MCU bet everything on a proposition that had never been tested: that multiple superhero franchises, each internally coherent, could build toward a single shared climactic event.  Iron Man (2008) launched the experiment with a character who wasn't Marvel's most bankable property  and an actor whose career was considered a risk. The gamble worked — both creatively and commercially —  and established the template that the next fifteen years of superhero cinema would imitate and rarely equal. /n The six Phase 1 films (Iron Man, The Incredible Hulk, Iron Man 2, Thor, Captain America: The First Avenger, The Avengers) are the most efficiently produced setup in franchise history. Each film has a distinct genre register — heist, monster movie, political thriller, fish-out-of-water comedy, WWII adventure — while systematically seeding the Infinity Stones and establishing the Avengers roster. The Avengers (2012) is the payoff: Joss Whedon assembling six heroes in one film and making it work through character conflict rather than spectacle. Phase 1 remains the strongest sustained argument for what the MCU is capable of."
     floppy_list:
       - url:  https://lists.jjsimpson.xyz/list/9
     template:
@@ -47,8 +35,7 @@ collections:
 
   "MCU Phase 2":
     sort_title: Marvel_MCU Phase 2
-    summary: >-
-      "Phase 2 sharpened the franchise's ambitions and introduced its most enduring structural element: 
+    summary: "Phase 2 sharpened the franchise's ambitions and introduced its most enduring structural element: 
       the revelation that HYDRA had been embedded inside SHIELD since the organisation's founding. 
       Captain America: The Winter Soldier (2014) is the phase's centrepiece and arguably the best MCU film, 
       importing the paranoiac texture of 1970s political thrillers into a superhero narrative and making the 
