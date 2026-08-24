@@ -26,7 +26,19 @@ collections:
 
   "MCU Phase 1":
     sort_title: Marvel_MCU Phase 1
-    summary: "Phase 1 is where the MCU bet everything on a proposition that had never been tested: that multiple superhero franchises, each internally coherent, could build toward a single shared climactic event.  Iron Man (2008) launched the experiment with a character who wasn't Marvel's most bankable property  and an actor whose career was considered a risk. The gamble worked — both creatively and commercially —  and established the template that the next fifteen years of superhero cinema would imitate and rarely equal. /n The six Phase 1 films (Iron Man, The Incredible Hulk, Iron Man 2, Thor, Captain America: The First Avenger, The Avengers) are the most efficiently produced setup in franchise history. Each film has a distinct genre register — heist, monster movie, political thriller, fish-out-of-water comedy, WWII adventure — while systematically seeding the Infinity Stones and establishing the Avengers roster. The Avengers (2012) is the payoff: Joss Whedon assembling six heroes in one film and making it work through character conflict rather than spectacle. Phase 1 remains the strongest sustained argument for what the MCU is capable of."
+    summary: "Phase 1 is where the MCU bet everything on a proposition that had never been tested: 
+    that multiple superhero franchises, each internally coherent, could build toward a single shared climactic event.  
+    Iron Man (2008) launched the experiment with a character who wasn't Marvel's most bankable property 
+    and an actor whose career was considered a risk. The gamble worked — both creatively and commercially —  
+    and established the template that the next fifteen years of superhero cinema would imitate and rarely equal. 
+    \n 
+    The six Phase 1 films (Iron Man, The Incredible Hulk, Iron Man 2, Thor, 
+    Captain America: The First Avenger, The Avengers) are the most efficiently produced setup in franchise history. 
+    Each film has a distinct genre register — heist, monster movie, political thriller, fish-out-of-water comedy, 
+    WWII adventure — while systematically seeding the Infinity Stones and establishing the Avengers roster. 
+    The Avengers (2012) is the payoff: Joss Whedon assembling six heroes in one film and making it work 
+    through character conflict rather than spectacle. 
+    Phase 1 remains the strongest sustained argument for what the MCU is capable of."
     floppy_list:
       - url:  https://lists.jjsimpson.xyz/list/9
     template:
@@ -40,7 +52,7 @@ collections:
       Captain America: The Winter Soldier (2014) is the phase's centrepiece and arguably the best MCU film, 
       importing the paranoiac texture of 1970s political thrillers into a superhero narrative and making the 
       institutional betrayal feel genuinely consequential rather than cosmetic.
-      /n
+      \n
       Phase 2 also opened the cosmic register with Guardians of the Galaxy (2014), proving that the MCU's formula 
       could scale to characters completely outside the Avengers framework. Thor: The Dark World, Iron Man 3, 
       and Avengers: Age of Ultron are the phase's weaker entries — each carrying traces of the creative limitations 
@@ -58,26 +70,26 @@ collections:
       "Phase 3 opens with Ant-Man (2015) and Captain America: Civil War (2016) — 
       the latter functioning as a de facto Avengers film that fractures the team in ways that persist through Infinity War. 
       Civil War introduces both Black Panther and Spider-Man to the MCU, making it one of the most consequential single films in the franchise's history.
-      /n
+      \n
       Phase 3 processes the fallout of Civil War while expanding the MCU's cosmic and magical registers. 
       Doctor Strange (2016) introduces the Mystic Arts, the Eye of Agamotto, and a new narrative dimension — 
       the multiverse — that the franchise wouldn't fully exploit for another five years. 
       Guardians of the Galaxy Vol. 2 and Spider-Man: Homecoming continue established character arcs while 
       Black Panther (2018) delivers the franchise's most fully realised standalone world.
-      /n
+      \n
       Black Panther is Phase 3's defining achievement: a film with the political ambition to make Wakanda's
       isolationism the villain's argument as much as his violence, and the craft to cast an antagonist (Killmonger)
       whose grievances are structurally legitimate. Thor: Ragnarok dismantles the Asgard mythology set up in Phase 1
       with anarchic comedy and unexpected emotional honesty. By the end of Phase 3, every major Avenger has been tested,
       every major location established, and every Infinity Stone positioned. 
       Avengers: Infinity War is the logical conclusion of everything Phase 3 built.
-      /n
+      \n
       Phase 3 is the Infinity War proper: the period in which Thanos collects the Infinity Stones, 
       the Avengers fail to stop him, and half of all life in the universe is erased. Avengers: Infinity War (2018) 
       is among the most structurally ambitious films in the franchise — twenty-two characters, 
       three simultaneous storylines, and a villain who wins. Its status as the most genuinely shocking MCU release 
       reflects how effectively the preceding twenty films had established the stakes.
-      /n
+      \n
       Avengers: Endgame (2019) is the resolution and the farewell to Phase 3's central characters and the Infinity War Saga. 
       The five-year time jump, the quantum time heist, the multiverse-spanning final battle, and the deaths of Tony Stark 
       and Natasha Romanoff constitute one of the most complete narrative endings in franchise filmmaking. 
@@ -113,7 +125,7 @@ collections:
       Spider-Man: No Way Home, Doctor Strange in the Multiverse of Madness, Thor: Love and Thunder, Black Panther: 
       Wakanda Forever, and Ant-Man and the Wasp: Quantumania collectively establish the new cosmological rules while 
       introducing the franchise's next generation of heroes.
-      /n
+      \n
        Spider-Man: No Way Home is the phase's most significant theatrical event: the multiverse opening that allows
       three generations of Spider-Man to coexist, resolves Peter Parker's MCU arc definitively, and functions as 
       both a crowd-pleasing reunion and a genuine farewell. Doctor Strange in the Multiverse of Madness then takes 
@@ -134,7 +146,7 @@ collections:
       Guardians of the Galaxy Vol. 3, Loki Season 2, Echo, Ironheart, Agatha All Along, 
       Daredevil: Born Again, and Captain America: Brave New World collectively position the heroes 
       of the incoming Doomsday era while resolving outstanding character arcs from earlier phases.
-      /n
+      \n
       Loki Season 2's finale is Phase 5's most consequential narrative event: 
       Loki's sacrifice at the end of time restructures the multiverse's architecture and sets the 
       conditions for everything that follows in Phase 6. Guardians of the Galaxy Vol. 3 closes that 
@@ -156,7 +168,7 @@ collections:
       The phase brings together heroes from the MCU main timeline, the Fox X-Men universe, 
       and multiple alternate realities to confront Doctor Doom and whatever the fractured 
       multiverse has made possible.
-      /n
+      \n
       Avengers: Doomsday is positioned as the resolution of every narrative thread seeded across Phases 4 and 5. 
       Robert Downey Jr.'s return as Victor Von Doom — rather than Tony Stark — is the phase's central creative statement: 
       the actor who defined the MCU's opening era returning in an entirely different register, 
@@ -515,7 +527,7 @@ collections:
 
   "🎄Christmas 🎄":
     mdblist_list:
-      url: https://mdblist.com/lists/n0t4u2c/complete-christmas-collection
+      url: https://mdblist.com/lists\n0t4u2c/complete-christmas-collection
     summary: "Christmas time is here..."
     sync_mode: append #(2!)
     collection_order: custom
