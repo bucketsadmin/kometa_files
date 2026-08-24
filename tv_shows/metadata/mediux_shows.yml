@@ -2276,12 +2276,12 @@ metadata:
       0:
         url_poster: https://api.mediux.pro/assets/54f55e41-c8df-4485-af59-4fc9f3c266f9
         episodes:
-          1:
-            url_poster: https://api.mediux.pro/assets/ae27a60b-ad40-4eef-aec9-c1e47deb8a9a
-          2:
-            url_poster: https://api.mediux.pro/assets/ca0a9a1e-a657-4742-af13-6dfcfe371e43
-          3:
-            url_poster: https://api.mediux.pro/assets/be50a8ca-4218-4e9a-ab3d-92962006b8c1
+#          1:
+#            url_poster: https://api.mediux.pro/assets/ae27a60b-ad40-4eef-aec9-c1e47deb8a9a
+#          2:
+#            url_poster: https://api.mediux.pro/assets/ca0a9a1e-a657-4742-af13-6dfcfe371e43
+#          3:
+#            url_poster: https://api.mediux.pro/assets/be50a8ca-4218-4e9a-ab3d-92962006b8c1
           4:
             url_poster: https://api.mediux.pro/assets/b1d70f05-742c-4652-87e7-f761f755045f
           5:
