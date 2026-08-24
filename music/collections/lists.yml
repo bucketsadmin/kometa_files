@@ -45,3 +45,17 @@ collections:
       sort_by: album_artist.asc
       album_label:
         - "cd"
+
+  "Musicals":
+    summary: ""
+    builder_level: album
+    template:
+      name: Collection
+      poster: coll-musicals
+    plex_search:
+      sort_by: album_artist.asc
+      any:
+        album_label:
+          - "musical"
+        album_genre:
+          "Musicals"
