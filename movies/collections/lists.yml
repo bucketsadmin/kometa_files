@@ -134,6 +134,9 @@ collections:
       - lists/mcu-phase-04.txt
 
   "MCU Phase 5":
+    template:
+      name: Collection
+      poster: coll-phase-05
     sort_title: Marvel_MCU Phase 5
     summary: "Phase 5 is the Multiverse War in earnest: the period in which the threat of Kang 
       and the fragmentation of the multiverse become structurally unavoidable. 
@@ -148,13 +151,13 @@ collections:
       into the theatrical MCU. Phase 5 is essential preparation for Avengers: Doomsday — it populates 
       the final battle with characters whose histories matter, and establishes the specific multiverse 
       mechanics that Doomsday will exploit."
-    floppy_list:
-      - url:  https://lists.jjsimpson.xyz/list/13
-    template:
-      name: Collection
-      poster: coll-phase-05
+    text_file:
+      - lists/mcu-phase-05.txt
 
   "MCU Phase 6":
+    template:
+      name: Collection
+      poster: coll-phase-06
     sort_title: Marvel_MCU Phase 6
     summary: "Phase 6 is the Multiverse Saga's endgame — the period leading to and immediately following 
       Avengers: Doomsday (2026), the franchise's largest assembled cast event since Endgame. 
@@ -167,11 +170,8 @@ collections:
       the actor who defined the MCU's opening era returning in an entirely different register, 
       playing a character whose philosophy is the inverse of Tony Stark's. Phase 6 is where the 
       multiverse experiment concludes. Every essential film and series across the Multiverse Saga is preparation for this payoff."
-    floppy_list:
-      - url:  https://lists.jjsimpson.xyz/list/14
-    template:
-      name: Collection
-      poster: coll-phase-06
+    text_file:
+      - lists/mcu-phase-06.txt
 
   ################# TMDB collections
   Anchorman Collection:
