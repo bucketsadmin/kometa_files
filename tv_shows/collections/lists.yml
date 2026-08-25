@@ -9,11 +9,9 @@ external_templates:
 collections:
   #### MCU
   "MCU Phase 4":
-    sync_mode: sync
     template:
       name: show_collection
       poster: coll-phase-04.png
-    collection_order: release
     sort_title: Marvel_MCU Phase 4
     summary: "Phase 4 introduces both the The Blip recovery era and the introduction of the Multiverse, beginning the Multiverse saga.
       
