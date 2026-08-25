@@ -11,15 +11,19 @@ collections:
   ### Marvel Collections
   "Marvel: The Infinity Saga":
     collection_order: release
-    floppy_list:
-      - url:  https://lists.jjsimpson.xyz/list/16
+    tvdb_list:
+      - https://thetvdb.com/lists/16374
+      - https://thetvdb.com/lists/16375
+      - https://thetvdb.com/lists/16376
     template:
       name: Collection
       poster: coll-mcu-infinity
 
   "Marvel: Multiverse Saga":
-    floppy_list:
-      - url:  https://lists.jjsimpson.xyz/list/17
+    text_file:
+      - lists/mcu-phase-04.txt
+      - lists/mcu-phase-05.txt
+      - lists/mcu-phase-06.txt
     template:
       name: Collection
       poster: coll-mcu-multi
