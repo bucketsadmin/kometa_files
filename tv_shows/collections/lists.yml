@@ -49,13 +49,12 @@ collections:
       name: show_collection
       poster: coll-phase-05.png
     sort_title: Marvel_MCU Phase 5
-    summary: >-
-      "Phase 5 is the Multiverse War in earnest: the period in which the threat of Kang 
+    summary: "Phase 5 is the Multiverse War in earnest: the period in which the threat of Kang 
       and the fragmentation of the multiverse become structurally unavoidable. 
       Guardians of the Galaxy Vol. 3, Loki Season 2, Echo, Ironheart, Agatha All Along, 
       Daredevil: Born Again, and Captain America: Brave New World collectively position the heroes 
       of the incoming Doomsday era while resolving outstanding character arcs from earlier phases.
-      
+      \n
       Loki Season 2's finale is Phase 5's most consequential narrative event: 
       Loki's sacrifice at the end of time restructures the multiverse's architecture and sets the 
       conditions for everything that follows in Phase 6. Guardians of the Galaxy Vol. 3 closes that 
@@ -63,8 +62,8 @@ collections:
       into the theatrical MCU. Phase 5 is essential preparation for Avengers: Doomsday — it populates 
       the final battle with characters whose histories matter, and establishes the specific multiverse 
       mechanics that Doomsday will exploit."
-    floppy_list:
-      - url: https://lists.jjsimpson.xyz/list/13
+    text_file:
+      - lists/mcu-phase-05.txt
 
   "MCU Phase 6":
     template:
