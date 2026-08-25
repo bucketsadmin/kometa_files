@@ -11,15 +11,19 @@ collections:
   ### Marvel Collections
   "Marvel: The Infinity Saga":
     collection_order: release
-    floppy_list:
-      - url:  https://lists.jjsimpson.xyz/list/16
+    tvdb_list:
+      - https://thetvdb.com/lists/16374
+      - https://thetvdb.com/lists/16375
+      - https://thetvdb.com/lists/16376
     template:
       name: Collection
       poster: coll-mcu-infinity
 
   "Marvel: Multiverse Saga":
-    floppy_list:
-      - url:  https://lists.jjsimpson.xyz/list/17
+    text_file:
+      - config/lists/mcu-phase-04.txt
+      - config/lists/mcu-phase-05.txt
+      - config/lists/mcu-phase-06.txt
     template:
       name: Collection
       poster: coll-mcu-multi
@@ -100,10 +104,13 @@ collections:
       poster: coll-phase-03
 
   "MCU Phase 4":
+    template:
+      name: Collection
+      poster: coll-phase-04
     sort_title: Marvel_MCU Phase 4
     summary: "Phase 4 introduces both the The Blip recovery era and the introduction of the Multiverse, beginning the Multiverse saga.
-      \n
-       The Blip recovery era covers the MCU titles set in the immediate aftermath of Avengers: Endgame — 
+      
+      The Blip recovery era covers the MCU titles set in the immediate aftermath of Avengers: Endgame — 
       primarily the Disney+ series launched from 2021 onward. WandaVision, The Falcon and the Winter Soldier, Loki, 
       Hawkeye, Moon Knight, Ms. Marvel, and She-Hulk: Attorney at Law all deal, in different ways, 
       with what it means to live in a world that lost half its population for five years and then got it back. 
@@ -115,8 +122,9 @@ collections:
       miniseries that uses the history of American sitcoms as a grief metaphor and lands its emotional 
       conclusion with genuine force. For the Blip era to work, prior Infinity War and Endgame familiarity is essential: 
       this phase is explicitly about aftermath.
-      \n      
-       The Multiverse opening phase marks the MCU's transition from the Infinity Saga's closed-universe storytelling to the open, parallel-reality architecture of the Multiverse Saga. Black Widow, Shang-Chi, Eternals, 
+      \n
+       The Multiverse opening phase marks the MCU's transition from the Infinity Saga's closed-universe storytelling
+      to the open, parallel-reality architecture of the Multiverse Saga. Black Widow, Shang-Chi, Eternals, 
       Spider-Man: No Way Home, Doctor Strange in the Multiverse of Madness, Thor: Love and Thunder, Black Panther: 
       Wakanda Forever, and Ant-Man and the Wasp: Quantumania collectively establish the new cosmological rules while 
       introducing the franchise's next generation of heroes.
@@ -126,13 +134,13 @@ collections:
       both a crowd-pleasing reunion and a genuine farewell. Doctor Strange in the Multiverse of Madness then takes 
       the multiverse seriously as a threat rather than a toy. The phase is uneven — Eternals in particular is divisive
       — but the multiverse infrastructure it establishes is load-bearing for everything that follows in Phases 5 and 6."
-    floppy_list:
-      - url:  https://lists.jjsimpson.xyz/list/12
-    template:
-      name: Collection
-      poster: coll-phase-04
+    text_file:
+      - config/lists/mcu-phase-04.txt
 
   "MCU Phase 5":
+    template:
+      name: Collection
+      poster: coll-phase-05
     sort_title: Marvel_MCU Phase 5
     summary: "Phase 5 is the Multiverse War in earnest: the period in which the threat of Kang 
       and the fragmentation of the multiverse become structurally unavoidable. 
@@ -147,13 +155,13 @@ collections:
       into the theatrical MCU. Phase 5 is essential preparation for Avengers: Doomsday — it populates 
       the final battle with characters whose histories matter, and establishes the specific multiverse 
       mechanics that Doomsday will exploit."
-    floppy_list:
-      - url:  https://lists.jjsimpson.xyz/list/13
-    template:
-      name: Collection
-      poster: coll-phase-05
+    text_file:
+      - config/lists/mcu-phase-05.txt
 
   "MCU Phase 6":
+    template:
+      name: Collection
+      poster: coll-phase-06
     sort_title: Marvel_MCU Phase 6
     summary: "Phase 6 is the Multiverse Saga's endgame — the period leading to and immediately following 
       Avengers: Doomsday (2026), the franchise's largest assembled cast event since Endgame. 
@@ -166,11 +174,8 @@ collections:
       the actor who defined the MCU's opening era returning in an entirely different register, 
       playing a character whose philosophy is the inverse of Tony Stark's. Phase 6 is where the 
       multiverse experiment concludes. Every essential film and series across the Multiverse Saga is preparation for this payoff."
-    floppy_list:
-      - url:  https://lists.jjsimpson.xyz/list/14
-    template:
-      name: Collection
-      poster: coll-phase-06
+    text_file:
+      - config/lists/mcu-phase-06.txt
 
   ################# TMDB collections
   Anchorman Collection:
