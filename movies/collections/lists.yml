@@ -21,9 +21,9 @@ collections:
 
   "Marvel: Multiverse Saga":
     text_file:
-      - lists/mcu-phase-04.txt
-      - lists/mcu-phase-05.txt
-      - lists/mcu-phase-06.txt
+      - config/lists/mcu-phase-04.txt
+      - config/lists/mcu-phase-05.txt
+      - config/lists/mcu-phase-06.txt
     template:
       name: Collection
       poster: coll-mcu-multi
@@ -135,7 +135,7 @@ collections:
       the multiverse seriously as a threat rather than a toy. The phase is uneven — Eternals in particular is divisive
       — but the multiverse infrastructure it establishes is load-bearing for everything that follows in Phases 5 and 6."
     text_file:
-      - lists/mcu-phase-04.txt
+      - config/lists/mcu-phase-04.txt
 
   "MCU Phase 5":
     template:
@@ -156,7 +156,7 @@ collections:
       the final battle with characters whose histories matter, and establishes the specific multiverse 
       mechanics that Doomsday will exploit."
     text_file:
-      - lists/mcu-phase-05.txt
+      - config/lists/mcu-phase-05.txt
 
   "MCU Phase 6":
     template:
@@ -175,7 +175,7 @@ collections:
       playing a character whose philosophy is the inverse of Tony Stark's. Phase 6 is where the 
       multiverse experiment concludes. Every essential film and series across the Multiverse Saga is preparation for this payoff."
     text_file:
-      - lists/mcu-phase-06.txt
+      - config/lists/mcu-phase-06.txt
 
   ################# TMDB collections
   Anchorman Collection:
