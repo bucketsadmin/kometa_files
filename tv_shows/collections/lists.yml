@@ -70,20 +70,19 @@ collections:
       name: show_collection
       poster: coll-phase-06.png
     sort_title: Marvel_MCU Phase 6
-    summary: >-
-      "Phase 6 is the Multiverse Saga's endgame — the period leading to and immediately following 
+    summary: "Phase 6 is the Multiverse Saga's endgame — the period leading to and immediately following 
       Avengers: Doomsday (2026), the franchise's largest assembled cast event since Endgame. 
       The phase brings together heroes from the MCU main timeline, the Fox X-Men universe, 
       and multiple alternate realities to confront Doctor Doom and whatever the fractured 
       multiverse has made possible.
-      
+      \n
       Avengers: Doomsday is positioned as the resolution of every narrative thread seeded across Phases 4 and 5. 
       Robert Downey Jr.'s return as Victor Von Doom — rather than Tony Stark — is the phase's central creative statement: 
       the actor who defined the MCU's opening era returning in an entirely different register, 
       playing a character whose philosophy is the inverse of Tony Stark's. Phase 6 is where the 
       multiverse experiment concludes. Every essential film and series across the Multiverse Saga is preparation for this payoff."
-    floppy_list:
-      - url: https://lists.jjsimpson.xyz/list/14
+    text_file:
+      - lists/mcu-phase-06.txt
 
 ################# TMDB collections
   ### TMDB lists
