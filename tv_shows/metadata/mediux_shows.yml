@@ -1426,8 +1426,6 @@ metadata:
             url_poster: https://api.mediux.pro/assets/792d0cc0-1eaf-48e9-93ab-977925530998
   94571:  # TVDB id for Community. Set by cuball on MediUX. https://mediux.pro/sets/32796
     seasons:
-      0:
-        episodes:
       1:
         episodes:
           1:
