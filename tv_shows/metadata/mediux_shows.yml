@@ -347,7 +347,6 @@ metadata:
             url_poster: https://api.mediux.pro/assets/5bc55ea6-351f-4458-9f91-368f6c2b65bc
   72173:  # TVDB id for Arrested Development. Set by Sarrius on MediUX. https://mediux.pro/sets/2616
     seasons:
-      0:
       1:
         episodes:
           1:
