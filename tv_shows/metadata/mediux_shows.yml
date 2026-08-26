@@ -4643,7 +4643,6 @@ metadata:
               url_poster: https://api.mediux.pro/assets/cff580b4-8672-40a8-9738-4506037940a6
   364093: # TVDB id for Star Trek: Picard. Set by pmbasehore on MediUX. https://mediux.pro/sets/487
     seasons:
-      0:
       1:
         episodes:
           1:
