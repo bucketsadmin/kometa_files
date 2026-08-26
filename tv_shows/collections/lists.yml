@@ -67,6 +67,7 @@ collections:
     template:
       name: show_collection
       poster: coll-phase-06.png
+    builder_level: season
     sort_title: Marvel_MCU Phase 6
     summary: "Phase 6 is the Multiverse Saga's endgame — the period leading to and immediately following
       Avengers: Doomsday (2026), the franchise's largest assembled cast event since Endgame.
