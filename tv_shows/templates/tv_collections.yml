@@ -17,6 +17,7 @@ templates:
     default:
       level: ""
       sort_title_name: <<collection_name>>
+    collection_order: release
     sync_mode: sync
     file_poster: /assets/collections/tv/<<poster>>
     visible_library: true
