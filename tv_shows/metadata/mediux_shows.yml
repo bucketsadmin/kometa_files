@@ -4531,7 +4531,6 @@ metadata:
   ####### Star Trek #######
   367138: # TVDB id for Star Trek: Lower Decks. Set by pmbasehore on MediUX. https://mediux.pro/sets/486
     seasons:
-      0:
       1:
         episodes:
           1:
