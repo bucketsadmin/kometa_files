@@ -93,11 +93,9 @@ collections:
 
   ### TMDB keywords
   "Marvel Cinematic Universe":
-    sync_mode: sync
     template:
       name: show_collection
       poster: coll-mcu.png
-    collection_order: release
     sort_title: Marvel_MCU
     visible_shared: true
     tmdb_keyword: 180547
