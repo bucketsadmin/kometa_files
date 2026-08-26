@@ -66,7 +66,8 @@ metadata:
 
   Rogue One:
     match:
-      title: Rogue One the Andor Cut
+      title: Rogue One
+      edition: The Andor Cut
     title: "Rogue One"
     sort_title: rogue one the andor cut
     edition: The Andor Cut
@@ -80,8 +81,7 @@ metadata:
     country: United States of America
     label: [fan_edit]
     tagline: "Welcome to the rebellion, and witness the end of the andor saga."
-    summary: >-
-      "Re-watch ROGUE ONE like you've never seen it before. 
+    summary: "Re-watch ROGUE ONE like you've never seen it before. 
       This reimagining of the 2016 film sets out to re-envision 'Rogue One: A Star Wars Story'
       as the finale and epilogue to the 'ANDOR series, as if it had been made after the conclusion of its two seasons. 
       Musical themes and leitmotifs from the show are present, pertinent flashbacks are inserted, 
