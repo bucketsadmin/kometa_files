@@ -134,8 +134,8 @@ collections:
       both a crowd-pleasing reunion and a genuine farewell. Doctor Strange in the Multiverse of Madness then takes
       the multiverse seriously as a threat rather than a toy. The phase is uneven — Eternals in particular is divisive
       — but the multiverse infrastructure it establishes is load-bearing for everything that follows in Phases 5 and 6."
-    text_file:
-      - config/lists/mcu-phase-04.txt
+    tmdb_list:
+      - https://www.themoviedb.org/list/8689524-mcu-phase-04
 
   "MCU Phase 5":
     template:
@@ -155,8 +155,8 @@ collections:
       into the theatrical MCU. Phase 5 is essential preparation for Avengers: Doomsday — it populates
       the final battle with characters whose histories matter, and establishes the specific multiverse
       mechanics that Doomsday will exploit."
-    text_file:
-      - config/lists/mcu-phase-05.txt
+    tmdb_list:
+      - https://www.themoviedb.org/list/8689523-mcu-phase-05
 
   "MCU Phase 6":
     template:
