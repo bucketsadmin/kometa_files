@@ -11,8 +11,8 @@ collections:
   "Avatar Collection":
     sync_mode: sync
     template:
-      name: show_collection
-      poster: coll-avatar.png
+      name: collection_not_visible
+      poster: coll-avatar
     summary: "The Avatar: The Last Airbender universe is a canon created by Bryan Konietzko and Michael Dante DiMartino for Nickelodeon.\nIt takes place in an East Asian-influenced Constructed World divided into nations based around the elements of water, earth, fire, and air. Some people from each nation, called \"benders\", have the ability to control the element on which their nation is based.\nOne person, the Avatar, has the ability to bend all four elements, and is reincarnated into each of the nations upon his or her death in an endless cycle. The main character of each work is this Avatar, and he or she must undergo the trials, tribulations and responsibility of holding that power."
     plex_search:
       any:
@@ -24,7 +24,7 @@ collections:
     sync_mode: sync
     summary: "Capturing truth, life, and reality — one episode at a time. The best documentaries allow us to see the world with a fresh set of eyes..."
     template:
-      name: Collection
+      name: collection_not_visible
       poster: coll-docs
     plex_search:
       any:
@@ -34,7 +34,7 @@ collections:
   "Scrubs":
     sync_mode: sync
     template:
-      name: Collection
+      name: collection_not_visible
       poster: coll-scrubs
     summary: "I'm no Superman"
     plex_search:
@@ -46,8 +46,8 @@ collections:
     sync_mode: sync
     visible_shared: true
     template:
-      name: show_collection
-      poster: coll-star-wars.png
+      name: collection_not_visible
+      poster: coll-star-wars
     plex_search:
       any:
         title.is:
@@ -58,8 +58,8 @@ collections:
   "Stargate Collection":
     sync_mode: sync
     template:
-      name: show_collection
-      poster: coll-stargate.jpg
+      name: collection_not_visible
+      poster: coll-stargate
     summary: "It will take you a million light-years from home. But will it bring you back?"
     plex_search:
       any:
