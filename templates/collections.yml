@@ -1,6 +1,11 @@
+#############################################################################
+#####
+##### Collection templates
+#####
+#############################################################################
+
 templates:
-  # Collection Templates
-  # -----------------------------
+  # Default Collection Templates
   Collection:
     default:
       level: ""
@@ -70,9 +75,34 @@ templates:
     visible_home: false
     delete_not_scheduled: false
 
+  ## smart filter collections
+  smart_collection:
+    default:
+      level: ""
+      sort_title_name: <<collection_name>>
+    sync_mode: sync
+    name_mapping: <<poster>>
+    schedule:
+      - weekly(tuesday)
+      - weekly(friday)
+    visible_library: true
+    visible_shared: false
+    visible_home: false
+
+  smart_no_schedule:
+    default:
+      level: ""
+      sort_title_name: <<collection_name>>
+    sync_mode: sync
+    name_mapping: <<poster>>
+    visible_library: true
+    visible_shared: false
+    visible_home: false
+
+
   # Dynamic Collections Templates
   # -----------------------------
-  Per_Decade:
+  Per_Decade_Show:
     default:
       level: ""
     builder_level: episode
@@ -83,10 +113,25 @@ templates:
         episode_air_date.after: 01/01/<<key_name>>
         episode_air_date.before: 12/31/<<ending>>
     sort_title: 080_+<<level>>_<<starting>>
-#    file_poster: /assets/collections/tv/coll-<<starting>>.png
     name_mapping: coll-<<starting>>
     visible_library: true
     visible_shared: false
     visible_home: false
     #    schedule: weekly(sunday)
+    delete_not_scheduled: false
+
+  Per_Decade_Movie:
+    default:
+      level: ""
+    smart_filter:
+      sort_by: release.asc
+      all:
+        year.gte: <<key_name>>
+        year.lte: <<ending>>
+    sort_title: 080_+<<level>>_<<starting>>
+    name_mapping: coll-<<starting>>
+    visible_library: true
+    visible_shared: false
+    visible_home: false
+    #    schedule: monthly(16)
     delete_not_scheduled: false
