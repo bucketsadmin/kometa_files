@@ -3684,8 +3684,6 @@ metadata:
     # url_poster: https://api.mediux.pro/assets/85eba34c-151e-4e36-bb6f-c9bd654ad9f2
     url_background: https://api.mediux.pro/assets/720e0d2e-6003-4f52-ac2c-3a6aef4c26af
     seasons:
-      0:
-        url_poster: https://api.mediux.pro/assets/a9ba8aff-f5bb-45f7-85e6-c7c6cd59feb1
       1:
         url_poster: https://api.mediux.pro/assets/40df42f3-6344-4251-b79b-f862f76f0ce4
       2:
