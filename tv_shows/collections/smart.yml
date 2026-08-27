@@ -59,7 +59,7 @@ collections:
         genre: "Animation"
     template:
       name: smart_no_schedule
-      poster: coll-cartoons.png
+      poster: coll-cartoons
 
   "Comedy":
     summary: ""
@@ -78,7 +78,7 @@ collections:
         genre: "Comedy"
     template:
       name: smart_no_schedule
-      poster: coll-comedy.png
+      poster: coll-comedy
 
   "Docu-Series":
     summary: ""
@@ -88,7 +88,7 @@ collections:
         genre: "Documentary"
     template:
       name: smart_no_schedule
-      poster: coll-docu-series.png
+      poster: coll-docu-series
 
   "🗓️ Classic TV":
     summary: "A collection of older shows"
@@ -100,7 +100,7 @@ collections:
         episode_air_date.before: "12/31/1989"
     template:
       name: smart_no_schedule
-      poster: coll-classic-tv.png
+      poster: coll-classic-tv
 
   "Not played in 3 years":
     summary: "Oh the times we used to have, oh the shows we haven't watched in ages..."
@@ -114,7 +114,7 @@ collections:
     visible_shared: false
     template:
       name: smart_no_schedule
-      poster: coll-default.png
+      poster: coll-default
       level: +
 
   "Not played in 5 years":
@@ -129,7 +129,7 @@ collections:
     visible_shared: false
     template:
       name: smart_no_schedule
-      poster: coll-default.png
+      poster: coll-default
       level: +
 
   "Musicals":
@@ -141,7 +141,7 @@ collections:
           - "Musical"
     template:
       name: smart_no_schedule
-      poster: coll-musical.png
+      poster: coll-musical
 
   "Science Fiction":
     summary: ""
@@ -167,7 +167,7 @@ collections:
             - "Science Fiction"
     template:
       name: smart_no_schedule
-      poster: coll-sci-fi.png
+      poster: coll-sci-fi
 
   ## Special Collections
   Recently Added:
@@ -179,7 +179,7 @@ collections:
         episode_added: 30
     template:
       name: smart_no_schedule
-      poster: coll-recent.png
+      poster: coll-recent
 
   "Top 10":
     summary: "My favorite TV Shows of all time"
@@ -199,7 +199,7 @@ collections:
           - "The Simpsons"
     template:
       name: smart_no_schedule
-      poster: coll-top.png
+      poster: coll-top
 
   ## Physical Media collections
   "📀Physical Media":
@@ -221,7 +221,7 @@ collections:
         label: <<smart_label>>
     template:
       name: smart_no_schedule
-      poster: coll-default.png
+      poster: coll-default
 
   "📀Physical Media: Blu-Ray":
     tmdb_list:
@@ -235,7 +235,7 @@ collections:
         label: <<smart_label>>
     template:
       name: smart_no_schedule
-      poster: coll-default.png
+      poster: coll-default
 
   "📀Physical Media: DVD":
     tmdb_list:
@@ -248,4 +248,4 @@ collections:
         label: <<smart_label>>
     template:
       name: smart_no_schedule
-      poster: coll-default.png
+      poster: coll-default
