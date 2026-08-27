@@ -19,14 +19,14 @@ collections:
       name: Collection
       poster: coll-mcu-infinity
 
-#  "Marvel: Multiverse Saga":
-#    text_file:
-#      - config/lists/mcu-phase-04.txt
-#      - config/lists/mcu-phase-05.txt
-#      - config/lists/mcu-phase-06.txt
-#    template:
-#      name: Collection
-#      poster: coll-mcu-multi
+  "Marvel: Multiverse Saga":
+    tmdb_list:
+      - https://www.themoviedb.org/list/8689524-mcu-phase-04
+      - https://www.themoviedb.org/list/8689523-mcu-phase-05
+      - https://www.themoviedb.org/list/8689486-mcu-phase-06
+    template:
+      name: Collection
+      poster: coll-mcu-multi
 
   ### TVDB lists
   "MCU Phase 1":
