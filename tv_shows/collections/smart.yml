@@ -57,7 +57,7 @@ collections:
           - "Adam Ruins Everything"
         genre: "Animation"
     template:
-      name: show_collection
+      name: smart_no_schedule
       poster: coll-cartoons.png
 
   "Comedy":
@@ -76,7 +76,7 @@ collections:
           - "warehouse 13"
         genre: "Comedy"
     template:
-      name: show_collection
+      name: smart_no_schedule
       poster: coll-comedy.png
 
   "Docu-Series":
@@ -86,7 +86,7 @@ collections:
       all:
         genre: "Documentary"
     template:
-      name: show_collection
+      name: smart_no_schedule
       poster: coll-docu-series.png
 
   "🗓️ Classic TV":
@@ -98,7 +98,7 @@ collections:
       all:
         episode_air_date.before: "12/31/1989"
     template:
-      name: show_collection
+      name: smart_no_schedule
       poster: coll-classic-tv.png
 
   "Not played in 3 years":
@@ -112,7 +112,7 @@ collections:
     collection_filtering: user
     visible_shared: false
     template:
-      name: show_collection
+      name: smart_no_schedule
       poster: coll-default.png
       level: +
 
@@ -127,7 +127,7 @@ collections:
     collection_filtering: user
     visible_shared: false
     template:
-      name: show_collection
+      name: smart_no_schedule
       poster: coll-default.png
       level: +
 
@@ -139,7 +139,7 @@ collections:
         genre:
           - "Musical"
     template:
-      name: show_collection
+      name: smart_no_schedule
       poster: coll-musical.png
 
   "Science Fiction":
@@ -165,7 +165,7 @@ collections:
           genre:
             - "Science Fiction"
     template:
-      name: show_collection
+      name: smart_no_schedule
       poster: coll-sci-fi.png
 
   "Top 10":
@@ -185,8 +185,28 @@ collections:
           - "Community"
           - "The Simpsons"
     template:
-      name: show_collection
+      name: smart_no_schedule
       poster: coll-top.png
+
+  "📀Physical Media":
+    summary: >- 
+      "Here you will find media that I have physical copies of in my home.
+      \n\n
+      A Collection for TV Shows that I have physical copies of. Whether Blu-Ray or DVD, 
+      gives me permanent access to always share these shows.\n\nSo view this collection as my way of 
+      \"sharing\" my physical copy with you, over the internet."
+    tmdb_list:
+      - https://www.themoviedb.org/list/8539683-blu-ray-collection
+      - https://www.themoviedb.org/list/8578249-dvd-collection
+    sort_title: "__+Physical Media"
+    visible_shared: true
+    smart_label:
+      sort_by: release.desc
+      all:
+        label: <<smart_label>>
+    template:
+      name: smart_no_schedule
+      poster: coll-default.png
 
   ## Special Collections
   Recently Added:
@@ -197,5 +217,5 @@ collections:
       all: 
         episode_added: 30
     template:
-      name: show_collection
+      name: smart_no_schedule
       poster: coll-recent.png

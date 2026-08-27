@@ -347,7 +347,6 @@ metadata:
             url_poster: https://api.mediux.pro/assets/5bc55ea6-351f-4458-9f91-368f6c2b65bc
   72173:  # TVDB id for Arrested Development. Set by Sarrius on MediUX. https://mediux.pro/sets/2616
     seasons:
-      0:
       1:
         episodes:
           1:
@@ -4532,7 +4531,6 @@ metadata:
   ####### Star Trek #######
   367138: # TVDB id for Star Trek: Lower Decks. Set by pmbasehore on MediUX. https://mediux.pro/sets/486
     seasons:
-      0:
       1:
         episodes:
           1:
@@ -4645,7 +4643,6 @@ metadata:
               url_poster: https://api.mediux.pro/assets/cff580b4-8672-40a8-9738-4506037940a6
   364093: # TVDB id for Star Trek: Picard. Set by pmbasehore on MediUX. https://mediux.pro/sets/487
     seasons:
-      0:
       1:
         episodes:
           1:
@@ -4716,7 +4713,6 @@ metadata:
     url_background: https://api.mediux.pro/assets/8fa76470-5bf1-4df8-bd66-e0eaf8995b17
   382389: # TVDB id for Star Trek: Strange New Worlds. Set by codonzero22 on MediUX. https://mediux.pro/sets/24152
     seasons:
-      0:
       1:
         episodes:
           1:

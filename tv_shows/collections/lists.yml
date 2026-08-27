@@ -62,25 +62,26 @@ collections:
 #      mechanics that Doomsday will exploit."
 #    text_file:
 #      - config/lists/mcu-phase-05.txt
-#
-#  "MCU Phase 6":
-#    template:
-#      name: show_collection
-#      poster: coll-phase-06.png
-#    sort_title: Marvel_MCU Phase 6
-#    summary: "Phase 6 is the Multiverse Saga's endgame — the period leading to and immediately following
-#      Avengers: Doomsday (2026), the franchise's largest assembled cast event since Endgame.
-#      The phase brings together heroes from the MCU main timeline, the Fox X-Men universe,
-#      and multiple alternate realities to confront Doctor Doom and whatever the fractured
-#      multiverse has made possible.
-#      \n
-#      Avengers: Doomsday is positioned as the resolution of every narrative thread seeded across Phases 4 and 5.
-#      Robert Downey Jr.'s return as Victor Von Doom — rather than Tony Stark — is the phase's central creative statement:
-#      the actor who defined the MCU's opening era returning in an entirely different register,
-#      playing a character whose philosophy is the inverse of Tony Stark's. Phase 6 is where the
-#      multiverse experiment concludes. Every essential film and series across the Multiverse Saga is preparation for this payoff."
-#    text_file:
-#      - config/lists/mcu-phase-06.txt
+
+  "MCU Phase 6":
+    template:
+      name: show_collection
+      poster: coll-phase-06.png
+    builder_level: season
+    sort_title: Marvel_MCU Phase 6
+    summary: "Phase 6 is the Multiverse Saga's endgame — the period leading to and immediately following
+      Avengers: Doomsday (2026), the franchise's largest assembled cast event since Endgame.
+      The phase brings together heroes from the MCU main timeline, the Fox X-Men universe,
+      and multiple alternate realities to confront Doctor Doom and whatever the fractured
+      multiverse has made possible.
+      \n
+      Avengers: Doomsday is positioned as the resolution of every narrative thread seeded across Phases 4 and 5.
+      Robert Downey Jr.'s return as Victor Von Doom — rather than Tony Stark — is the phase's central creative statement:
+      the actor who defined the MCU's opening era returning in an entirely different register,
+      playing a character whose philosophy is the inverse of Tony Stark's. Phase 6 is where the
+      multiverse experiment concludes. Every essential film and series across the Multiverse Saga is preparation for this payoff."
+    text_file:
+      - config/lists/mcu-phase-06.txt
 
 ################# TMDB collections
   ### TMDB lists
@@ -93,37 +94,15 @@ collections:
 
   ### TMDB keywords
   "Marvel Cinematic Universe":
-    sync_mode: sync
     template:
       name: show_collection
       poster: coll-mcu.png
-    collection_order: release
     sort_title: Marvel_MCU
     visible_shared: true
     tmdb_keyword: 180547
 
 ################# TMDB collections
   ### TMDB lists
-  "📀Physical Media":
-    summary: >- 
-      "Here you will find media that I have physical copies of in my home.
-      \n\n
-      A Collection for TV Shows that I have physical copies of. Whether Blu-Ray or DVD, 
-      gives me permanent access to always share these shows.\n\nSo view this collection as my way of 
-      \"sharing\" my physical copy with you, over the internet."
-    tmdb_list:
-      - https://www.themoviedb.org/list/8539683-blu-ray-collection
-      - https://www.themoviedb.org/list/8578249-dvd-collection
-    sort_title: "__+Physical Media"
-    visible_shared: true
-    smart_label:
-      sort_by: release.desc
-      all:
-        label: <<smart_label>>
-    template:
-      name: show_collection
-      poster: coll-default.png
-
   "Star Trek Collection":
     template:
       name: Collection
