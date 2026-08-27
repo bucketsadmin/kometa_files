@@ -5,13 +5,14 @@
 #############################################################################
 external_templates:
   - repo: tv_shows/templates/tv_collections
+  - repo: templates/collections.yml
 
 collections:
   #### MCU
   "MCU Phase 4":
     template:
-      name: show_collection
-      poster: coll-phase-04.png
+      name: collection_not_visible
+      poster: coll-phase-04
     builder_level: season
     sort_title: Marvel_MCU Phase 4
     summary: "Phase 4 introduces both the The Blip recovery era and the introduction of the Multiverse, beginning the Multiverse saga.
@@ -45,8 +46,8 @@ collections:
 
   "MCU Phase 5":
     template:
-      name: show_collection
-      poster: coll-phase-05.png
+      name: collection_not_visible
+      poster: coll-phase-05
     builder_level: season
     sort_title: Marvel_MCU Phase 5
     summary: "Phase 5 is the Multiverse War in earnest: the period in which the threat of Kang
@@ -67,8 +68,8 @@ collections:
 
   "MCU Phase 6":
     template:
-      name: show_collection
-      poster: coll-phase-06.png
+      name: collection_not_visible
+      poster: coll-phase-06
     builder_level: season
     sort_title: Marvel_MCU Phase 6
     summary: "Phase 6 is the Multiverse Saga's endgame — the period leading to and immediately following
