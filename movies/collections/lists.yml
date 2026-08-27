@@ -175,7 +175,7 @@ collections:
       playing a character whose philosophy is the inverse of Tony Stark's. Phase 6 is where the
       multiverse experiment concludes. Every essential film and series across the Multiverse Saga is preparation for this payoff."
     text_file:
-      - config/lists/mcu-phase-06.txt
+      - config/lists/mcu-phase-06-movie.txt
 
   ################# TMDB collections
   Anchorman Collection:
