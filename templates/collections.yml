@@ -18,6 +18,18 @@ templates:
     visible_home: false
     delete_not_scheduled: false
 
+  collection_not_visible:
+    default:
+      level: ""
+      sort_title_name: <<collection_name>>
+    sync_mode: sync
+    collection_order: release
+    name_mapping: <<poster>>
+    visible_library: false
+    visible_shared: false
+    visible_home: false
+    delete_not_scheduled: false
+
   show_collection:
     default:
       level: ""
