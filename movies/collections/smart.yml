@@ -43,7 +43,46 @@ collections:
       - https://www.themoviedb.org/list/8539683-blu-ray-collection
       - https://www.themoviedb.org/list/8578249-dvd-collection
       - https://www.themoviedb.org/list/8641678-ultra-hd
-    sort_title: "__+Physical Media"
+    sort_title: "__+physical media"
+    visible_shared: true
+    smart_label:
+      sort_by: title.asc
+      all:
+        label: <<smart_label>>
+    template:
+      name: smart_no_schedule
+      poster: coll-default
+
+  "📀Physical Media: Blu-Ray" :
+    tmdb_list:
+      - https://www.themoviedb.org/list/8539683-blu-ray-collection
+    sort_title: "__+physical media: blu-ray"
+    visible_shared: true
+    smart_label:
+      sort_by: title.asc
+      all:
+        label: <<smart_label>>
+    template:
+      name: smart_no_schedule
+      poster: coll-default
+
+  "📀Physical Media: DVD":
+    tmdb_list:
+      - https://www.themoviedb.org/list/8578249-dvd-collection
+    sort_title: "__+physical media: dvd"
+    visible_shared: true
+    smart_label:
+      sort_by: title.asc
+      all:
+        label: <<smart_label>>
+    template:
+      name: smart_no_schedule
+      poster: coll-default
+
+  "📀Physical Media: Ultra HD":
+    tmdb_list:
+      - https://www.themoviedb.org/list/8641678-ultra-hd
+    sort_title: "__+physical media: ultra had"
     visible_shared: true
     smart_label:
       sort_by: title.asc
