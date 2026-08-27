@@ -40,7 +40,7 @@ collections:
       the multiverse seriously as a threat rather than a toy. The phase is uneven — Eternals in particular is divisive
       — but the multiverse infrastructure it establishes is load-bearing for everything that follows in Phases 5 and 6."
     text_file:
-      - config/lists/mcu-phase-04.txt
+      - config/lists/mcu-phase-04-season.txt
 
   "MCU Phase 5":
     template:
@@ -61,7 +61,7 @@ collections:
       the final battle with characters whose histories matter, and establishes the specific multiverse
       mechanics that Doomsday will exploit."
     text_file:
-      - config/lists/mcu-phase-05.txt
+      - config/lists/mcu-phase-05-season.txt
 
   "MCU Phase 6":
     template:
