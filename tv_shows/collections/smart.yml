@@ -5,6 +5,7 @@
 #############################################################################
 external_templates:
   - repo: tv_shows/templates/tv_collections
+  - repo: templates/collections.yml
 
 dynamic_collections:
   ## Use DC as suffix to avoid name conflicts with static collections
