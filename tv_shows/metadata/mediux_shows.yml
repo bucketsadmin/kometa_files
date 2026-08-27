@@ -3921,8 +3921,6 @@ metadata:
     #    url_poster: https://api.mediux.pro/assets/c3a63cdd-fb5a-4bc4-9a4d-61f95b5a681f
     url_background: https://api.mediux.pro/assets/8b121cb6-9d51-417b-9c4e-ec50b7d5f717
     seasons:
-      0:
-        url_poster: https://api.mediux.pro/assets/5d1b591b-2859-4603-968e-97f6d0159dee
       1:
         url_poster: https://api.mediux.pro/assets/fc7c48ed-69e7-413f-b3ad-585be3424cbf
         episodes:
