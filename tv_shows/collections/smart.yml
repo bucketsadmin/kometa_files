@@ -168,6 +168,18 @@ collections:
       name: smart_no_schedule
       poster: coll-sci-fi.png
 
+  ## Special Collections
+  Recently Added:
+    builder_level: episode
+    summary: "pssst... hey you.\n yeah you.\n\n you want some new TV? I've got what you need man"
+    smart_filter:
+      sort_by: added.desc
+      all: 
+        episode_added: 30
+    template:
+      name: smart_no_schedule
+      poster: coll-recent.png
+
   "Top 10":
     summary: "My favorite TV Shows of all time"
     sort_title: "__+Top-10"
@@ -188,13 +200,15 @@ collections:
       name: smart_no_schedule
       poster: coll-top.png
 
+  ## Physical Media collections
   "📀Physical Media":
-    summary: >- 
+    summary:
       "Here you will find media that I have physical copies of in my home.
       \n\n
       A Collection for TV Shows that I have physical copies of. Whether Blu-Ray or DVD, 
-      gives me permanent access to always share these shows.\n\nSo view this collection as my way of 
-      \"sharing\" my physical copy with you, over the internet."
+      gives me permanent access to always share these shows.
+      \n\n
+      So view this collection as my way of \"sharing\" my physical copy with you, over the internet."
     tmdb_list:
       - https://www.themoviedb.org/list/8539683-blu-ray-collection
       - https://www.themoviedb.org/list/8578249-dvd-collection
@@ -208,14 +222,29 @@ collections:
       name: smart_no_schedule
       poster: coll-default.png
 
-  ## Special Collections
-  Recently Added:
-    builder_level: episode
-    summary: "pssst... hey you.\n yeah you.\n\n you want some new TV? I've got what you need man"
-    smart_filter:
-      sort_by: added.desc
-      all: 
-        episode_added: 30
+  "📀Physical Media: Blu-Ray":
+    tmdb_list:
+      - https://www.themoviedb.org/list/8539683-blu-ray-collection
+      - https://www.themoviedb.org/list/8578249-dvd-collection
+    sort_title: "__+physical media: blu-ray"
+    visible_shared: true
+    smart_label:
+      sort_by: release.desc
+      all:
+        label: <<smart_label>>
     template:
       name: smart_no_schedule
-      poster: coll-recent.png
+      poster: coll-default.png
+
+  "📀Physical Media: DVD":
+    tmdb_list:
+      - https://www.themoviedb.org/list/8578249-dvd-collection
+    sort_title: "__+physical media: DVD"
+    visible_shared: true
+    smart_label:
+      sort_by: release.desc
+      all:
+        label: <<smart_label>>
+    template:
+      name: smart_no_schedule
+      poster: coll-default.png
