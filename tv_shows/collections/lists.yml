@@ -98,8 +98,8 @@ collections:
   ### TMDB keywords
   "Marvel Cinematic Universe":
     template:
-      name: show_collection
-      poster: coll-mcu.png
+      name: Collection
+      poster: coll-mcu
     sort_title: Marvel_MCU
     visible_shared: true
     tmdb_keyword: 180547
