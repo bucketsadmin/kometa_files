@@ -1,0 +1,92 @@
+templates:
+  # Collection Templates
+  # -----------------------------
+  Collection:
+    default:
+      level: ""
+      sort_title_name: <<collection_name>>
+    sync_mode: sync
+    collection_order: release
+    name_mapping: <<poster>>
+    visible_library: true
+    visible_shared: false
+    visible_home: false
+    delete_not_scheduled: false
+
+  show_collection:
+    default:
+      level: ""
+      sort_title_name: <<collection_name>>
+    collection_order: release
+    sync_mode: sync
+    file_poster: /assets/collections/tv/<<poster>>
+    visible_library: true
+    visible_shared: false
+    visible_home: false
+    delete_not_scheduled: false
+
+  Studio:
+    default:
+      level: ""
+      sort_title_name: <<collection_name>>
+    optional:
+      - poster
+    sort_title: 100_+<<level>>_<<sort_title_name>>
+    smart_filter:
+      sort_by: release.desc
+      validate: false
+      any:
+        studio: <<studio>>
+    name_mapping: <<poster>>
+    visible_shared: false
+
+  ### TMDB specific collections
+  tmdb_collection:
+    default:
+      level: ""
+      sort_title_name: <<collection_name>>
+    sync_mode: sync
+    tmdb_collection: <<tmdb>>
+    tmdb_collection_details: <<tmdb>>
+    tmdb_background: <<tmdb>>
+    collection_order: release
+    name_mapping: <<poster>>
+    visible_library: true
+    visible_shared: false
+    visible_home: false
+    delete_not_scheduled: false
+
+  tmdb_director:
+    default:
+      level: ""
+      sort_title_name: <<collection_name>>
+    tmdb_director: <<tmdb>>
+    tmdb_director_details: <<tmdb>>
+    sync_mode: sync
+    collection_order: release
+    name_mapping: <<poster>>
+    visible_library: true
+    visible_shared: false
+    visible_home: false
+    delete_not_scheduled: false
+
+  # Dynamic Collections Templates
+  # -----------------------------
+  Per_Decade:
+    default:
+      level: ""
+    builder_level: episode
+    collection_filtering: admin
+    smart_filter:
+      sort_by: episode_release.asc
+      all:
+        episode_air_date.after: 01/01/<<key_name>>
+        episode_air_date.before: 12/31/<<ending>>
+    sort_title: 080_+<<level>>_<<starting>>
+#    file_poster: /assets/collections/tv/coll-<<starting>>.png
+    name_mapping: coll-<<starting>>
+    visible_library: true
+    visible_shared: false
+    visible_home: false
+    #    schedule: weekly(sunday)
+    delete_not_scheduled: false
