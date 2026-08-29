@@ -13,7 +13,7 @@ collections:
     sort_title: "__+Physical Media"
     builder_level: album
     template:
-      name: Collection
+      name: collection_not_visible
       poster: coll-vinyl
     plex_search:
       sort_by: album_artist.asc
@@ -27,7 +27,7 @@ collections:
     sort_title: "__+Physical Media: Vinyl"
     builder_level: album
     template:
-      name: Collection
+      name: collection_not_visible
       poster: coll-vinyl
     plex_search:
       sort_by: album_artist.asc
@@ -39,7 +39,7 @@ collections:
     sort_title: "__+Physical Media: CD"
     builder_level: album
     template:
-      name: Collection
+      name: collection_not_visible
       poster: coll-cd
     plex_search:
       sort_by: album_artist.asc
@@ -50,7 +50,7 @@ collections:
     summary: ""
     builder_level: album
     template:
-      name: Collection
+      name: collection_not_visible
       poster: coll-musicals
     plex_search:
       sort_by: album_artist.asc
