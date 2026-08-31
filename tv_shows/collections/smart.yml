@@ -43,7 +43,7 @@ dynamic_collections:
         twenty_twenties: 2029
     title_format: 🗓️ The <<key_name>>s
     template:
-      - Per_Decade
+      - Per_Decade_Show
 
 collections:
   ## Custom Collections
