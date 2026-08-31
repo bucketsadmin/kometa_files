@@ -5,6 +5,7 @@
 #############################################################################
 external_templates:
   - repo: movies/templates/movie_collections
+  - repo: templates/collections.yml
 
 collections:
   ### Smart collection
@@ -137,4 +138,4 @@ dynamic_collections:
         twenty_twenties: 2029
     title_format: 🗓️ The <<key_name>>s
     template:
-      - Per_Decade
+      - Per_Decade_Movie

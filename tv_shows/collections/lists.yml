@@ -98,7 +98,7 @@ collections:
   ### TMDB keywords
   "Marvel Cinematic Universe":
     template:
-      name: Collection
+      name: collection_not_visible
       poster: coll-mcu
     sort_title: Marvel_MCU
     visible_shared: true
@@ -123,5 +123,5 @@ collections:
     tmdb_list:
       - https://www.themoviedb.org/list/8539896-weird-shows
     template:
-      name: Collection
+      name: collection_not_visible
       poster: coll-weird
