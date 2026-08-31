@@ -4,7 +4,6 @@
 #####
 #############################################################################
 external_templates:
-  - repo: tv_shows/templates/tv_collections
   - repo: templates/collections.yml
 
 dynamic_collections:
