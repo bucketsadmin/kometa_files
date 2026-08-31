@@ -5,6 +5,7 @@
 #############################################################################
 external_templates:
   - repo: movies/templates/movie_collections
+  - repo: templates/collections.yml
 
 collections:
   "Batman Collection":
