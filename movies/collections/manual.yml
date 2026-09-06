@@ -16,7 +16,7 @@ collections:
           - "The Dark Knight"
     summary: "Batman, one of DC Comics' most iconic superheroes, is known for his dark and brooding persona as the Caped Crusader of Gotham City. Created by Bob Kane and Bill Finger, Batman made his first comic book appearance in 1939. Unlike other superheroes, Batman has no superhuman powers; instead, he relies on his intellect, physical prowess, detective skills, and advanced technology to fight crime.\nIn 1966, the character of Batman was brought to the big screen in the campy and colorful \"Batman: The Movie,\" starring Adam West as Batman and Burt Ward as Robin. This movie set the tone for a series of Batman films that would explore different aspects of the character over the years. From the darker, more gothic interpretations seen in Tim Burton's films to the gritty realism of Christopher Nolan's \"The Dark Knight\" trilogy, Batman has been portrayed in various ways on screen.\nThroughout the Batman movies, audiences have been captivated by the complex nature of Batman/Bruce Wayne, his moral code, his rogues' gallery of villains, and his unwavering dedication to justice. Whether portrayed as a brooding avenger or a symbol of hope, Batman continues to be a beloved and enduring figure in popular culture, leaving a lasting impact on fans of all ages."
     template:
-      name: Collection
+      name: collection_not_visible
       poster: coll-batman
 
   "Blomkamp3":
@@ -28,7 +28,7 @@ collections:
           - "District 9"
           - "Elysium"
     template:
-      name: Collection
+      name: collection_not_visible
       poster: coll-blomkamp
 
   "Cloverfield Collection":
@@ -38,14 +38,14 @@ collections:
         title:
           - "Cloverfield"
     template:
-      name: Collection
+      name: collection_not_visible
       poster: coll-cloverfield
 
   "Documentaries":
     sync_mode: sync
     summary: "Capturing truth, life, and reality — one movie at a time. The best documentaries allow us to see the world with a fresh set of eyes..."
     template:
-      name: Collection
+      name: collection_not_visible
       poster: coll-docs
     plex_search:
       any:
@@ -64,7 +64,7 @@ collections:
           - "1080p"
           - "The Andor Cut"
     template:
-      name: Collection
+      name: collection_not_visible
       poster: coll-fans
 
   "The Lego Movie Collection":
@@ -92,7 +92,7 @@ collections:
         producer:
           - "Mel Brooks"
     template:
-      name: Collection
+      name: collection_not_visible
       poster: coll-mel-brooks
 
   "Middle Earth Collection":
@@ -115,7 +115,7 @@ collections:
         title.is:
           - "Life of Brian"
     template:
-      name: Collection
+      name: collection_not_visible
       poster: coll-python
 
   "The Muppets Collection":
@@ -125,7 +125,7 @@ collections:
         title:
           - "Muppet"
     template:
-      name: Collection
+      name: collection_not_visible
       poster: coll-muppets
 
   "Musicals":
@@ -144,7 +144,7 @@ collections:
             - "History of the World: Part I"
             - "The Lego Movie 2: The Second Part"
     template:
-      name: Collection
+      name: collection_not_visible
       poster: coll-musicals
 
   "Power Rangers Collection":
@@ -153,7 +153,7 @@ collections:
         title:
           - "Power Rangers"
     template:
-      name: Collection
+      name: collection_not_visible
       poster: coll-power-rangers
 
   "Marvel: The Sacred Timeline Cut":
@@ -169,7 +169,7 @@ collections:
           - "The Sacred Timeline Cut PART 4"
           - "The Sacred Timeline Cut PART 5"
     template:
-      name: Collection
+      name: collection_not_visible
       poster: coll-sacred-timeline
 
   "Star Wars Collection":
@@ -192,7 +192,7 @@ collections:
         title:
           - "Stargate"
     template:
-      name: Collection
+      name: collection_not_visible
       poster: coll-stargate
 
   "Starkid Collection":
@@ -221,7 +221,7 @@ collections:
         title:
           - "Superman"
     template:
-      name: Collection
+      name: collection_not_visible
       poster: coll-superman
 
   "Teenage Mutant Ninja Turtles Collection":
@@ -231,7 +231,7 @@ collections:
         title:
           - "Teenage Mutant Ninja Turtles"
     template:
-      name: Collection
+      name: collection_not_visible
       poster: coll-tmnt
 
   "Three Flavours Cornetto Trilogy":
@@ -243,7 +243,7 @@ collections:
           - "Hot Fuzz"
           - "The World's End"
     template:
-      name: Collection
+      name: collection_not_visible
       poster: coll-cornetto
 
   # Spider-Man Universe
@@ -255,5 +255,5 @@ collections:
         title:
           - "Spider-Man"
     template:
-      name: Collection
+      name: collection_not_visible
       poster: coll-spider-man-universe
