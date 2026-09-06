@@ -17,7 +17,7 @@ collections:
       - https://thetvdb.com/lists/16375
       - https://thetvdb.com/lists/16376
     template:
-      name: Collection
+      name: collection_not_visible
       poster: coll-mcu-infinity
 
   "Marvel: Multiverse Saga":
@@ -26,7 +26,7 @@ collections:
       - https://www.themoviedb.org/list/8689523-mcu-phase-05
       - https://www.themoviedb.org/list/8689486-mcu-phase-06
     template:
-      name: Collection
+      name: collection_not_visible
       poster: coll-mcu-multi
 
   ### TVDB lists
@@ -47,7 +47,7 @@ collections:
     Phase 1 remains the strongest sustained argument for what the MCU is capable of."
     tvdb_list: https://thetvdb.com/lists/16374
     template:
-      name: Collection
+      name: collection_not_visible
       poster: coll-phase-01
 
   "MCU Phase 2":
@@ -65,7 +65,7 @@ collections:
       as a coherent threat and introduces characters (Sam Wilson, Scott Lang, the Guardians) who will define Phase 3."
     tvdb_list: https://thetvdb.com/lists/16375
     template:
-      name: Collection
+      name: collection_not_visible
       poster: coll-phase-02
 
   "MCU Phase 3":
@@ -106,7 +106,7 @@ collections:
 
   "MCU Phase 4":
     template:
-      name: Collection
+      name: collection_not_visible
       poster: coll-phase-04
     sort_title: Marvel_MCU Phase 4
     summary: "Phase 4 introduces both the The Blip recovery era and the introduction of the Multiverse, beginning the Multiverse saga.
@@ -140,7 +140,7 @@ collections:
 
   "MCU Phase 5":
     template:
-      name: Collection
+      name: collection_not_visible
       poster: coll-phase-05
     sort_title: Marvel_MCU Phase 5
     summary: "Phase 5 is the Multiverse War in earnest: the period in which the threat of Kang
@@ -161,7 +161,7 @@ collections:
 
   "MCU Phase 6":
     template:
-      name: Collection
+      name: collection_not_visible
       poster: coll-phase-06
     sort_title: Marvel_MCU Phase 6
     summary: "Phase 6 is the Multiverse Saga's endgame — the period leading to and immediately following
@@ -422,7 +422,7 @@ collections:
   "Pixar":
     tmdb_company: 3
     template:
-      name: Collection
+      name: collection_not_visible
       poster: coll-pixar
 
   ### TMDB keywords
@@ -430,7 +430,7 @@ collections:
     tmdb_keyword: 180547
     summary: "The Marvel Cinematic Universe (MCU) is vast, incredibly varied, and richly complex, with different worlds, different timelines, and countless characters."
     template:
-      name: Collection
+      name: collection_not_visible
       poster: coll-mcu
     visible_shared: true
 
@@ -440,7 +440,7 @@ collections:
     tmdb_list:
       - https://www.themoviedb.org/list/8539684-black-white
     template:
-      name: Collection
+      name: collection_not_visible
       poster: coll-default
 
   "Disaster Movies":
@@ -448,7 +448,7 @@ collections:
     tmdb_list:
       - url: https://www.themoviedb.org/list/8539695-disaster-movies
     template:
-      name: Collection
+      name: collection_not_visible
       poster: coll-disaster
 
   "Plays":
@@ -456,7 +456,7 @@ collections:
     tmdb_list:
       - https://www.themoviedb.org/list/8640092-plays
     template:
-      name: Collection
+      name: collection_not_visible
       poster: coll-plays
 
   "Star Trek Collection":
@@ -464,7 +464,7 @@ collections:
     tmdb_list:
       - https://www.themoviedb.org/list/8634450-star-trek
     template:
-      name: Collection
+      name: collection_not_visible
       poster: coll-trek
     visible_shared: true
 
@@ -483,7 +483,7 @@ collections:
     collection_order: custom
     sort_title: "Criterion Collection"
     template:
-      name: Collection
+      name: collection_not_visible
       poster: coll-criterion
     visible_shared: true
     schedule: weekly(saturday)
