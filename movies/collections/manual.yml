@@ -195,6 +195,25 @@ collections:
       name: Collection
       poster: coll-stargate
 
+  "Starkid Collection":
+    summary: "In 2009, two hundred people crammed into a tiny black box theater at the University of Michigan to 
+    see a parody musical about wizards, and witches, and magical beasts. The show was made on a shoestring budget, 
+    free to attend, and ran for one weekend. 
+    One of the four performances was recorded and uploaded to YouTube as A Very Potter Musical 
+    (because that was easier than making DVDs for the cast and crew). And thus StarKid was born!
+    \n
+    StarKid has been creating musical comedies and uploading them to YouTube ever since. 
+    Over the last 15 years, StarKid has produced 15 full length musicals 
+    (including parodies of Disney, Star Wars, Batman, and The Oregon Trail), 
+    gone on national concert tours, had #1 albums on the Billboard Charts, 
+    performed sketch shows with The Second City in Chicago, and performed at conventions, meeting fans all over the world."
+    plex_search:
+      studio:
+        - "StarKid Productions"
+    template:
+      name: collection_not_visible
+      poster: coll-starkid
+
   "Superman Collection":
     summary: "Faster than a speeding bullet, more powerful than a locomotive… The Man of Steel fights a never-ending battle for truth, justice and a better tomorrow."
     plex_search:
