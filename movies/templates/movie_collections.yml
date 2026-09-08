@@ -23,7 +23,7 @@ templates:
     sync_mode: sync
     collection_order: release
     name_mapping: <<poster>>
-    visible_library: true
+    visible_library: false
     visible_shared: false
     visible_home: false
     delete_not_scheduled: false
@@ -37,7 +37,7 @@ templates:
     sync_mode: sync
     collection_order: release
     name_mapping: <<poster>>
-    visible_library: true
+    visible_library: false
     visible_shared: false
     visible_home: false
     delete_not_scheduled: false
@@ -61,7 +61,7 @@ templates:
       sort_title_name: <<collection_name>>
     sync_mode: sync
     name_mapping: <<poster>>
-    visible_library: true
+    visible_library: false
     visible_shared: false
     visible_home: false
 
@@ -72,7 +72,7 @@ templates:
     sync_mode: sync
     collection_order: release
     name_mapping: <<poster>>
-    visible_library: true
+    visible_library: false
     visible_shared: false
     visible_home: false
     delete_not_scheduled: false
