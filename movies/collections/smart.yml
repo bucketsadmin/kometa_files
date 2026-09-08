@@ -11,7 +11,7 @@ collections:
   ### Smart collection
   ##### Acts like a Smart Collection in Plex, which is obvious now that I type it out
   "Animation":
-    Summary: "A collection of animated movies"
+    summary: "A collection of animated movies"
     smart_filter:
       sort_by: title.desc
       validate: false
@@ -22,7 +22,7 @@ collections:
       poster: coll-animation
 
   "Recently Added":
-    Summary: "In a world where entertainment never sleeps, a special playlist emerges from the shadows..."
+    summary: "In a world where entertainment never sleeps, a special playlist emerges from the shadows..."
     smart_filter:
       sort_by: added.desc
       validate: true
