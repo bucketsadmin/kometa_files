@@ -6,6 +6,7 @@
 
 overlays:
   cd_overlay:
+    builder_level: album
     overlay:
       name: cd_collection
       file: /assets/overlays/cd-overlay.png
@@ -14,6 +15,7 @@ overlays:
         - "cd"
 
   vinyl_overlay:
+    builder_level: album
     overlay:
       name: vinyl_collection
       file: /assets/overlays/vinyl-overlay.png
