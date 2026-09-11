@@ -59,3 +59,19 @@ collections:
           - "musical"
         album_genre:
           - "Musical"
+
+  "Live Albums":
+    summary: ""
+    builder_level: album
+    template:
+      name: collection_not_visible
+      poster: coll-live
+    plex_search:
+      sort_by: album_artist.asc
+      any:
+        album_label:
+          - "live"
+        album_type:
+          - "Live"
+        album_title:
+          - "live"
