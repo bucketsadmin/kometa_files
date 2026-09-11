@@ -13,6 +13,7 @@ overlays:
     plex_search:
       album_label:
         - "cd"
+        - "Cd"
 
   vinyl_overlay:
     builder_level: album
