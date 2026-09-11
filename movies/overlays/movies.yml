@@ -37,3 +37,14 @@ overlays:
       any:
         title.is:
           - "Dr. Horrible's Sing-Along Blog"
+
+  little_shop:
+    overlay:
+      name: blu_ray
+      file: /assets/overlays/blu-ray.png
+    plex_search:
+      all:
+        title.is:
+          - "little shop of horrors"
+        edition.is:
+          - "Director's Cut"
