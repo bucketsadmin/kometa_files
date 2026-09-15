@@ -15,33 +15,23 @@
 
 
 overlays:
-  cd_overlay:
+  apple_overlay:
     builder_level: album
     overlay:
-      name: cd_collection
-      file: /assets/overlays/cd-overlay.png
+      name: apple_music_collection
+      file: /assets/overlays/apple-music-overlay.png
     plex_search:
       album_label:
-        - "cd"
-      album_label.not:
-        - "itunes"
         - "apple-music"
-        - "bandcamp"
-        - "vinyl"
 
-  vinyl_overlay:
+  itunes_overlay:
     builder_level: album
     overlay:
-      name: vinyl_collection
-      file: /assets/overlays/vinyl-overlay.png
+      name: itunes_collection
+      file: /assets/overlays/itunes-overlay.png
     plex_search:
       album_label:
-        - "vinyl"
-      album_label.not:
         - "itunes"
-        - "apple-music"
-        - "bandcamp"
-        - "cd"
 
   bandcamp_overlay:
     builder_level: album
@@ -51,37 +41,21 @@ overlays:
     plex_search:
       album_label:
         - "bandcamp"
-      album_label.not:
-        - "itunes"
-        - "apple-music"
-        - "vinyl"
-        - "cd"
 
-  apple_overlay:
+  cd_overlay:
     builder_level: album
     overlay:
-      name: apple_music_collection
-      file: /assets/overlays/apple-music-overlay.png
+      name: cd_collection
+      file: /assets/overlays/cd-overlay.png
     plex_search:
       album_label:
-        - "apple-music"
-      album_label.not:
-        - "itunes"
-        - "bandcamp"
-        - "vinyl"
         - "cd"
 
-  itunes_overlay:
+  vinyl_overlay:
     builder_level: album
     overlay:
-      name: itunes_collection
-      file: /assets/overlays/itunes-overlay.png
+      name: vinyl_collection
+      file: /assets/overlays/vinyl-overlay.png
     plex_search:
-      all:
-        album_label:
-          - "itunes"
-        album_label.not:
-          - "apple-music"
-          - "bandcamp"
-          - "vinyl"
-          - "cd"
+      album_label:
+        - "vinyl"
