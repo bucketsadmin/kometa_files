@@ -46,6 +46,57 @@ collections:
       album_label:
         - "cd"
 
+  "Digital Media":
+    summary: "Sometimes you just can't have all the physical toys"
+    sort_title: "__+Digital Media"
+    builder_level: album
+    template:
+      name: collection_not_visible
+      poster: coll-cd
+    plex_search:
+      sort_by: album_artist.asc
+      album_label:
+        - "bandcamp"
+        - "itunes"
+        - "apple-music"
+
+  "Bandcamp Collection":
+    summary: "Supporting artists is what all the cool kids do"
+    sort_title: "__+Digital Media: bandcamp"
+    builder_level: album
+    template:
+      name: collection_not_visible
+      poster: coll-bandcamp
+    plex_search:
+      sort_by: album_artist.asc
+      album_label:
+        - "bandcamp"
+
+  "iTunes Collection":
+    summary: ""
+    sort_title: "__+Digital Media: itunes"
+    builder_level: album
+    template:
+      name: collection_not_visible
+      poster: coll-itunes
+    plex_search:
+      sort_by: album_artist.asc
+      album_label:
+        - "itunes"
+
+  "Apple Music Collection":
+    summary: "Supporting artists is what all the cool kids do"
+    sort_title: "__+Digital Media: apple-music"
+    builder_level: album
+    template:
+      name: collection_not_visible
+      poster: coll-apple-music
+    plex_search:
+      sort_by: album_artist.asc
+      album_label:
+        - "apple-music"
+
+
   "Musicals":
     summary: ""
     builder_level: album
