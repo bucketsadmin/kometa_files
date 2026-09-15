@@ -12,8 +12,6 @@
 # - "itunes"
 #
 
-
-
 overlays:
   apple_overlay:
     builder_level: album

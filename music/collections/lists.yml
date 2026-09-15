@@ -1,13 +1,12 @@
 #############################################################################
 #####
-##### External list collections
+##### Personal collections
 #####
 #############################################################################
 external_templates:
   - repo: templates/collections.yml
 
 collections:
-  ### personal collections
   "📀Physical Media":
     summary: ""
     sort_title: "__+Physical Media"
