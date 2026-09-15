@@ -23,6 +23,11 @@ overlays:
     plex_search:
       album_label:
         - "cd"
+      album_label.not:
+        - "itunes"
+        - "apple-music"
+        - "bandcamp"
+        - "vinyl"
 
   vinyl_overlay:
     builder_level: album
@@ -32,6 +37,11 @@ overlays:
     plex_search:
       album_label:
         - "vinyl"
+      album_label.not:
+        - "itunes"
+        - "apple-music"
+        - "bandcamp"
+        - "cd"
 
   bandcamp_overlay:
     builder_level: album
@@ -41,6 +51,11 @@ overlays:
     plex_search:
       album_label:
         - "bandcamp"
+      album_label.not:
+        - "itunes"
+        - "apple-music"
+        - "vinyl"
+        - "cd"
 
   apple_overlay:
     builder_level: album
@@ -50,6 +65,11 @@ overlays:
     plex_search:
       album_label:
         - "apple-music"
+      album_label.not:
+        - "itunes"
+        - "bandcamp"
+        - "vinyl"
+        - "cd"
 
   itunes_overlay:
     builder_level: album
