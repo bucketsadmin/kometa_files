@@ -54,10 +54,11 @@ collections:
       poster: coll-cd
     plex_search:
       sort_by: album_artist.asc
-      album_label:
-        - "bandcamp"
-        - "itunes"
-        - "apple-music"
+      any:
+        album_label:
+          - "bandcamp"
+          - "itunes"
+          - "apple-music"
 
   "Bandcamp Collection":
     summary: "Supporting artists is what all the cool kids do"
