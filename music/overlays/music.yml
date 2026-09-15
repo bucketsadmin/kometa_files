@@ -22,3 +22,30 @@ overlays:
     plex_search:
       album_label:
         - "vinyl"
+
+  bandcamp_overlay:
+    builder_level: album
+    overlay:
+      name: bandcamp_collection
+      file: /assets/overlays/bandcamp-overlay.png
+    plex_search:
+      album_label:
+        - "bandcamp"
+
+  apple_overlay:
+    builder_level: album
+    overlay:
+      name: apple_music_collection
+      file: /assets/overlays/apple-music-overlay.png
+    plex_search:
+      album_label:
+        - "apple-music"
+
+  itunes_overlay:
+    builder_level: album
+    overlay:
+      name: itunes_collection
+      file: /assets/overlays/itunes-overlay.png
+    plex_search:
+      album_label:
+        - "itunes"
