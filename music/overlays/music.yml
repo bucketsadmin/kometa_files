@@ -4,6 +4,16 @@
 #####
 #############################################################################
 
+##### currently utilized labels:
+# - "cd"
+# - "vinyl"
+# - "bandcamp"
+# - "apple-music"
+# - "itunes"
+#
+
+
+
 overlays:
   cd_overlay:
     builder_level: album
@@ -47,5 +57,11 @@ overlays:
       name: itunes_collection
       file: /assets/overlays/itunes-overlay.png
     plex_search:
-      album_label:
-        - "itunes"
+      all:
+        album_label:
+          - "itunes"
+        album_label.not:
+          - "apple-music"
+          - "bandcamp"
+          - "vinyl"
+          - "cd"
