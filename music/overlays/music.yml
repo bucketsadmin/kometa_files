@@ -19,8 +19,12 @@ overlays:
       name: apple_music_collection
       file: /assets/overlays/apple-music-overlay.png
     plex_search:
-      album_label:
-        - "apple-music"
+      all:
+        album_label:
+          - "apple-music"
+        album_label.not:
+          - "vinyl"
+          - "cd"
 
   itunes_overlay:
     builder_level: album
@@ -28,8 +32,12 @@ overlays:
       name: itunes_collection
       file: /assets/overlays/itunes-overlay.png
     plex_search:
-      album_label:
-        - "itunes"
+      all:
+        album_label:
+          - "itunes"
+        album_label.not:
+          - "vinyl"
+          - "cd"
 
   bandcamp_overlay:
     builder_level: album
@@ -42,7 +50,7 @@ overlays:
           - "bandcamp"
         album_label.not:
           - "vinyl"
-
+          - "cd"
 
   cd_overlay:
     builder_level: album
