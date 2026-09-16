@@ -37,8 +37,12 @@ overlays:
       name: bandcamp_collection
       file: /assets/overlays/bandcamp-overlay.png
     plex_search:
-      album_label:
-        - "bandcamp"
+      all:
+        album_label:
+          - "bandcamp"
+        album_label.not:
+          - "vinyl"
+
 
   cd_overlay:
     builder_level: album
@@ -46,8 +50,11 @@ overlays:
       name: cd_collection
       file: /assets/overlays/cd-overlay.png
     plex_search:
-      album_label:
-        - "cd"
+      all:
+        album_label:
+          - "cd"
+        album_label.not:
+          - "vinyl"
 
   vinyl_overlay:
     builder_level: album
@@ -55,5 +62,6 @@ overlays:
       name: vinyl_collection
       file: /assets/overlays/vinyl-overlay.png
     plex_search:
-      album_label:
-        - "vinyl"
+      all:
+        album_label:
+          - "vinyl"
