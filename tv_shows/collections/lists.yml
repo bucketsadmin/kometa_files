@@ -4,8 +4,8 @@
 #####
 #############################################################################
 external_templates:
-  - repo: tv_shows/templates/tv_collections
   - repo: templates/collections.yml
+  - repo: tv_shows/templates/tv_collections
 
 collections:
   #### MCU

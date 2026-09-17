@@ -4,8 +4,8 @@
 #####
 #############################################################################
 external_templates:
-  - repo: movies/templates/movie_collections
   - repo: templates/collections.yml
+  - repo: movies/templates/movie_collections
 
 collections:
   ### Smart collection
