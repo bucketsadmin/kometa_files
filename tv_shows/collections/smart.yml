@@ -162,6 +162,9 @@ collections:
             - "ducktales"
             - "digimon"
             - "avatar"
+            - "Justice League Unlimited"
+            - "Phineas and Ferb"
+            - "x-men"
         any:
           genre:
             - "Science Fiction"
