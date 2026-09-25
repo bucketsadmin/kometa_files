@@ -4,8 +4,15 @@ overlays:
     overlay:
       name: digital_collection
       file: /assets/overlays/digital.png
-    tmdb_list:
-      - https://www.themoviedb.org/list/8693594-digital-collection
+    plex_search:
+      all:
+        label:
+          - "💽Digital Media"
+        label.not:
+          - "📀Physical Media: DVD"
+          - "📀Physical Media: Blu-Ray"
+          - "📀Physical Media: Ultra HD"
+
 
   dvd_overlay:
     overlay:
