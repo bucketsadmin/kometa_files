@@ -162,6 +162,9 @@ collections:
             - "ducktales"
             - "digimon"
             - "avatar"
+            - "Justice League Unlimited"
+            - "Phineas and Ferb"
+            - "x-men"
         any:
           genre:
             - "Science Fiction"
@@ -226,7 +229,6 @@ collections:
   "📀Physical Media: Blu-Ray":
     tmdb_list:
       - https://www.themoviedb.org/list/8539683-blu-ray-collection
-      - https://www.themoviedb.org/list/8578249-dvd-collection
     sort_title: "__+physical media: blu-ray"
     visible_shared: true
     smart_label:

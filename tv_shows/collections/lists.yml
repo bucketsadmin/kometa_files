@@ -108,7 +108,7 @@ collections:
   ### TMDB lists
   "Star Trek Collection":
     template:
-      name: Collection
+      name: collection_not_visible
       poster: coll-trek
     summary: "Space: the final frontier. These are the voyages of the starship Enterprise. 
     Its continuing mission: to explore strange new worlds, to seek out new life and new civilizations, 
