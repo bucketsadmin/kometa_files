@@ -1,0 +1,41 @@
+metadata:
+  Star Trek Picard:
+    match:
+      title: Star Trek Picard
+    seasons:
+      0:
+        summary:
+          "Over twenty years after the evens of Star Trek: Nemesis (2002), retired Starleet Admiral Jean-Luc Picard
+           recieves a mysterious transmission from Dr. Beverly Crusher, telling him to trust no one.
+           Picard and former enterprise first officer, William Riker, devicse a plan to rescue Dr. Crusher from peril,
+           and in the pross ubravel a widespread conspiracy that threatens the entire Federation.
+           They must get the band back together, reuniting members of the old crew for one final mission
+           to save the galaxy, in this enthralling techno-thriller that showrunner Teryy Mralas calls,
+           \"the last 'Next Generation' movie that we never got.\"
+           \n
+           The edit of this swan-song combines al 10 episodes of Star Trek Picard's final season into 3
+           feature-length films:
+           Part I: \"The Next Generation\", 
+           Part II: \"Surrender\", 
+           Part III: \"The Last Generation\"
+          "
+        episodes:
+          01:
+            title: "The Next Generation"
+            sort_title: "The Next Generation"
+            originally_available: 2025-08-06
+            content_rating: TV-14
+            label: [fan_edit]
+            director: [Terry Matalas,]
+            writer: [Douglas Aarniokoski,]
+            summary:
+              "
+              
+              Includes the Picard Season 3 episodes:
+                1: The Next Generation
+                2: Disengage
+                3: Seventeen Seconds
+                4: No Win Scenario
+              "
+          02:
+          03:
