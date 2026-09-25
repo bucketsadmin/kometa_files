@@ -11,8 +11,13 @@ overlays:
     overlay:
       name: dvd_collection
       file: /assets/overlays/dvd.png
-    tmdb_list:
-      - https://www.themoviedb.org/list/8578249-dvd-collection
+    plex_search:
+      all:
+        label:
+          - "📀Physical Media: DVD"
+        label.not:
+          - "📀Physical Media: Blu-Ray"
+          - "📀Physical Media: Ultra HD"
 
   blu_ray:
     overlay:
