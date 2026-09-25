@@ -35,7 +35,7 @@ overlays:
         label:
           - "📀Physical Media: Blu-Ray"
         label.not:
-          - "📀Physical Media: DVD"
+          - "📀Physical Media: Ultra HD"
 
   ultra_high_def:
     overlay:
