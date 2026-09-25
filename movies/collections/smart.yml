@@ -93,6 +93,25 @@ collections:
       name: smart_no_schedule
       poster: coll-default
 
+  "💽Digital Media":
+    summary:
+      "Here you will find media that I have digital rights to.
+      \n\n
+      This one is a bit murkier on the sharing, but whatevs.
+      \n\n
+      So view this collection as my way of \"sharing\" my physical copy with you, over the internet."
+    tmdb_list:
+      - https://www.themoviedb.org/list/8693594-digital-collection
+    sort_title: "__+digital media"
+    visible_shared: true
+    smart_label:
+      sort_by: title.asc
+      all:
+        label: <<smart_label>>
+    template:
+      name: smart_no_schedule
+      poster: coll-default
+
 dynamic_collections:
   ## Use DC as suffix to avoid name conflicts with static collections
   ## These get generated in the order they are listed here, so put the more intensive ones at the bottom
