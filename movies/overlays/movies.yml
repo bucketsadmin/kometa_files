@@ -5,7 +5,7 @@ overlays:
       name: digital_collection
       file: /assets/overlays/digital.png
     tmdb_list:
-      - 8693594-digital-collection
+      - https://www.themoviedb.org/list/8693594-digital-collection
 
   dvd_overlay:
     overlay:
