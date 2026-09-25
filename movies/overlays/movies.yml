@@ -4,29 +4,47 @@ overlays:
     overlay:
       name: digital_collection
       file: /assets/overlays/digital.png
-    tmdb_list:
-      - 8693594-digital-collection
+    plex_search:
+      all:
+        label:
+          - "💽Digital Media"
+        label.not:
+          - "📀Physical Media: DVD"
+          - "📀Physical Media: Blu-Ray"
+          - "📀Physical Media: Ultra HD"
+
 
   dvd_overlay:
     overlay:
       name: dvd_collection
       file: /assets/overlays/dvd.png
-    tmdb_list:
-      - https://www.themoviedb.org/list/8578249-dvd-collection
+    plex_search:
+      all:
+        label:
+          - "📀Physical Media: DVD"
+        label.not:
+          - "📀Physical Media: Blu-Ray"
+          - "📀Physical Media: Ultra HD"
 
   blu_ray:
     overlay:
       name: blu_ray
       file: /assets/overlays/blu-ray.png
-    tmdb_list:
-      - https://www.themoviedb.org/list/8539683-blu-ray-collection
+    plex_search:
+      all:
+        label:
+          - "📀Physical Media: Blu-Ray"
+        label.not:
+          - "📀Physical Media: DVD"
 
   ultra_high_def:
     overlay:
       name: ultra_high_def
       file: /assets/overlays/ultra-blu-ray.png
-    tmdb_list:
-      - https://www.themoviedb.org/list/8641678-ultra-hd
+    plex_search:
+      all:
+        label:
+          - "📀Physical Media: Ultra HD"
 
   #### manual configs
   horrible:
