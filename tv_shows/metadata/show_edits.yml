@@ -1,0 +1,73 @@
+metadata:
+  Star Trek Picard:
+    match:
+      title: Star Trek Picard
+    seasons:
+      0:
+        summary:
+          "Over twenty years after the evens of Star Trek: Nemesis (2002), retired Starfleet Admiral Jean-Luc Picard
+           receives a mysterious transmission from Dr. Beverly Crusher, telling him to trust no one.
+           Picard and former enterprise first officer, William Riker, devise a plan to rescue Dr. Crusher from peril,
+           and in the process unravel a widespread conspiracy that threatens the entire Federation.
+           They must get the band back together, reuniting members of the old crew for one final mission
+           to save the galaxy, in this enthralling techno-thriller that showrunner Terry Matalas calls,
+           \"the last 'Next Generation' movie that we never got.\"
+           \n
+           The edit of this swan-song combines al 10 episodes of Star Trek Picard's final season into 3
+           feature-length films:
+           Part I: \"The Next Generation\", 
+           Part II: \"Surrender\", 
+           Part III: \"The Last Generation\"
+           \n
+           Witness the grand finale of \"The Next Generation,\" in this 3-film edit of Star Trek: Picard, Season 3.
+          "
+        episodes:
+          1:
+            title: "The Next Generation"
+            sort_title: "The Next Generation"
+            originally_available: 2025-08-06
+            content_rating: TV-14
+            label: [fan_edit]
+            writer: [Terry Matalas, Christopher Monfette, Sean Tretta, Cindy Appel, Kane Maggs]
+            director: [Douglas Aarniokoski, Jonathan Frakes]
+            summary:
+              " Part I includes the Picard Season 3 episodes:
+                1: The Next Generation
+                2: Disengage
+                3: Seventeen Seconds
+                4: No Win Scenario
+                \n
+                Run time is 198 minutes
+              "
+          2:
+            title: "Surrender"
+            sort_title: "Surrender"
+            originally_available: 2025-08-06
+            content_rating: TV-14
+            label: [fan_edit]
+            writer: [Terry Matalas, Christopher Monfette, Sean Tretta, Cindy Appel, Kane Maggs]
+            director: [Douglas Aarniokoski, Jonathan Frakes, Dan Liu]
+            summary:
+              " Part II includes the Picard Season 3 episodes:
+                5: Imposters
+                6: The Bounty
+                7: Dominion
+                8: Surrender
+                \n
+                Run time is 190 minutes
+              "
+          3:
+            title: "The Last Generation"
+            sort_title: "The Last Generation"
+            originally_available: 2025-08-06
+            content_rating: TV-14
+            label: [fan_edit]
+            writer: [Terry Matalas, Christopher Monfette, Sean Tretta, Cindy Appel, Kane Maggs]
+            director: [Douglas Aarniokoski, Jonathan Frakes]
+            summary:
+              " Part III includes the Picard Season 3 episodes:
+                9: Vox
+                10: The Last Generation
+                \n
+                Run time is 100 minutes
+              "
