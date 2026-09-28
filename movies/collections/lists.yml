@@ -101,7 +101,7 @@ collections:
       Phase 3C rewards every hour of viewing that preceded it."
     tvdb_list: https://thetvdb.com/lists/16376
     template:
-      name: Collection
+      name: collection_not_visible
       poster: coll-phase-03
 
   "MCU Phase 4":
