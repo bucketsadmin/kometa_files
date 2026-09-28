@@ -64,7 +64,7 @@ overlays:
         album_label.not:
           - "vinyl"
           - "cd"
-a
+
   cd_overlay:
     builder_level: album
     overlay:
