@@ -107,7 +107,7 @@ collections:
     plex_search:
       sort_by: album_artist.asc
       album_label:
-        - "itunes"
+        - "steam"
 
 
   "Musicals":
