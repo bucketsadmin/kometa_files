@@ -1,7 +1,5 @@
 metadata:
-  Star Trek Picard:
-    match:
-      title: "Star Trek: Picard"
+  364093: #### "Star Trek: Picard"
     seasons:
       0:
         summary:
