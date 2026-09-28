@@ -59,6 +59,7 @@ collections:
           - "bandcamp"
           - "itunes"
           - "apple-music"
+          - "steam"
 
   "Bandcamp Collection":
     summary: "Supporting artists is what all the cool kids do"
@@ -95,6 +96,18 @@ collections:
       sort_by: album_artist.asc
       album_label:
         - "apple-music"
+
+  "Steam Collection":
+    summary: ""
+    sort_title: "__+Digital Media: steam"
+    builder_level: album
+    template:
+      name: collection_not_visible
+      poster: coll-steam
+    plex_search:
+      sort_by: album_artist.asc
+      album_label:
+        - "itunes"
 
 
   "Musicals":
