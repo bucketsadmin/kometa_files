@@ -52,6 +52,19 @@ overlays:
           - "vinyl"
           - "cd"
 
+  steam_overlay:
+    builder_level: album
+    overlay:
+      name: steam_collection
+      file: /assets/overlays/steam-overlay.png
+    plex_search:
+      all:
+        album_label:
+          - "steam"
+        album_label.not:
+          - "vinyl"
+          - "cd"
+a
   cd_overlay:
     builder_level: album
     overlay:
