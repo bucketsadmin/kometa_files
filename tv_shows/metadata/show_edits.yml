@@ -31,12 +31,12 @@ metadata:
             writer: [Terry Matalas, Christopher Monfette, Sean Tretta, Cindy Appel, Kane Maggs]
             director: [Douglas Aarniokoski, Jonathan Frakes]
             summary:
-              " Part I includes the Picard Season 3 episodes:
-                1: The Next Generation
-                2: Disengage
-                3: Seventeen Seconds
-                4: No Win Scenario
-                \n
+              " Part I includes the Picard Season 3 episodes:\n
+                1: The Next Generation\n
+                2: Disengage\n
+                3: Seventeen Seconds\n
+                4: No Win Scenario\n
+                \n\n
                 Run time is 198 minutes
               "
           2:
@@ -48,12 +48,12 @@ metadata:
             writer: [Terry Matalas, Christopher Monfette, Sean Tretta, Cindy Appel, Kane Maggs]
             director: [Douglas Aarniokoski, Jonathan Frakes, Dan Liu]
             summary:
-              " Part II includes the Picard Season 3 episodes:
-                5: Imposters
-                6: The Bounty
-                7: Dominion
-                8: Surrender
-                \n
+              " Part II includes the Picard Season 3 episodes:\n
+                5: Imposters\n
+                6: The Bounty\n
+                7: Dominion\n
+                8: Surrender\n
+                \n\n
                 Run time is 190 minutes
               "
           3:
@@ -65,9 +65,9 @@ metadata:
             writer: [Terry Matalas, Christopher Monfette, Sean Tretta, Cindy Appel, Kane Maggs]
             director: [Douglas Aarniokoski, Jonathan Frakes]
             summary:
-              " Part III includes the Picard Season 3 episodes:
-                9: Vox
-                10: The Last Generation
-                \n
+              " Part III includes the Picard Season 3 episodes:\n
+                9: Vox\n
+                10: The Last Generation\n
+                \n\n
                 Run time is 100 minutes
               "
