@@ -21,16 +21,24 @@ collections:
       name: smart_collection
       poster: coll-animation
 
-  "Recently Added":
-    summary: "In a world where entertainment never sleeps, a special playlist emerges from the shadows..."
-    smart_filter:
-      sort_by: added.desc
-      validate: true
+  "💽Digital Media":
+    summary:
+      "Here you will find media that I have digital rights to.
+      \n\n
+      This one is a bit murkier on the sharing, but whatevs.
+      \n\n
+      So view this collection as my way of \"sharing\" my physical copy with you, over the internet."
+    tmdb_list:
+      - https://www.themoviedb.org/list/8693594-digital-collection
+    sort_title: "__+digital media"
+    visible_shared: true
+    smart_label:
+      sort_by: title.asc
       all:
-        added: 30
+        label: <<smart_label>>
     template:
-      name: smart_collection
-      poster: coll-recent
+      name: smart_no_schedule
+      poster: coll-default
 
   "📀Physical Media":
     summary:
@@ -93,24 +101,16 @@ collections:
       name: smart_no_schedule
       poster: coll-default
 
-  "💽Digital Media":
-    summary:
-      "Here you will find media that I have digital rights to.
-      \n\n
-      This one is a bit murkier on the sharing, but whatevs.
-      \n\n
-      So view this collection as my way of \"sharing\" my physical copy with you, over the internet."
-    tmdb_list:
-      - https://www.themoviedb.org/list/8693594-digital-collection
-    sort_title: "__+digital media"
-    visible_shared: true
-    smart_label:
-      sort_by: title.asc
+  "Recently Added":
+    summary: "In a world where entertainment never sleeps, a special playlist emerges from the shadows..."
+    smart_filter:
+      sort_by: added.desc
+      validate: true
       all:
-        label: <<smart_label>>
+        added: 30
     template:
-      name: smart_no_schedule
-      poster: coll-default
+      name: smart_collection
+      poster: coll-recent
 
   "Science Fiction":
     summary: "A quite opinionated collection of Science Fiction movies.
