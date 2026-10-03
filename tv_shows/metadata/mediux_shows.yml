@@ -2890,6 +2890,28 @@ metadata:
             url_poster: https://api.mediux.pro/assets/38c81ee4-1649-4785-aa1d-5d7920d12628
           10:
             url_poster: https://api.mediux.pro/assets/c6863950-a76d-414e-b1b4-60f5ee336960
+      11:
+        episodes:
+          1:
+            url_poster: https://api.mediux.pro/assets/10909994-33a6-4f9f-adfc-ca9807c200b4
+          2:
+            url_poster: https://api.mediux.pro/assets/b45b6e04-6c26-4e7d-ab36-8aab2083f497
+          3:
+            url_poster: https://api.mediux.pro/assets/fd404834-398c-4abb-8cd2-1dbf9293321e
+          4:
+            url_poster: https://api.mediux.pro/assets/669d1d24-68e4-4de2-b186-d0b079f5b802
+          5:
+            url_poster: https://api.mediux.pro/assets/ad78d799-0ad6-453b-a73d-6c97ef840737
+          6:
+            url_poster: https://api.mediux.pro/assets/cf6cd161-0d24-4dee-b68d-9a100db8ebf6
+          7:
+            url_poster: https://api.mediux.pro/assets/a1aafa77-bc0b-4e55-b078-af8f52c2501b
+          8:
+            url_poster: https://api.mediux.pro/assets/98bfb337-834d-4e2c-bef5-59e50befec3c
+          9:
+            url_poster: https://api.mediux.pro/assets/b0c96676-2c98-48c2-96ee-c4b4859da357
+          10:
+            url_poster: https://api.mediux.pro/assets/636edb5b-2c61-4ad1-9694-75df84975560
   79554:  # TVDB id for Garth Marenghi's Darkplace. Set by noonehere on MediUX. https://mediux.pro/sets/34177
     seasons:
       1:
