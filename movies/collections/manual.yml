@@ -143,6 +143,7 @@ collections:
             - "The Meaning of Life"
             - "History of the World: Part I"
             - "The Lego Movie 2: The Second Part"
+    sort_title: "musicals"
     template:
       name: collection_not_visible
       poster: coll-musicals
