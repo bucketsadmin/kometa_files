@@ -159,7 +159,7 @@ collections:
           - "pro_shot"
     template:
       name: collection_not_visible
-      poster: coll-musicals
+      poster: coll-musicals-pro
 
   "Power Rangers Collection":
     plex_search:
