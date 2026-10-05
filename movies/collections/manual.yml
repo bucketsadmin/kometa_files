@@ -153,6 +153,10 @@ collections:
     floppy_list:
       - url: https://lists.jjsimpson.xyz/list/16
         sync_tags: false
+    plex_search:
+      all:
+        label:
+          - "pro_shot"
     template:
       name: collection_not_visible
       poster: coll-musicals
