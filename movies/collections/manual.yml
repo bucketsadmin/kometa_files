@@ -149,7 +149,7 @@ collections:
       poster: coll-musicals
 
   "Musicals: Pro-shots":
-    summary: ""
+    summary: "From stage to screen"
     floppy_list:
       - url: https://lists.jjsimpson.xyz/list/16
         sync_tags: false
