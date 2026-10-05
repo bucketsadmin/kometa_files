@@ -148,6 +148,15 @@ collections:
       name: collection_not_visible
       poster: coll-musicals
 
+  "Musicals: Pro-shots":
+    summary: ""
+    floppy_list:
+      - url: https://lists.jjsimpson.xyz/list/16
+        sync_tags: false
+    template:
+      name: collection_not_visible
+      poster: coll-musicals
+
   "Power Rangers Collection":
     plex_search:
       any:
