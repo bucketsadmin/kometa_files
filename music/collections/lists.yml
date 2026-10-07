@@ -98,7 +98,7 @@ collections:
         - "apple-music"
 
   "Steam Collection":
-    summary: ""
+    summary: "Some games come with soundtracks"
     sort_title: "__+Digital Media: steam"
     builder_level: album
     template:
