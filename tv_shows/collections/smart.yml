@@ -81,7 +81,7 @@ collections:
       poster: coll-comedy
 
   "Docu-Series":
-    summary: ""
+    summary: "Capturing truth, life, and reality — one episode at a time. The best documentaries allow us to see the world with a fresh set of eyes..."
     smart_filter:
       sort_by: title.asc
       all:
