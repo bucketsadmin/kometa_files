@@ -62,7 +62,7 @@ collections:
       poster: coll-cartoons
 
   "Comedy":
-    summary: ""
+    summary: "Comedy, just on the smaller screen"
     smart_filter:
       sort_by: title.asc
       all:
