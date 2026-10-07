@@ -74,7 +74,7 @@ collections:
         - "bandcamp"
 
   "iTunes Collection":
-    summary: ""
+    summary: "Back before apple decided to rebrand the service, you used to be able to purchase music through iTunes"
     sort_title: "__+Digital Media: itunes"
     builder_level: album
     template:
