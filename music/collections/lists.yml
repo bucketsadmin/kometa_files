@@ -111,7 +111,7 @@ collections:
 
 
   "Musicals":
-    summary: ""
+    summary: "Sometimes you can't watch a musical, other times you just want to sing along"
     builder_level: album
     template:
       name: collection_not_visible
