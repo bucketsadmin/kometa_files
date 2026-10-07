@@ -71,6 +71,12 @@ libraries:
     - repo: movies/metadata/mediux_movie
     - repo: movies/metadata/movie_edits
 
+  Music:
+    collection_files:
+    - repo: music/collections/lists
+    overlay_files:
+    - repo: music/overlays/music
+
   TV Shows:
     collection_files:
     - repo: tv_shows/collections/lists
@@ -80,6 +86,7 @@ libraries:
       - repo: tv_shows/overlays/tv_shows
     metadata_files:
       - repo: tv_shows/metadata/mediux_shows
+      - repo: tv_shows/metadata/show_edits
 ```
 
 ## config file authorization
