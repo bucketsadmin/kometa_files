@@ -125,7 +125,7 @@ collections:
           - "Musical"
 
   "Live Albums":
-    summary: ""
+    summary: "Music should be enjoyed live, and live albums are the next best thing"
     builder_level: album
     template:
       name: collection_not_visible
