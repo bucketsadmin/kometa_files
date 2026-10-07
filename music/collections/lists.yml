@@ -8,7 +8,7 @@ external_templates:
 
 collections:
   "📀Physical Media":
-    summary: ""
+    summary: "A collection of albums where I own the physical disc, whether on vinyl or CD"
     sort_title: "__+Physical Media"
     builder_level: album
     template:
