@@ -144,7 +144,7 @@ collections:
       poster: coll-musical
 
   "Science Fiction":
-    summary: ""
+    summary: "From Space, to magic, and everything in-between these series push us to imagine our lives through a differeny lense"
     smart_filter:
       sort_by: title.asc
       all:
