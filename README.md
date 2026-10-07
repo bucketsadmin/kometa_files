@@ -20,13 +20,23 @@ kometa_files/
 │   │   └── movies.yml
 │   └── templates/
 │       └── movie_collections
+├── music/
+│   ├── collections/
+│   │   └── lists.yml
+│   ├── overlays/
+│   │   └── music.yml
+│   └── templates/
+│       └── music_collections
+├── templates/
+│   └── collections.yml
 └── tv_shows/
     ├── collections/
     │   ├── lists.yml
     │   ├── manual.yml
     │   └── smart.yml
     ├── metadata/
-    │   └── mediux_shows.yml
+    │   ├── mediux_shows.yml
+    │   └── show_edits.yml
     ├── overlays/
     │   └── tv_shows.yml
     └── templates/
