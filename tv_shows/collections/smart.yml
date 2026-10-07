@@ -133,7 +133,7 @@ collections:
       level: +
 
   "Musicals":
-    summary: ""
+    summary: "Everyone loves a musical, especially on the small screen and on a weekly basis!"
     smart_filter:
       sort_by: title.asc
       all:
