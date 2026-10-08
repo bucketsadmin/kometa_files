@@ -1,18 +1,13 @@
 overlays:
   #### tmdb lists
-#  digital_overlay:
-#    overlay:
-#      name: digital_collection
-#      file: /assets/overlays/digital.png
-#    plex_search:
-#      all:
-#        label:
-#          - "💽Digital Media"
-#        label.not:
-#          - "📀Physical Media: DVD"
-#          - "📀Physical Media: Blu-Ray"
-#          - "📀Physical Media: Ultra HD"
-
+  youtube_overlay:
+    overlay:
+      name: youtube_collection
+      file: /assets/overlays/youtube-overlay.png
+    plex_search:
+      all:
+        label:
+          - "youtube"
 
   dvd_overlay:
     overlay:
