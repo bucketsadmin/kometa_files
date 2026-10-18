@@ -40,14 +40,11 @@ collections:
     template:
       name: collection_not_visible
       poster: coll-cd
-    floppy_list:
-      - url: https://lists.jjsimpson.xyz/list/17
-        sync_tags: false
     item_label: cd
-#    plex_search:
-#      sort_by: album_artist.asc
-#      album_label:
-#        - "cd"
+    plex_search:
+      sort_by: album_artist.asc
+      album_label:
+        - "cd"
 
   "Digital Media":
     summary: "Sometimes you just can't have all the physical toys"
