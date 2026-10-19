@@ -40,7 +40,6 @@ collections:
     template:
       name: collection_not_visible
       poster: coll-cd
-    item_label: cd
     plex_search:
       sort_by: album_artist.asc
       album_label:
