@@ -139,3 +139,13 @@ collections:
           - "Live"
         album_title:
           - "live"
+
+  "Religious coded":
+    summary: "These albmus are either recorded by bands that signed with a religious label, or have Jesus lyrics in some of the songs."
+
+
+    ## TODO
+    ## create a collection for religious music
+    ## begin creating manual search collections for physical media - using tags can lead to too many errors and missed data
+    ## ideally the source of truth would be something external to both plex and kometa
+  
