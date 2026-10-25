@@ -12,7 +12,7 @@ collections:
     sort_title: "__+Physical Media"
     builder_level: album
     template:
-      name: collection_not_visible
+      name: smart_no_schedule
       poster: coll-vinyl
     smart_filter:
       sort_by: album_artist.asc
@@ -26,7 +26,7 @@ collections:
     sort_title: "__+Physical Media: Vinyl"
     builder_level: album
     template:
-      name: collection_not_visible
+      name: smart_no_schedule
       poster: coll-vinyl
     smart_filter:
       sort_by: album_artist.asc
@@ -38,7 +38,7 @@ collections:
     sort_title: "__+Physical Media: CD"
     builder_level: album
     template:
-      name: collection_not_visible
+      name: smart_no_schedule
       poster: coll-cd
     smart_filter:
       sort_by: album_artist.asc
@@ -50,7 +50,7 @@ collections:
     sort_title: "__+Digital Media"
     builder_level: album
     template:
-      name: collection_not_visible
+      name: smart_no_schedule
       poster: coll-cd
     smart_filter:
       sort_by: album_artist.asc
@@ -66,7 +66,7 @@ collections:
     sort_title: "__+Digital Media: bandcamp"
     builder_level: album
     template:
-      name: collection_not_visible
+      name: smart_no_schedule
       poster: coll-bandcamp
     smart_filter:
       sort_by: album_artist.asc
@@ -78,7 +78,7 @@ collections:
     sort_title: "__+Digital Media: itunes"
     builder_level: album
     template:
-      name: collection_not_visible
+      name: smart_no_schedule
       poster: coll-itunes
     smart_filter:
       sort_by: album_artist.asc
@@ -90,7 +90,7 @@ collections:
     sort_title: "__+Digital Media: apple-music"
     builder_level: album
     template:
-      name: collection_not_visible
+      name: smart_no_schedule
       poster: coll-apple-music
     smart_filter:
       sort_by: album_artist.asc
@@ -102,7 +102,7 @@ collections:
     sort_title: "__+Digital Media: steam"
     builder_level: album
     template:
-      name: collection_not_visible
+      name: smart_no_schedule
       poster: coll-steam
     smart_filter:
       sort_by: album_artist.asc
@@ -114,7 +114,7 @@ collections:
     summary: "Sometimes you can't watch a musical, other times you just want to sing along"
     builder_level: album
     template:
-      name: collection_not_visible
+      name: smart_no_schedule
       poster: coll-musicals
     smart_filter:
       sort_by: album_artist.asc
@@ -128,7 +128,7 @@ collections:
     summary: "Music should be enjoyed live, and live albums are the next best thing"
     builder_level: album
     template:
-      name: collection_not_visible
+      name: smart_no_schedule
       poster: coll-live
     smart_filter:
       sort_by: album_artist.asc
