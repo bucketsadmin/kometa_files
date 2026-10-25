@@ -14,7 +14,7 @@ collections:
     template:
       name: collection_not_visible
       poster: coll-vinyl
-    plex_search:
+    smart_filter:
       sort_by: album_artist.asc
       any:
         album_label:
@@ -28,7 +28,7 @@ collections:
     template:
       name: collection_not_visible
       poster: coll-vinyl
-    plex_search:
+    smart_filter:
       sort_by: album_artist.asc
       album_label:
         - "vinyl"
@@ -40,7 +40,7 @@ collections:
     template:
       name: collection_not_visible
       poster: coll-cd
-    plex_search:
+    smart_filter:
       sort_by: album_artist.asc
       album_label:
         - "cd"
@@ -52,7 +52,7 @@ collections:
     template:
       name: collection_not_visible
       poster: coll-cd
-    plex_search:
+    smart_filter:
       sort_by: album_artist.asc
       any:
         album_label:
@@ -68,7 +68,7 @@ collections:
     template:
       name: collection_not_visible
       poster: coll-bandcamp
-    plex_search:
+    smart_filter:
       sort_by: album_artist.asc
       album_label:
         - "bandcamp"
@@ -80,7 +80,7 @@ collections:
     template:
       name: collection_not_visible
       poster: coll-itunes
-    plex_search:
+    smart_filter:
       sort_by: album_artist.asc
       album_label:
         - "itunes"
@@ -92,7 +92,7 @@ collections:
     template:
       name: collection_not_visible
       poster: coll-apple-music
-    plex_search:
+    smart_filter:
       sort_by: album_artist.asc
       album_label:
         - "apple-music"
@@ -104,7 +104,7 @@ collections:
     template:
       name: collection_not_visible
       poster: coll-steam
-    plex_search:
+    smart_filter:
       sort_by: album_artist.asc
       album_label:
         - "steam"
@@ -116,7 +116,7 @@ collections:
     template:
       name: collection_not_visible
       poster: coll-musicals
-    plex_search:
+    smart_filter:
       sort_by: album_artist.asc
       any:
         album_label:
@@ -130,7 +130,7 @@ collections:
     template:
       name: collection_not_visible
       poster: coll-live
-    plex_search:
+    smart_filter:
       sort_by: album_artist.asc
       any:
         album_label:
