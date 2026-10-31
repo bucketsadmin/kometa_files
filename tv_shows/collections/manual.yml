@@ -14,7 +14,11 @@ collections:
     template:
       name: collection_not_visible
       poster: coll-avatar
-    summary: "The Avatar: The Last Airbender universe is a canon created by Bryan Konietzko and Michael Dante DiMartino for Nickelodeon.\nIt takes place in an East Asian-influenced Constructed World divided into nations based around the elements of water, earth, fire, and air. Some people from each nation, called \"benders\", have the ability to control the element on which their nation is based.\nOne person, the Avatar, has the ability to bend all four elements, and is reincarnated into each of the nations upon his or her death in an endless cycle. The main character of each work is this Avatar, and he or she must undergo the trials, tribulations and responsibility of holding that power."
+    summary: "The Avatar: The Last Airbender universe is a canon created by Bryan Konietzko and Michael Dante DiMartino for Nickelodeon.
+    \nIt takes place in an East Asian-influenced Constructed World divided into nations based around the elements of water, earth, fire, and air. 
+    Some people from each nation, called \"benders\", have the ability to control the element on which their nation is based
+    \nOne person, the Avatar, has the ability to bend all four elements, and is reincarnated into each of the nations upon his or her death in an endless cycle.
+    The main character of each work is this Avatar, and he or she must undergo the trials, tribulations and responsibility of holding that power."
     plex_search:
       any:
         title.is:
