@@ -20,6 +20,7 @@ collections:
         title.is:
           - "Avatar: The Last Airbender"
           - "The Legend of Korra"
+          - "Avatar: Seven Havens"
 
   "Scrubs":
     sync_mode: sync
