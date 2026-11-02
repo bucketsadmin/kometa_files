@@ -125,3 +125,20 @@ collections:
     template:
       name: collection_not_visible
       poster: coll-weird
+
+##### External Collections
+  A Very Special TV Christmas: #Collection name
+    name_mapping: coll-christmas
+    flicklist_list: #calls out to use the flicklist builder
+      - https://flicklist.tv/list/3886 #my list of sitcom Christmas episodes
+      - https://flicklist.tv/list/3885 #my list of drama Christmas episodes
+    builder_level: episode #tells Kometa to make the collection of single episodes
+    sort_title: "!032_A Very Special TV Christmas" #the title Plex will use to sort the collection, the ! puts at at the top of the page
+    collection_order: release #orders the collection based off the release date
+    sync_mode: sync #updates the collection when new episodes are added to either your library or the lists
+    summary: "Look at all these danged Christmas episodes!" #a summary that will show when people click on the collection
+    schedule: range(11/26-01/12) #so it only runs from November 1st to December 31st
+    visible_home: range(11/26-01/12) #show it on the home page
+    visible_shared: range(11/26-01/12) #show it on the homepage of everyone who has access to your library
+    visible_library: range(11/26-01/12)
+    delete_not_scheduled: true #delete it after it's scheduled to run, ie January 1st
