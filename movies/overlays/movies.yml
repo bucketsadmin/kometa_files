@@ -31,6 +31,7 @@ overlays:
           - "Blu-Ray"
         label.not:
           - "Ultra-HD"
+          - "dvd"
 
   ultra_high_def:
     overlay:
