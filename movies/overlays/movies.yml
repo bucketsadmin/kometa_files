@@ -21,7 +21,7 @@ overlays:
           - "Blu-Ray"
           - "Ultra HD"
 
-  blu_ray:
+  blu_ray: #only catch discs that are blu-ray, no other mediums
     overlay:
       name: blu_ray
       file: /assets/overlays/blu-ray.png
@@ -32,6 +32,18 @@ overlays:
         label.not:
           - "Ultra-HD"
           - "dvd"
+
+  blu_ray_multi: #overlay to catch discs that are both dvd and blu-ray quality
+    overlay:
+      name: blu_ray_multi
+      file: /assets/overlays/blu-ray.png
+    plex_search:
+      all:
+        label:
+          - "Blu-Ray"
+          - "dvd"
+        label.not:
+          - "Ultra-HD"
 
   ultra_high_def:
     overlay:
