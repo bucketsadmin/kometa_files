@@ -16,10 +16,10 @@ overlays:
     plex_search:
       all:
         label:
-          - "📀Physical Media: DVD"
+          - "DVD"
         label.not:
-          - "📀Physical Media: Blu-Ray"
-          - "📀Physical Media: Ultra HD"
+          - "Blu-Ray"
+          - "Ultra HD"
 
   blu_ray:
     overlay:
@@ -28,9 +28,9 @@ overlays:
     plex_search:
       all:
         label:
-          - "📀Physical Media: Blu-Ray"
+          - "Blu-Ray"
         label.not:
-          - "📀Physical Media: Ultra HD"
+          - "Ultra-HD"
 
   ultra_high_def:
     overlay:
@@ -39,7 +39,7 @@ overlays:
     plex_search:
       all:
         label:
-          - "📀Physical Media: Ultra HD"
+          - "Ultra-HD"
 
   #### manual configs
   horrible:
