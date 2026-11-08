@@ -3068,6 +3068,9 @@ metadata:
     seasons:
       0:
         url_poster: https://api.mediux.pro/assets/8cd45d7a-c327-4e67-a14e-1e6a407f7e55
+        episodes:
+          29:
+            url_poster: https://api.mediux.pro/assets/951b5965-e9c4-4151-b10a-8318d5ab9b97
       1:
         url_poster: https://api.mediux.pro/assets/e1310d8f-6980-4f48-a652-b8dd77b581af
         episodes:
@@ -3237,8 +3240,6 @@ metadata:
             url_poster: https://api.mediux.pro/assets/b720071f-7021-41c8-a718-927dc578c291
           6:
             url_poster: https://api.mediux.pro/assets/6beebdd5-098d-4e3c-ac83-7ae9a5aba3ef
-          7:
-            url_poster: https://api.mediux.pro/assets/951b5965-e9c4-4151-b10a-8318d5ab9b97
       12:
         url_poster: https://api.mediux.pro/assets/1d151191-914c-4274-afaf-a91ceae86299
         episodes:
