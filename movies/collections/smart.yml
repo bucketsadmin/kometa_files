@@ -154,7 +154,7 @@ collections:
       poster: coll-sci-fi
 
   "Time Travel":
-    summary:
+    summary: "These movies might leave you with sense of Deja Vú"
     smart_filter:
       sort_by: title.asc
       any:
