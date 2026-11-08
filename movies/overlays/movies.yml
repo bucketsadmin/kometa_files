@@ -19,7 +19,7 @@ overlays:
           - "DVD"
         label.not:
           - "Blu-Ray"
-          - "Ultra HD"
+          - "ultra-hd"
 
   blu_ray: #only catch discs that are blu-ray, no other mediums
     overlay:
