@@ -62,7 +62,7 @@ collections:
       name: smart_no_schedule
       poster: coll-default
 
-  "Blu-Ray Media" :
+  "Blu-Ray Collection" :
     tmdb_list:
       - https://www.themoviedb.org/list/8539683-blu-ray-collection
     sort_title: "__+physical media: blu-ray"
@@ -77,7 +77,7 @@ collections:
       name: smart_no_schedule
       poster: coll-default
 
-  "DVD Media":
+  "DVD Collection":
     tmdb_list:
       - https://www.themoviedb.org/list/8578249-dvd-collection
     sort_title: "__+physical media: dvd"
@@ -92,7 +92,7 @@ collections:
       name: smart_no_schedule
       poster: coll-default
 
-  "Ultra HD Media":
+  "Ultra HD Collection":
     tmdb_list:
       - https://www.themoviedb.org/list/8641678-ultra-hd
     sort_title: "__+physical media: ultra had"
