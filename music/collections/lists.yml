@@ -140,12 +140,18 @@ collections:
         album_title:
           - "live"
 
-  "Christmas":
+  "🎄Christmas 🎄":
     summary: "Christmastime is here
               Happiness and cheer
               Fun for all that children call
               Their favorite time of year"
     builder_level: album
+    schedule: range(11/25-01/07)
+    visible_home: range(11/25-01/07)
+    visible_shared: range(11/25-01/07)
+    delete_not_scheduled: true
+    sort_title: "__++Christmas"
+    name_mapping: coll-christmas
     plex_search:
       all:
         artist_title.not:
