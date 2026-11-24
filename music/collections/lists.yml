@@ -139,3 +139,27 @@ collections:
           - "Live"
         album_title:
           - "live"
+
+  "Christmas":
+    summary: "Christmastime is here
+              Happiness and cheer
+              Fun for all that children call
+              Their favorite time of year"
+    builder_level: album
+    plex_search:
+      all:
+        artist_title.not:
+          - "anathallo"
+          - "miike snow"
+        any:
+          all:
+            album_genre:
+              - "christmas"
+          album_title:
+            - "holiday"
+            - "christmas"
+            - "snow"
+            - "sounds of the season"
+            - "deck the halls"
+          album_title.is:
+            - "december"
