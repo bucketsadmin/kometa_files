@@ -141,10 +141,7 @@ collections:
           - "live"
 
   "🎄Christmas 🎄":
-    summary: "Christmastime is here
-              Happiness and cheer
-              Fun for all that children call
-              Their favorite time of year"
+    summary: "It's the most wonderful time of the year..."
     builder_level: album
     schedule: range(11/25-01/07)
     visible_home: range(11/25-01/07)
