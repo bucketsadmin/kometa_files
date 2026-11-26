@@ -157,7 +157,14 @@ collections:
         any:
           all:
             album_genre:
-              - "christmas"
+              - 'Christmas Music'
+              - 'Christmas Music/Close Harmony/Pop/Pop Rock'
+              - 'Christmas Music/Country'
+              - 'Christmas Music/Pop'
+              - 'Christmas Music/Pop/Pop Rock'
+              - 'Christmas Music/Rock'
+              - 'Christmas Music/Soul'
+              - 'Pop Christmas'
           album_title:
             - "holiday"
             - "christmas"
