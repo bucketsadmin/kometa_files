@@ -506,6 +506,13 @@ collections:
   "🎄Christmas 🎄":
     mdblist_list:
       url: https://mdblist.com/lists\n0t4u2c/complete-christmas-collection
+    plex_search:
+      any:
+        collection:
+          - "🎄A Rankin and Bass Christmas"
+    floppy_list:
+      - url: https://lists.jjsimpson.xyz/list/18
+        sync_tags: false
     summary: "Christmas time is here..."
     sync_mode: append #(2!)
     collection_order: custom
