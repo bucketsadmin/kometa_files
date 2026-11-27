@@ -515,7 +515,7 @@ collections:
         sync_tags: false
     summary: "Christmas time is here..."
     sync_mode: append #(2!)
-    collection_order: custom
+#    collection_order: custom
     schedule: range(11/25-01/07)
     visible_home: range(11/25-01/07)
     visible_shared: range(11/25-01/07)
