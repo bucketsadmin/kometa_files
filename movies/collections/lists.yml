@@ -504,8 +504,6 @@ collections:
       poster: coll-rankin
 
   "🎄Christmas 🎄":
-    mdblist_list:
-      url: https://mdblist.com/lists\n0t4u2c/complete-christmas-collection
     plex_search:
       any:
         collection:
